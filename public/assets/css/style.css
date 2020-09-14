@@ -1,0 +1,81 @@
+@font-face{
+    font-family: Roboto-Black;
+    src: url('/assets/fonts/Roboto-Black.ttf')
+}
+
+@font-face{
+    font-family: Roboto-Medium;
+    src: url('/assets/fonts/Roboto-Medium.ttf')
+}
+
+@font-face{
+    font-family: Roboto-Bold;
+    src: url('/assets/fonts/Roboto-Bold.ttf')
+}
+
+
+/*#####################################################################################
+    Navbar
+#######################################################################################*/
+
+.bg-eSports{
+    background-color: #000;
+}
+.bg-eSports p, .bg-eSports a, .bg-eSports h1, .bg-eSports h2, .bg-eSports h3, .bg-eSports h4, .bg-eSports h5{
+    color: #fff;
+    transition: ease 0.3s;
+}
+.bg-eSports p:hover, .bg-eSports a:hover, .bg-eSports h1:hover, .bg-eSports h2:hover, .bg-eSports h3:hover, .bg-eSports h4:hover, .bg-eSports h5:hover{
+    color: #d4d4d4;
+}
+.navbar-eSports .navbar-toggler{
+    color: #fff;
+    border-color: #1c1c1c;
+    background-color: #1c1c1c;
+}
+.navbar-eSports .dropdown-menu{
+    background-color: #000;
+}
+.navbar-eSports .dropdown-menu .dropdown-item:hover{
+    color: #fff;
+    text-decoration: none;
+    background-color: #3b3b3b;
+}
+/*#####################################################################################
+   /Navbar
+#######################################################################################*/
+.jumbo-esports{
+    display: flex;
+    align-items: center;
+    min-height: 80vh;
+    background-image: url('/assets/img/fundo1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.jumbo-esports .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.jumbo-esports .container button:first-child{
+    color: #343a40;
+    position: absolute;
+    width: 127px;
+    height: 48px;
+    left: 10px;
+    z-index: 0;
+    background-color: #037676;
+    bottom: 10px;
+    border: 0;
+}
+.jumbo-esports .container button:last-child{
+    z-index: 10;
+    position: relative;
+}
+.jumbo-esports p, .jumbo-esports h1{
+    font-family: Roboto-Bold, sans-serif;
+    color: black;
+    -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
