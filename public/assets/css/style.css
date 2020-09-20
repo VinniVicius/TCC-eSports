@@ -1,63 +1,82 @@
-@font-face{
+@font-face {
     font-family: Roboto-Black;
     src: url('/assets/fonts/Roboto-Black.ttf')
 }
 
-@font-face{
+@font-face {
     font-family: Roboto-Medium;
     src: url('/assets/fonts/Roboto-Medium.ttf')
 }
 
-@font-face{
+@font-face {
     font-family: Roboto-Bold;
     src: url('/assets/fonts/Roboto-Bold.ttf')
 }
 
+html, body {
+    font-family: Roboto-Medium, Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.logo {
+    width: 100%;
+    height: 50px;
+}
 
 /*#####################################################################################
     Navbar
 #######################################################################################*/
 
-.bg-eSports{
-    background-color: #000;
+.bg-eSports {
+    background: rgb(1, 4, 18);
+    background: linear-gradient(90deg, rgba(1, 4, 18, 1) 0%, rgba(6, 14, 55, 1) 32%, rgba(27, 1, 1, 1) 100%);
 }
-.bg-eSports p, .bg-eSports a, .bg-eSports h1, .bg-eSports h2, .bg-eSports h3, .bg-eSports h4, .bg-eSports h5{
+
+.bg-eSports p, .bg-eSports a, .bg-eSports h1, .bg-eSports h2, .bg-eSports h3, .bg-eSports h4, .bg-eSports h5 {
     color: #fff;
     transition: ease 0.3s;
 }
-.bg-eSports p:hover, .bg-eSports a:hover, .bg-eSports h1:hover, .bg-eSports h2:hover, .bg-eSports h3:hover, .bg-eSports h4:hover, .bg-eSports h5:hover{
-    color: #d4d4d4;
+
+.bg-eSports p:hover, .bg-eSports a:hover, .bg-eSports h1:hover, .bg-eSports h2:hover, .bg-eSports h3:hover, .bg-eSports h4:hover, .bg-eSports h5:hover {
+    color:  rgba(187, 199, 253, 0.75);
 }
-.navbar-eSports .navbar-toggler{
+
+.navbar-eSports .navbar-toggler {
     color: #fff;
     border-color: #1c1c1c;
     background-color: #1c1c1c;
 }
-.navbar-eSports .dropdown-menu{
-    background-color: #000;
+
+.navbar-eSports .dropdown-menu {
+    background-color: #030617;
 }
-.navbar-eSports .dropdown-menu .dropdown-item:hover{
+
+.navbar-eSports .dropdown-menu .dropdown-item:hover {
     color: #fff;
     text-decoration: none;
-    background-color: #3b3b3b;
+    background-color: #070d2b;
 }
+
 /*#####################################################################################
    /Navbar
 #######################################################################################*/
-.jumbo-esports{
+
+.jumbo-esports {
     display: flex;
     align-items: center;
     min-height: 80vh;
     background-image: url('/assets/img/fundo1.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    margin-bottom: 0;
 }
-.jumbo-esports .container{
+
+.jumbo-esports .container {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.jumbo-esports .container button:first-child{
+
+.jumbo-esports .container button:first-child {
     color: #343a40;
     position: absolute;
     width: 127px;
@@ -68,14 +87,57 @@
     bottom: 10px;
     border: 0;
 }
-.jumbo-esports .container button:last-child{
+
+.jumbo-esports .container button:last-child {
     z-index: 10;
     position: relative;
 }
-.jumbo-esports p, .jumbo-esports h1{
+
+.jumbo-esports p, .jumbo-esports h1 {
     font-family: Roboto-Bold, sans-serif;
     color: black;
-    -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+    -webkit-text-fill-color: white;
+    /* Will override color (regardless of order) */
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: black;
+}
+
+.dobra-2 {
+    min-height: inherit;
+}
+
+.bg-dobra-2 {
+    min-height: 80vh;
+    background-image: url('/assets/img/fundo2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+
+.bg-dobra-2 .container div:first-child {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    min-height: inherit;
+}
+
+.bg-dobra-2 .container div:first-child button:nth-child(2) {
+    color: #fff;
+    background-color: #0eb7b7;
+    width: 50%;
+    font-size: 2rem;
+    position: relative;
+    border: none;
+}
+
+.bg-dobra-2 .container div:first-child button:first-child {
+    position: absolute;
+    z-index: 0;
+    width: 47.3%;
+    height: 60px;
+    top: 80px;
+    left: 50px;
+    background-color: #0E0D0D;
+    border: none;
 }
