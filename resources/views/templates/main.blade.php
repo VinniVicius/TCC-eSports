@@ -49,15 +49,10 @@
           <a class="dropdown-item" href="#">Something else here</a>
         </div>
       </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuTeste" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Teste
+      <li class="nav-item">
+        <a class="nav-link" href="{{route('areateste')}}" id="navbarDropdownMenuTeste" role="button">
+          Area de Testes
         </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuTeste">
-          <a class="dropdown-item" href="#">Action</a>
-          <a class="dropdown-item" href="#">Another action</a>
-          <a class="dropdown-item" href="#">Something else here</a>
-        </div>
       </li>
     </ul>
     <span class="navbar-text">

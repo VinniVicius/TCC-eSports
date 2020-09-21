@@ -22,6 +22,15 @@ html, body {
     height: 50px;
 }
 
+.bg-area-teste {
+    background-color: #050c2ff7;
+}
+
+.bg-area-teste-header {
+    background-color: #050c2f;
+    color: #fff;
+}
+
 /*#####################################################################################
     Navbar
 #######################################################################################*/
@@ -37,7 +46,7 @@ html, body {
 }
 
 .bg-eSports p:hover, .bg-eSports a:hover, .bg-eSports h1:hover, .bg-eSports h2:hover, .bg-eSports h3:hover, .bg-eSports h4:hover, .bg-eSports h5:hover {
-    color:  rgba(187, 199, 253, 0.75);
+    color: rgba(187, 199, 253, 0.75);
 }
 
 .navbar-eSports .navbar-toggler {
@@ -140,4 +149,50 @@ html, body {
     left: 50px;
     background-color: #0E0D0D;
     border: none;
+}
+
+/* ------------------------------------------------------------------------------------------------------
+    CARD HOVER EFFECT MAH BRUDAH
+ -------------------------------------------------------------------------------------------------------- */
+
+.card-hover {
+    transition: transform 0.5s;
+}
+
+.card-hover::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: opacity 2s cubic-bezier(0.165, 0.84, 0.44, 1);
+    box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.15);
+    content: '';
+    opacity: 0;
+    z-index: -1;
+}
+
+/* Change size when hover effect applied...*/
+
+.card-hover:hover, .card-hover:focus {
+    transform: scale3d(1.006, 1.006, 1);
+}
+
+.card-hover:hover::after, .card-hover:focus::after {
+    opacity: 1;
+}
+
+.card {
+    border: 2px solid #10227b;
+}
+
+.card-img-overlay {
+    color: #f8f9fa;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.card-img-overlay .card-text {
+    font-size: .75rem;
 }

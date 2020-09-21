@@ -14,6 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', 'MainController@index');
+Route::get('/area-de-testes', 'AreaTesteController@index')->name('areateste');;
 
 Auth::routes();
 
