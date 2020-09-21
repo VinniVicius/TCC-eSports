@@ -1,6 +1,6 @@
 @extends('templates.main')
 @section('content')
-<section class="jumbotron jumbotron-fluid jumbo-esports">
+<section class="jumbotron jumbotron-fluid jumbo-esports" style="border-bottom: 5px solid #0eb7b7">
   <article class="container">
     <h1 class="display-4">eSports e Saúde</h1>
     <article style="position: relative;">
