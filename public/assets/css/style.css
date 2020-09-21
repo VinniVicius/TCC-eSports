@@ -19,6 +19,7 @@ html, body {
 
 .logo {
     width: 100%;
+    max-width: 100px;
     height: 50px;
 }
 
@@ -92,7 +93,7 @@ html, body {
     height: 48px;
     left: 10px;
     z-index: 0;
-    background-color: #037676;
+    background-color: #0EB7B7;
     bottom: 10px;
     border: 0;
 }
@@ -150,6 +151,13 @@ html, body {
     background-color: #0E0D0D;
     border: none;
 }
+
+.btn-full-negro{
+    background-color: black;
+}
+/*.teste1{
+    background-image: linear-gradient(55deg, rgba(6,14,55,1) 0%, rgba(6,14,55,1) 59%, rgba(27,1,1,0) 60%);
+}*/
 
 /* ------------------------------------------------------------------------------------------------------
     CARD HOVER EFFECT MAH BRUDAH
