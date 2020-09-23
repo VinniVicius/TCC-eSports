@@ -24,9 +24,8 @@
           eSports
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLinkEsports">
-          <a class="dropdown-item" href="#">Action</a>
-          <a class="dropdown-item" href="#">Another action</a>
-          <a class="dropdown-item" href="#">Something else here</a>
+          <a class="dropdown-item" href="#">O que é</a>
+          <a class="dropdown-item" href="#">Cenário Atual</a>
         </div>
       </li>
       <li class="nav-item dropdown">
@@ -34,9 +33,8 @@
           Lesões
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLesoes">
-          <a class="dropdown-item" href="#">Action</a>
-          <a class="dropdown-item" href="#">Another action</a>
-          <a class="dropdown-item" href="#">Something else here</a>
+          <a class="dropdown-item" href="#">Fadiga Ocular</a>
+          <a class="dropdown-item" href="#">Tendinite</a>
         </div>
       </li>
       <li class="nav-item dropdown">
@@ -44,15 +42,21 @@
           Recomendações
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuRecomenda">
-          <a class="dropdown-item" href="#">Action</a>
-          <a class="dropdown-item" href="#">Another action</a>
-          <a class="dropdown-item" href="#">Something else here</a>
+          <a class="dropdown-item" href="#">Postura</a>
+          <a class="dropdown-item" href="#">Hábitos de sono</a>
+          <a class="dropdown-item" href="#">Hidratação</a>
+          <a class="dropdown-item" href="#">Meditação</a>
+          <a class="dropdown-item" href="#">Alimentação</a>
         </div>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="{{route('areateste')}}" id="navbarDropdownMenuTeste" role="button">
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="{{route('areateste')}}" id="navbarDropdownMenuTeste" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Area de Testes
         </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuTestes">
+          <a class="dropdown-item" href="#">Mira</a>
+          <a class="dropdown-item" href="#">Reação</a>
+        </div>
       </li>
     </ul>
     <span class="navbar-text">

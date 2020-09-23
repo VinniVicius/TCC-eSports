@@ -159,6 +159,121 @@ html, body {
     background-image: linear-gradient(55deg, rgba(6,14,55,1) 0%, rgba(6,14,55,1) 59%, rgba(27,1,1,0) 60%);
 }*/
 
+
+
+
+/* Little Detail*/
+.altura{
+    min-height: 60px;
+}
+/*************/
+
+.lesions {
+    min-height: inherit;
+}
+
+.bg-lesions {
+    color: #fff;
+    background-image: url('/assets/img/fundo4.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 80vh;
+}
+
+.bg-lesions .container div:first-child {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    min-height: inherit;
+}
+
+.bg-lesions .container div:nth-child(3){
+    position: relative;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    min-height: inherit;
+}
+
+.bg-lesions .container div:first-child button:nth-child(2) {
+    color: #fff;
+    background-color: #0eb7b7;
+    width: 50%;
+    font-size: 2rem;
+    position: relative;
+    border: none;
+}
+
+.bg-lesions .container div:first-child button:first-child {
+    position: absolute;
+    z-index: 0;
+    width: 47.3%;
+    height: 60px;
+    top: 80px;
+    left: 50px;
+    background-color: #0E0D0D;
+    border: none;
+}
+
+
+.bg-lesions-2{
+    color: #fff;
+    background-image: url('/assets/img/fundo5.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 40vh;
+}
+
+
+/*********************************************************/
+
+.bg-confort{
+    color: #fff;
+    background-image: url('/assets/img/fundo6.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 80vh;
+}
+
+.confort{
+    min-height: inherit;
+}
+
+.bg-confort .container div:first-child {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    min-height: inherit;
+}
+
+.bg-confort .container div:nth-child(3){
+    position: relative;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    min-height: inherit;
+}
+
+.bg-confort .container div:first-child button:nth-child(2) {
+    color: #fff;
+    background-color: #0eb7b7;
+    width: 50%;
+    font-size: 2rem;
+    position: relative;
+    border: none;
+}
+
+.bg-confort .container div:first-child button:first-child {
+    position: absolute;
+    z-index: 0;
+    width: 47.3%;
+    height: 60px;
+    top: 80px;
+    left: 50px;
+    background-color: #0E0D0D;
+    border: none;
+}
+
 /* ------------------------------------------------------------------------------------------------------
     CARD HOVER EFFECT MAH BRUDAH
  -------------------------------------------------------------------------------------------------------- */
