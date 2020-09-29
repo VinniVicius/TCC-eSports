@@ -3,17 +3,14 @@
 <section class="jumbotron jumbotron-fluid jumbo-esports" style="border-bottom: 5px solid #0eb7b7">
   <article class="container">
     <h1 class="display-4">eSports e Saúde</h1>
-    <article style="position: relative;">
-      <button type="button" class="btn btn-dark btn-lg rounded-0" style="color: #343a40"></button>
-      <button type="button" class="btn btn-dark btn-lg rounded-0 btn-full-negro">Saiba mais</button>
-    </article>
+      <button type="button" class="btn btn-dark btn-lg rounded-0 bg-diamond">Saiba mais</button>
   </article>
 </section>
-<section class="container-fluid bg-dobra-2 min-vh-100" style="border-bottom: 5px solid #0eb7b7;">
+<section class="container-fluid bg-dobra-2" style="border-bottom: 5px solid #0eb7b7;">
   <article class="container dobra-2" style="clip-path: polygon(0 0, 80% 0, 100% 100%, 0 100%); background-color: #1A1818; margin-left: -15px;">
     <div class="col-lg-6" style="position: relative;">
-      <button type="button" class="btn btn-dark btn-lg rounded-0 btn-full-negro " style="color: #343a40;"></button>
-      <button type="button" class="btn btn-dark btn-lg rounded-0 " style="margin-top: 55px;">eSports</button>
+      <!--<button type="button" class="btn btn-dark btn-lg rounded-0 btn-full-negro " style="color: #343a40;"></button>-->
+      <button type="button" class="btn btn-dark btn-lg rounded-0 bg-diamond">eSports</button>
       <h1 class="display-4 text-center">Introdução ao<br> eSports</h1>
       <button type="button" class="btn btn-dark btn-lg rounded-0" style="color: #343a40"></button>
       <button type="button" class="btn btn-dark btn-lg rounded-0 btn-full-negro">Saiba mais</button>

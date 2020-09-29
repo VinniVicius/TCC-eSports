@@ -73,7 +73,7 @@ html, body {
 .jumbo-esports {
     display: flex;
     align-items: center;
-    min-height: 80vh;
+    min-height: 600px;
     background-image: url('/assets/img/fundo1.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -117,7 +117,7 @@ html, body {
 }
 
 .bg-dobra-2 {
-    min-height: 80vh;
+    min-height: 700px;
     background-image: url('/assets/img/fundo2.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -131,41 +131,56 @@ html, body {
     align-items: center;
     min-height: inherit;
 }
-
-.bg-dobra-2 .container div:first-child button:nth-child(2) {
+.bg-diamond{
     color: #fff;
-    background-color: #0eb7b7;
+    background: linear-gradient(180deg, rgba(23, 19, 211, 0) 20%, rgba(23, 19, 211, .1) 20%, rgba(23, 19, 211, .1) 40%, rgba(23, 19, 211, .2) 40%, rgba(23, 19, 211, .2) 60%, rgba(23, 19, 211, .4) 60%, rgba(23, 19, 211, .4) 80%, rgba(23, 19, 211, 0.5) 80%), linear-gradient(45deg, rgba(175, 15, 15, .3) 20%, rgba(175, 15, 15, .4) 20%, rgba(175, 15, 15, .4) 40%, rgba(175, 15, 15, .5) 40%, rgba(175, 15, 15, .5) 60%, rgba(175, 15, 15, .6) 60%, rgba(175, 15, 15, .6) 80%, rgba(175, 15, 15, 0.7) 80%), linear-gradient(-45deg, rgba(2, 26, 150, 0) 20%, rgba(2, 26, 150, .1) 20%, rgba(2, 26, 150, .1) 40%, rgba(2, 26, 150, .2) 40%, rgba(2, 26, 150, .2) 60%, rgba(2, 26, 150, .4) 60%, rgba(2, 26, 150, .4) 80%, rgba(2, 26, 150, 0.6) 80%), linear-gradient(90deg, rgba(14, 72, 172, 0) 20%, rgba(14, 72, 172, .3) 20%, rgba(14, 72, 172, .3) 40%, rgba(14, 72, 172, .5) 40%, rgba(14, 72, 172, .5) 60%, rgba(14, 72, 172, .7) 60%, rgba(14, 72, 172, .7) 80%, rgba(14, 72, 172, 0.8) 80%), linear-gradient(-90deg, rgba(5, 24, 116, 0) 20%, rgba(5, 24, 116, .4) 20%, rgba(5, 24, 116, .4) 40%, rgba(5, 24, 116, .5) 40%, rgba(5, 24, 116, .5) 60%, rgba(5, 24, 116, .6) 60%, rgba(5, 24, 116, .6) 80%, rgba(5, 24, 116, 0.8) 80%), linear-gradient(180deg, rgba(6, 14, 54, 0) 20%, rgba(6, 14, 54, .4) 20%, rgba(6, 14, 54, .4) 40%, rgba(6, 14, 54, .6) 40%, rgba(6, 14, 54, .6) 60%, rgba(6, 14, 54, .8) 60%, rgba(6, 14, 54, .8) 80%, rgba(6, 14, 54, .9) 80%);
+    background-color: rgb(6, 14, 54);
+    background-size: 100% 100%;
+    -webkit-box-shadow: 0 0px 16px 5px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0 0px 16px 5px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0px 16px 5px rgba(0, 0, 0, 0.5);
+    transition: ease 0.3s;
+    border: none!important;
+}
+.bg-diamond:hover, .bg-diamond:focus{
+    background-color: #fff;
+}
+.bg-dobra-2 .container div:first-child button:first-child {
+    color: #fff;
+    /*background-color: #0eb7b7;*/
     width: 50%;
     font-size: 2rem;
-    position: relative;
+    position: absolute;
+    top: 110px;
+    left: 50px;
     border: none;
+    
 }
-
-.bg-dobra-2 .container div:first-child button:first-child {
+/*.bg-dobra-2 .container div:first-child button:first-child {
     position: absolute;
     z-index: 0;
     width: 47.3%;
     height: 60px;
     top: 80px;
-    left: 50px;
+    left: 80px;
     background-color: #0E0D0D;
     border: none;
-}
+}*/
 
-.btn-full-negro{
+.btn-full-negro {
     background-color: black;
 }
+
 /*.teste1{
     background-image: linear-gradient(55deg, rgba(6,14,55,1) 0%, rgba(6,14,55,1) 59%, rgba(27,1,1,0) 60%);
 }*/
 
-
-
-
 /* Little Detail*/
-.altura{
+
+.altura {
     min-height: 60px;
 }
+
 /*************/
 
 .lesions {
@@ -188,7 +203,7 @@ html, body {
     min-height: inherit;
 }
 
-.bg-lesions .container div:nth-child(3){
+.bg-lesions .container div:nth-child(3) {
     position: relative;
     display: flex;
     flex-wrap: wrap-reverse;
@@ -215,8 +230,7 @@ html, body {
     border: none;
 }
 
-
-.bg-lesions-2{
+.bg-lesions-2 {
     color: #fff;
     background-image: url('/assets/img/fundo5.png');
     background-repeat: no-repeat;
@@ -224,10 +238,9 @@ html, body {
     min-height: 40vh;
 }
 
-
 /*********************************************************/
 
-.bg-confort{
+.bg-confort {
     color: #fff;
     background-image: url('/assets/img/fundo6.png');
     background-repeat: no-repeat;
@@ -235,7 +248,7 @@ html, body {
     min-height: 80vh;
 }
 
-.confort{
+.confort {
     min-height: inherit;
 }
 
@@ -247,7 +260,7 @@ html, body {
     min-height: inherit;
 }
 
-.bg-confort .container div:nth-child(3){
+.bg-confort .container div:nth-child(3) {
     position: relative;
     display: flex;
     flex-wrap: wrap-reverse;
