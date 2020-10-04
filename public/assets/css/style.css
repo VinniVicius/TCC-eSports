@@ -332,3 +332,60 @@ html, body {
 .card-img-overlay .card-text {
     font-size: .75rem;
 }
+
+
+/* TESTING STUFFS */
+.game {
+    background: rgb(43, 135, 209) none repeat scroll 0% 0%;
+    position: relative;
+    user-select: none;
+    overflow: hidden;
+    cursor: pointer;
+    color: white;
+    text-align: center;
+}
+.game-view {
+    padding: 20px;
+    height: 540px;
+}
+.game-view {
+    display: flex;
+    flex-direction: column;
+    -moz-box-pack: center;
+    justify-content: center;
+    margin: 0px auto;
+    max-width: 1010px;
+    height: calc(-150px + 100vh);
+    position: relative;
+    padding: 10px;
+}
+.game-event-area {
+    height: 100%;
+    position: relative;
+    perspective-origin: center center;
+}
+.css-jo9r9v {
+    position: absolute;
+    border-radius: 50%;
+    animation: 0.2s ease-out 0s 1 normal none running appear;
+}
+.css-1qd6j0g {
+    position: absolute;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.5) none repeat scroll 0% 0%;
+    width: 100px;
+    height: 100px;
+    transform: translate(-50%, -50%);
+    animation: 0.1s ease-out 0s 1 normal none running appear;
+}
+.css-z6vxiy {
+    position: absolute;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    border: 2px solid white;
+}
+.css-17nnhwz {
+    transform: translate(-50%, -50%);
+    background: white none repeat scroll 0% 0%;
+    position: absolute;
+}
