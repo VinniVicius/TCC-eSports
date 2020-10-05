@@ -7,10 +7,10 @@
                 <div class="desktop-only" style="height: 100%;">
                     <div style="display: flex; flex-direction: column; justify-content: center; position: absolute; left: 0px; right: 0px; top: 20px;">
                         <h2 style="opacity: 0.5;">Remaining</h2>
-                        <h2 style="font-size: 200%;">21</h2>
+                        <h2 id="numberCount" style="font-size: 200%;"></h2>
                     </div>
-                    <div class="game-event-area e6yfngs0">
-                        <!--<div style="width: 0px; height: 0px; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 669.7, 302.783, 0, 1);">
+                    <div class="game-event-area e6yfngs0" style="display: flex;justify-content: center;align-items: center;">
+                        <div id="target">
                             <div data-aim-target="true" class="css-jo9r9v e6yfngs1">
                                 <div class="css-1qd6j0g e6yfngs2"></div>
                                 <div style="width: 33.333px; height: 33.333px;" class="css-z6vxiy e6yfngs3"></div>
@@ -19,7 +19,7 @@
                                 <div style="width: 2px; height: 100px;" class="css-17nnhwz e6yfngs4"></div>
                                 <div style="width: 100px; height: 2px;" class="css-17nnhwz e6yfngs4"></div>
                             </div>
-                        </div>-->
+                        </div>
                     </div>
                 </div>
                 <!--<div class="desktop-only-warning">
@@ -27,7 +27,7 @@
                 </div>-->
             </div>
         </div>
-        <button id="jogar" class="btn btn-lg btn-warning">Jogar</button>
+        <!--<button id="jogar" class="btn btn-lg btn-warning">Jogar</button>-->
     </article>
 </section>
 @endsection
