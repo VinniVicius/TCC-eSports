@@ -12,7 +12,7 @@
       <!--<button type="button" class="btn btn-dark btn-lg rounded-0 btn-full-negro " style="color: #343a40;"></button>-->
       <button type="button" class="btn btn-dark btn-lg rounded-0 bg-diamond">eSports</button>
       <h1 class="display-4 text-center">Introdução ao<br> eSports</h1>
-      <button type="button" class="btn btn-dark btn-lg rounded-0" style="color: #343a40"></button>
+
       <button type="button" class="btn btn-dark btn-lg rounded-0 btn-full-negro bg-diamond">Saiba mais</button>
     </div>
   </article>
@@ -28,7 +28,7 @@
   <article class="container lesions">
     <div class="row">
       <div class="col-lg-6">
-        <button type="button" class="btn btn-dark btn-lg rounded-0 btn-full-negro " style="color: #343a40;"></button>
+
         <button type="button" class="btn btn-dark btn-lg rounded-0 bg-diamond" style="margin-top: 55px;">Lesões</button>
         <h1 class="display-4 text-center">Falar sobre<br> Lesões</h1>
       </div>
@@ -68,7 +68,6 @@
         <button type="button" class="btn btn-dark btn-lg rounded-0 btn-full-negro bg-diamond" style="color: #fff;">+ Conforto</button>
         <button type="button" class="btn btn-dark btn-lg rounded-0 bg-diamond" style="margin-top: 55px;">- Desgasto</button>
         <h1 class="display-4 text-center">Explicando como a postura influencia na performace</h1>
-        <button type="button" class="btn btn-dark btn-lg rounded-0" style="color: #343a40"></button>
         <button type="button" class="btn btn-dark btn-lg rounded-0 btn-full-negro bg-diamond">Saiba mais</button>
       </div>
     </div>
@@ -85,7 +84,7 @@
 <section class="container-fluid bg-teste" style="border-bottom: 5px solid #0eb7b7; border-top: 5px solid #0eb7b7">
   <article class="container">
     <div>
-      <button type="button" class="btn btn-dark btn-lg rounded-0 btn-full-negro bg-diamond">Teste seu desempenho</button>
+      <button type="button" class="btn btn-dark btn-lg rounded-0 btn-full-negro bg-diamond">Teste seu Desempenho</button>
      </div>
   </article>
 </section>
@@ -93,13 +92,25 @@
 <section class="container-fluid bg-teste2">
   <article>
   <div class="row">
-      <div class="col-lg-5">
-        
+      <div class="col-lg-2"></div>
+      <div class="col-lg-3 bg-diamond card" style="top: 50px;">
+        <img src="/assets/img/alvo.png" class="card-img-top" alt="..." style="width: 200px; align-self: center; margin-top: 10px;">
+          <div class="card-body" style="text-align: center;">
+            <h2 class="card-title">Teste de Mira</h2>
+            <p class="card-text">Teste sua Mira e veja quantos pontos voce consegue fazer</p>
+            <a href="{{route('aimtrainerview')}}" class="btn btn-dark btn-lg rounded-0 btn-full-negro">Fazer o teste</a>
+          </div>
+        </div>
+      <div class="col-lg-2"></div>
+      <div class="col-lg-3 bg-diamond card" style="top: 50px;">
+        <img src="/assets/img/raio.png" class="card-img-top" alt="..." style="width: 80px; align-self: center; margin-top: 10px;">
+        <div class="card-body" style="text-align:center;">
+          <h2 class="card-title">Teste de Reação</h2>
+          <p class="card-text">Faça o teste de Reação e veja seu tempo de resposta</p>
+          <a href="#" class="btn btn-dark btn-lg rounded-0 btn-full-negro">Fazer o teste</a>
+        </div>
       </div>
       <div class="col-lg-2"></div>
-      <div class="col-lg-5">
-      
-      </div>
     </div>
   </article>
 </section>

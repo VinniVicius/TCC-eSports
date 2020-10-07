@@ -210,22 +210,15 @@ html, body {
     min-height: inherit;
 }
 
-.bg-lesions .container div:first-child button:nth-child(2) {
-    color: #fff;
-    background-color: #0eb7b7;
-    width: 50%;
-    font-size: 2rem;
-    position: relative;
-    border: none;
-}
 
 .bg-lesions .container div:first-child button:first-child {
     position: absolute;
     z-index: 0;
-    width: 47.3%;
+    width: 50%;
     height: 60px;
     top: 80px;
     left: 50px;
+    font-size: 2rem;
     background-color: #0E0D0D;
     border: none;
 }
@@ -308,8 +301,8 @@ html, body {
 .bg-teste .container div:first-child button:first-child {
     color: #fff;
     /*background-color: #0eb7b7;*/
-    width: 50%;
-    font-size: 2rem;
+    width: 100%;
+    font-size: 3rem;
     position: absolute;
     top: 110px;
     left: 50px;
@@ -318,10 +311,10 @@ html, body {
 }
 
 .bg-teste2 {
-    min-height: 60vh;
-    background-color: #0eb7b7;
+    min-height: 52vh;
+    background-color: #0E0D0D;
+    align-items: center;
 }
-
 
 
 
