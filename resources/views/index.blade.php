@@ -29,7 +29,7 @@
     <div class="row">
       <div class="col-lg-6">
         <button type="button" class="btn btn-dark btn-lg rounded-0 btn-full-negro " style="color: #343a40;"></button>
-        <button type="button" class="btn btn-dark btn-lg rounded-0 " style="margin-top: 55px;">Lesões</button>
+        <button type="button" class="btn btn-dark btn-lg rounded-0 bg-diamond" style="margin-top: 55px;">Lesões</button>
         <h1 class="display-4 text-center">Falar sobre<br> Lesões</h1>
       </div>
   </article>
@@ -38,17 +38,17 @@
   <article class="container" style="min-height:inherit;">
     <div class="row">
       <div class="col-lg-5">
-        <button type="button" class="btn btn-dark btn-lg rounded-0 col-5 btn-full-negro " style="color: #fff;">Lesão 1</button>
-        <button type="button" class="btn btn-dark btn-lg rounded-0 col-5 btn-full-negro " style="color: #fff;">Lesão 2</button>
-        <button type="button" class="btn btn-dark btn-lg rounded-0 col-5 btn-full-negro " style="color: #fff;">Lesão 3</button>
-        <button type="button" class="btn btn-dark btn-lg rounded-0 col-5 btn-full-negro " style="color: #fff;">lesão 4</button>
+        <button type="button" class="btn btn-dark btn-lg rounded-0 col-5 btn-full-negro bg-diamond " style="color: #fff;">Lesão 1</button>
+        <button type="button" class="btn btn-dark btn-lg rounded-0 col-5 btn-full-negro bg-diamond" style="color: #fff;">Lesão 2</button>
+        <button type="button" class="btn btn-dark btn-lg rounded-0 col-5 btn-full-negro bg-diamond" style="color: #fff;">Lesão 3</button>
+        <button type="button" class="btn btn-dark btn-lg rounded-0 col-5 btn-full-negro bg-diamond" style="color: #fff;">lesão 4</button>
       </div>
       <div class="col-lg-2"></div>
       <div class="col-lg-5">
-      <button type="button" class="btn btn-dark btn-lg rounded-0 col-5" style="background-color: #0eb7b7;">Lesão 5</button>
-      <button type="button" class="btn btn-dark btn-lg rounded-0 col-5" style="background-color: #0eb7b7;">Lesão 6</button>
-      <button type="button" class="btn btn-dark btn-lg rounded-0 col-5" style="background-color: #0eb7b7;">Lesão 7</button>
-      <button type="button" class="btn btn-dark btn-lg rounded-0 col-5" style="background-color: #0eb7b7;">Lesão 8</button>
+      <button type="button" class="btn btn-dark btn-lg rounded-0 col-5 bg-diamond" style="background-color: #0eb7b7;">Lesão 5</button>
+      <button type="button" class="btn btn-dark btn-lg rounded-0 col-5 bg-diamond" style="background-color: #0eb7b7;">Lesão 6</button>
+      <button type="button" class="btn btn-dark btn-lg rounded-0 col-5 bg-diamond" style="background-color: #0eb7b7;">Lesão 7</button>
+      <button type="button" class="btn btn-dark btn-lg rounded-0 col-5 bg-diamond" style="background-color: #0eb7b7;">Lesão 8</button>
       </div>
     </div>
   </article>
@@ -65,11 +65,11 @@
   <article class="container confort">
     <div class="row">
       <div class="col-lg-6">
-        <button type="button" class="btn btn-dark btn-lg rounded-0 btn-full-negro " style="color: #fff;">+ Conforto</button>
-        <button type="button" class="btn btn-dark btn-lg rounded-0 " style="margin-top: 55px;">- Desgasto</button>
-        <h1 class="display-4 text-center">Falar sobre<br> Lesões</h1>
+        <button type="button" class="btn btn-dark btn-lg rounded-0 btn-full-negro bg-diamond" style="color: #fff;">+ Conforto</button>
+        <button type="button" class="btn btn-dark btn-lg rounded-0 bg-diamond" style="margin-top: 55px;">- Desgasto</button>
+        <h1 class="display-4 text-center">Explicando como a postura influencia na performace</h1>
         <button type="button" class="btn btn-dark btn-lg rounded-0" style="color: #343a40"></button>
-        <button type="button" class="btn btn-dark btn-lg rounded-0 btn-full-negro">Saiba mais</button>
+        <button type="button" class="btn btn-dark btn-lg rounded-0 btn-full-negro bg-diamond">Saiba mais</button>
       </div>
     </div>
   </article>
@@ -89,9 +89,19 @@
      </div>
   </article>
 </section>
-<section class="container-fluid bg-teste2" style="border-bottom: 5px solid #0eb7b7;">
-  <article></article>
 
+<section class="container-fluid bg-teste2">
+  <article>
+  <div class="row">
+      <div class="col-lg-5">
+        
+      </div>
+      <div class="col-lg-2"></div>
+      <div class="col-lg-5">
+      
+      </div>
+    </div>
+  </article>
 </section>
 
 

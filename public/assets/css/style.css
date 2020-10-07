@@ -294,7 +294,7 @@ html, body {
     background-image: url('/assets/img/fundo7.png');
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 40vh;
+    min-height: 35vh;
 }
 
 .bg-teste .container div:first-child {
@@ -316,6 +316,15 @@ html, body {
     border: none;
     
 }
+
+.bg-teste2 {
+    min-height: 60vh;
+    background-color: #0eb7b7;
+}
+
+
+
+
 
 /* ------------------------------------------------------------------------------------------------------
     CARD HOVER EFFECT MAH BRUDAH
