@@ -13,19 +13,18 @@
       <button type="button" class="btn btn-dark btn-lg rounded-0 bg-diamond">eSports</button>
       <h1 class="display-4 text-center">Introdução ao<br> eSports</h1>
       <button type="button" class="btn btn-dark btn-lg rounded-0" style="color: #343a40"></button>
-      <button type="button" class="btn btn-dark btn-lg rounded-0 btn-full-negro">Saiba mais</button>
+      <button type="button" class="btn btn-dark btn-lg rounded-0 btn-full-negro bg-diamond">Saiba mais</button>
     </div>
   </article>
 </section>
 
 
-<section class="container-fluid altura" style="border-bottom: 5px solid #0eb7b7; background-color: #1A1818;">
-  <article class="container altura" style=" clip-path: polygon(0 0, 90% 0, 80% 100%, 0 100%); background-color:#0eb7b7; margin-left: -15px;">
+<section class="container-fluid altura bg-diamond" style="border-bottom: 5px solid #0eb7b7; background-color: #1A1818;">
+  <article class="container">
   </article>
 </section>
 
-
-<section class="container-fluid bg-lesions" style="border-bottom: 5px solid #0eb7b7;">
+<section class="container-fluid bg-lesions" style="border-bottom: 5px solid #0eb7b7; border-top: 5px solid #0eb7b7">
   <article class="container lesions">
     <div class="row">
       <div class="col-lg-6">
@@ -56,14 +55,13 @@
 </section>
 
 
-
-<section class="container-fluid altura" style="border-bottom: 5px solid #0eb7b7; background-color: #0eb7b7;">
-  <article class="container altura" style=" clip-path: polygon(0 0, 77.5% 0, 74% 100%, 0 100%); background-color:#1A1818; margin-left: -15px;">
+<section class="container-fluid altura bg-diamond" style="border-bottom: 5px solid #0eb7b7; background-color: #1A1818;">
+  <article class="container">
   </article>
 </section>
 
 
-<section class="container-fluid bg-confort" style="border-bottom: 5px solid #0eb7b7;">
+<section class="container-fluid bg-confort" style="border-bottom: 5px solid #0eb7b7; border-top: 5px solid #0eb7b7">
   <article class="container confort">
     <div class="row">
       <div class="col-lg-6">
@@ -77,10 +75,25 @@
   </article>
 </section>
 
-<section class="container-fluid altura" style="border-bottom: 5px solid #0eb7b7; background-color: #1A1818;">
-  <article class="container altura" style=" clip-path: polygon(0 0, 90% 0, 80% 100%, 0 100%); background-color:#0eb7b7; margin-left: -15px;">
+
+<section class="container-fluid altura bg-diamond" style="border-bottom: 5px solid #0eb7b7; background-color: #1A1818;">
+  <article class="container">
   </article>
 </section>
+
+
+<section class="container-fluid bg-teste" style="border-bottom: 5px solid #0eb7b7; border-top: 5px solid #0eb7b7">
+  <article class="container">
+    <div>
+      <button type="button" class="btn btn-dark btn-lg rounded-0 btn-full-negro bg-diamond">Teste seu desempenho</button>
+     </div>
+  </article>
+</section>
+<section class="container-fluid bg-teste2" style="border-bottom: 5px solid #0eb7b7;">
+  <article></article>
+
+</section>
+
 
 <div class="w-100"></div>
 <div class="col"></div>
