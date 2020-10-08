@@ -24,7 +24,7 @@
           eSports
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLinkEsports">
-          <a class="dropdown-item" href="#">O que é</a>
+          <a class="dropdown-item" href="{{route('esports')}}">O que é</a>
           <a class="dropdown-item" href="#">Cenário Atual</a>
         </div>
       </li>

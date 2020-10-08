@@ -13,7 +13,7 @@
       <button type="button" class="btn btn-dark btn-lg rounded-0 bg-diamond">eSports</button>
       <h1 class="display-4 text-center">Introdução ao<br> eSports</h1>
 
-      <button type="button" class="btn btn-dark btn-lg rounded-0 btn-full-negro bg-diamond" href="#">Saiba mais</button>
+      <a type="button" class="btn btn-dark btn-lg rounded-0 btn-full-negro bg-diamond" href="{{route('esports')}}">Saiba mais</a>
     </div>
   </article>
 </section>
