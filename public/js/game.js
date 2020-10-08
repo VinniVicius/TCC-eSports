@@ -1,5 +1,13 @@
+var seconds = $('#seconds');
+var milliseconds = $('#milliseconds');
+
+var s = 0;
+var ms = 0000;
+var i = 1;
+
 $(document).ready(function () {
   var x = 5;
+
   document.getElementById('numberCount').innerHTML = x;
   $("#target").click(function () {
     if (x != 1) {
@@ -11,7 +19,20 @@ $(document).ready(function () {
     } else {
       $(".desktop-only").attr(`style`, `display: none;`);
     }
+
+    setDate();
+    function setDate() {
+
+      is_int(i);
+      seconds.html('<strong>' + Math.floor(s) + '</strong> Segundo' + (s > 1 ? 's' : ''));
+
+      isZero(ms);
+      milliseconds.html('<strong>' + ms + '</strong> Milisegundo' + (ms > 1 ? 's' : ''));
+
+      setTimeout(setDate, 10);
+    };
   });
+
 });
 
 function generatePosX(posX) {
@@ -27,6 +48,25 @@ function generatePosY(posY) {
   retpos = posY;
   return retpos;
 }
+
+function is_int(value) {
+  var count = value;
+  if ((parseFloat(count / 100) == parseInt(count / 100)) && !isNaN(count)) {
+    i++;
+    s += 1;
+  } else {
+    i++;
+  }
+};
+
+function isZero(value) {
+  if (value == 1) {
+    ms = 1000;
+  }
+  else {
+    ms += 10;
+  }
+};
 
 /*function generatePos (posX){
     var retpos;

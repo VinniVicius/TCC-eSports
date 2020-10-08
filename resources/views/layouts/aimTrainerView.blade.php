@@ -22,9 +22,11 @@
                         </div>
                     </div>
                 </div>
-                <!--<div class="desktop-only-warning">
-                    <p>This test is intended to be taken on a desktop or laptop. (Or make your browser window larger)</p>
-                </div>-->
+                <div class="desktop-only-warning">
+                    <p id="seconds"></p>
+                    <p id="milliseconds"></p>
+                    <!--<p>This test is intended to be taken on a desktop or laptop. (Or make your browser window larger)</p>-->
+                </div>
             </div>
         </div>
         <!--<button id="jogar" class="btn btn-lg btn-warning">Jogar</button>-->
