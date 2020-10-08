@@ -13,7 +13,7 @@
       <button type="button" class="btn btn-dark btn-lg rounded-0 bg-diamond">eSports</button>
       <h1 class="display-4 text-center">Introdução ao<br> eSports</h1>
 
-      <button type="button" class="btn btn-dark btn-lg rounded-0 btn-full-negro bg-diamond">Saiba mais</button>
+      <button type="button" class="btn btn-dark btn-lg rounded-0 btn-full-negro bg-diamond" href="#">Saiba mais</button>
     </div>
   </article>
 </section>
@@ -38,8 +38,8 @@
   <article class="container" style="min-height:inherit;">
     <div class="row">
       <div class="col-lg-5">
-        <button type="button" class="btn btn-dark btn-lg rounded-0 col-5 btn-full-negro bg-diamond " style="color: #fff;">Lesão 1</button>
-        <button type="button" class="btn btn-dark btn-lg rounded-0 col-5 btn-full-negro bg-diamond" style="color: #fff;">Lesão 2</button>
+        <button type="button" class="btn btn-dark btn-lg rounded-0 col-5 btn-full-negro bg-diamond " style="color: #fff;">Fadiga Ocular</button>
+        <button type="button" class="btn btn-dark btn-lg rounded-0 col-5 btn-full-negro bg-diamond" style="color: #fff;">Tendinite</button>
         <button type="button" class="btn btn-dark btn-lg rounded-0 col-5 btn-full-negro bg-diamond" style="color: #fff;">Lesão 3</button>
         <button type="button" class="btn btn-dark btn-lg rounded-0 col-5 btn-full-negro bg-diamond" style="color: #fff;">lesão 4</button>
       </div>
@@ -83,7 +83,7 @@
 
 <section class="container-fluid bg-teste" style="border-bottom: 5px solid #0eb7b7; border-top: 5px solid #0eb7b7">
   <article class="container">
-    <div class="row justify-content-center align-items-center">
+    <div class="row justify-content-center align-items-center" style="min-height: 35vh;">
       <button type="button" class="btn btn-dark btn-lg rounded-0 btn-full-negro bg-diamond">Teste seu Desempenho</button>
      </div>
   </article>

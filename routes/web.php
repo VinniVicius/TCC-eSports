@@ -16,6 +16,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', 'MainController@index');
 Route::get('/area-de-testes', 'AreaTesteController@index')->name('areateste');
 Route::get('/area-de-testes/aim-trainer', 'aimTrainerView@index')->name('aimtrainerview');
+Route::get('/area-de-testes', 'EsportsController@index')->name('esports');
 
 Auth::routes();
 
