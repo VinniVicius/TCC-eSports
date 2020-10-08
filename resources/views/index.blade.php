@@ -83,7 +83,7 @@
 
 <section class="container-fluid bg-teste" style="border-bottom: 5px solid #0eb7b7; border-top: 5px solid #0eb7b7">
   <article class="container">
-    <div>
+    <div class="row justify-content-center align-items-center">
       <button type="button" class="btn btn-dark btn-lg rounded-0 btn-full-negro bg-diamond">Teste seu Desempenho</button>
      </div>
   </article>
@@ -91,8 +91,7 @@
 
 <section class="container-fluid bg-teste2">
   <article>
-  <div class="row">
-      <div class="col-lg-2"></div>
+  <div class="row justify-content-around">
       <div class="col-lg-3 bg-diamond card" style="top: 50px;">
         <img src="/assets/img/alvo.png" class="card-img-top" alt="..." style="width: 200px; align-self: center; margin-top: 10px;">
           <div class="card-body" style="text-align: center;">
@@ -101,7 +100,6 @@
             <a href="{{route('aimtrainerview')}}" class="btn btn-dark btn-lg rounded-0 btn-full-negro">Fazer o teste</a>
           </div>
         </div>
-      <div class="col-lg-2"></div>
       <div class="col-lg-3 bg-diamond card" style="top: 50px;">
         <img src="/assets/img/raio.png" class="card-img-top" alt="..." style="width: 80px; align-self: center; margin-top: 10px;">
         <div class="card-body" style="text-align:center;">
@@ -110,7 +108,6 @@
           <a href="#" class="btn btn-dark btn-lg rounded-0 btn-full-negro">Fazer o teste</a>
         </div>
       </div>
-      <div class="col-lg-2"></div>
     </div>
   </article>
 </section>
