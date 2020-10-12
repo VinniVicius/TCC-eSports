@@ -25,7 +25,7 @@
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLinkEsports">
           <a class="dropdown-item" href="{{route('esports')}}">O que é</a>
-          <a class="dropdown-item" href="#">Cenário Atual</a>
+          <a class="dropdown-item" href="{{route('esports')}}">Cenário Atual</a>
         </div>
       </li>
       <li class="nav-item dropdown">
@@ -33,8 +33,14 @@
           Lesões
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLesoes">
-          <a class="dropdown-item" href="#">Fadiga Ocular</a>
-          <a class="dropdown-item" href="#">Tendinite</a>
+          <a class="dropdown-item" href="{{route('eyestrain')}}">Fadiga Ocular</a>
+          <a class="dropdown-item" href="{{route('tendonitis')}}">Tendinite</a>
+          <a class="dropdown-item" href="{{route('headache')}}">Dor de Cabeça (Tensão)</a>
+          <a class="dropdown-item" href="{{route('mouseshoulder')}}">Ombro do Mouse</a>
+          <a class="dropdown-item" href="{{route('mouseelbow')}}">Cotovelo do Mouse</a>
+          <a class="dropdown-item" href="{{route('disfunction')}}">Disfunção da articulação sacroilíaca (SI)</a>
+          <a class="dropdown-item" href="{{route('syndrome')}}">Síndrome Cruzada Superior</a>
+          <a class="dropdown-item" href="{{route('tenosynovitis')}}">Tenossinovite Estenosante</a>
         </div>
       </li>
       <li class="nav-item dropdown">
