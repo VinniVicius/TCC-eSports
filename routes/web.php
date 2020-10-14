@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\HydrationController;
 use App\Http\Controllers\MouseShoulderController;
 use Illuminate\Support\Facades\Route;
 
@@ -29,6 +30,9 @@ Route::get('/conteudo/tenosynovitis','TenosynovitisController@index')->name('ten
 
 Route::get('/recomendacoes/sleep', 'SleepController@index')->name('sleep');
 Route::get('/recomendacoes/lunch', 'LunchController@index')->name('lunch');
+Route::get('/recomendacoes/hydration', 'HydrationController@index')->name('hydration');
+Route::get('/recomendacoes/fatigue', 'FatigueController@index')->name('fatigue');
+Route::get('/recomendacoes/posture', 'PostureController@index')->name('posture');
 
 Auth::routes();
 

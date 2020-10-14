@@ -48,10 +48,10 @@
           Recomendações
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuRecomenda">
-          <a class="dropdown-item" href="#">Postura</a>
+          <a class="dropdown-item" href="{{route('posture')}}">Postura</a>
           <a class="dropdown-item" href="{{route('sleep')}}">Hábitos de sono</a>
-          <a class="dropdown-item" href="#">Hidratação</a>
-          <a class="dropdown-item" href="#">Meditação</a>
+          <a class="dropdown-item" href="{{route('hydration')}}">Hidratação</a>
+          <a class="dropdown-item" href="{{route('fatigue')}}">Fadiga do Sono</a>
           <a class="dropdown-item" href="{{route('lunch')}}">Alimentação</a>
         </div>
       </li>

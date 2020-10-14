@@ -521,6 +521,39 @@ html, body {
     border-bottom: 50px solid #272727;
 }
 
+/* ----------------------------------------------------------------------------------------- */
+
+.bg-hydration{
+    background-image: url('/assets/img/hidratacao.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 65vh;
+    color: #fff;
+    border-bottom: 50px solid #272727;
+}
+
+/* ----------------------------------------------------------------------------------------- */
+
+.bg-fatigue{
+    background-image: url('/assets/img/fadiga1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 65vh;
+    color: #fff;
+    border-bottom: 50px solid #272727;
+}
+
+/* ----------------------------------------------------------------------------------------- */
+
+.bg-posture{
+    background-image: url('/assets/img/postura1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 65vh;
+    color: #fff;
+    border-bottom: 50px solid #272727;
+}
+
 
 /* ------------------------------------------------------------------------------------------------------
     CARD HOVER EFFECT MAH BRUDAH
