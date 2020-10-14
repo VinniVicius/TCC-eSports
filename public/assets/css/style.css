@@ -307,7 +307,7 @@ html, body {
 }
 
 .bg-teste2 {
-    min-height: 52vh;
+    min-height: 90vh;
     background-color: #0E0D0D;
     align-items: center;
 }
@@ -316,8 +316,209 @@ html, body {
     CONTENT PAGE MAH BRUDAH
 --------------------------------------------------------------------------------------------------------- */
 
+.bg-esports{
+    background-image: url('/assets/img/esports_fundo.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    color: #fff;
+}
+
+.bg-esports2{
+    min-height: 70vh; 
+    background-image:url('/assets/img/fundo5.png'); 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-esports2 div:nth-child(2) button:first-child {
+    color: #fff;
+    /*background-color: #0eb7b7;*/
+    width: 40%;
+    font-size: 3rem;
+    border: none;
+    
+}
+
+.subject-box{
+    background-color: black;
+    color: #fff;
+}
+
+.bg-esports2-content{
+    min-height: 35vh;
+    background-image: url('/assets/img/fundo5.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    font-size: 20px;
+    border-bottom: 5px solid #0eb7b7;
+}
 
 
+.bg-esports3{
+    min-height: 35vh;
+    background-image: url('/assets/img/esports_fundo2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-esports3 button:first-child {
+    color: #fff;
+    /*background-color: #0eb7b7;*/
+    width: 40%;
+    font-size: 3rem;
+    border: none;
+}
+
+
+/* -------------------------------------------------------------------------------------------------- */
+
+.bg-eyestrain{
+    min-height: 35vh;
+    background-image: url('/assets/img/fundo5.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    font-size: 20px;
+}
+
+.bg-eyestrain div:first-child button:first-child {
+    color: #fff;
+    /*background-color: #0eb7b7;*/
+    width: 40%;
+    font-size: 3rem;
+    border: none;
+    
+}
+
+.bg-eyestrain2{
+    background-image: url('/assets/img/fadiga_ocular.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 50vh;
+    color: #fff;
+    border-bottom: 50px solid #272727;
+}
+
+.bg-eyestrain2-content{
+    min-height: 35vh;
+    background-image: url('/assets/img/fundo5.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    font-size: 20px;
+    border-bottom: 20px solid #272727;
+}
+
+.bg-eyestrain3{
+    min-height: 35vh; 
+    background-image:url('/assets/img/fundo5.png'); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: 20px solid #272727;
+}
+
+/* ---------------------------------------------------------------------------------------- */
+
+.bg-tendonitis{
+    background-image: url('/assets/img/tendinite.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 50vh;
+    color: #fff;
+    border-bottom: 50px solid #272727;
+}
+
+/* ------------------------------------------------------------------------------------------ */
+
+.bg-headache{
+    background-image: url('/assets/img/dor_de_cabeca.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 50vh;
+    color: #fff;
+    border-bottom: 50px solid #272727;
+}
+
+/* ----------------------------------------------------------------------------------------- */
+.bg-mouseshoulder{
+    background-image: url('/assets/img/ombro_do_mouse.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 50vh;
+    color: #fff;
+    border-bottom: 50px solid #272727;
+}
+
+/* ------------------------------------------------------------------------------------------- */
+
+.bg-mouseelbow{
+    background-image: url('/assets/img/cotovelo_mouse.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 50vh;
+    color: #fff;
+    border-bottom: 50px solid #272727;
+}
+
+/* -------------------------------------------------------------------------------------------- */
+
+.bg-disfunction{
+    background-image: url('/assets/img/disfunction.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 50vh;
+    color: #fff;
+    border-bottom: 50px solid #272727;
+}
+
+/* --------------------------------------------------------------------------------------------- */
+
+.bg-syndrome{
+    background-image: url('/assets/img/syndrome.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 60vh;
+    color: #fff;
+    border-bottom: 50px solid #272727;
+}
+
+/* -------------------------------------------------------------------------------------------- */
+
+.bg-tenosynovitis{
+    background-image: url('/assets/img/tenossinovite.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 60vh;
+    color: #fff;
+    border-bottom: 50px solid #272727;
+}
+
+/* ------------------------------------------------------------------------------------------- 
+    RECOMENDATIONS
+ -----------------------------------------------------------------------------------------*/
+
+.bg-sleep{
+    background-image: url('/assets/img/sono1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 60vh;
+    color: #fff;
+    border-bottom: 50px solid #272727;
+}
+
+
+/* ------------------------------------------------------------------------------------------- */
+
+.bg-lunch{
+    background-image: url('/assets/img/lanche1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 65vh;
+    color: #fff;
+    border-bottom: 50px solid #272727;
+}
 
 
 /* ------------------------------------------------------------------------------------------------------

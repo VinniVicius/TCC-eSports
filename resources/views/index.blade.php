@@ -3,7 +3,7 @@
 <section class="jumbotron jumbotron-fluid jumbo-esports" style="border-bottom: 5px solid #0eb7b7">
   <article class="container">
     <h1 class="display-4">eSports e Saúde</h1>
-      <button type="button" class="btn btn-dark btn-lg rounded-0 bg-diamond">Saiba mais</button>
+      
   </article>
 </section>
 <section class="container-fluid bg-dobra-2" style="border-bottom: 5px solid #0eb7b7;">
@@ -38,17 +38,17 @@
   <article class="container" style="min-height:inherit;">
     <div class="row">
       <div class="col-lg-5">
-        <button type="button" class="btn btn-dark btn-lg rounded-0 col-5 btn-full-negro bg-diamond " style="color: #fff;">Fadiga Ocular</button>
-        <button type="button" class="btn btn-dark btn-lg rounded-0 col-5 btn-full-negro bg-diamond" style="color: #fff;">Tendinite</button>
-        <button type="button" class="btn btn-dark btn-lg rounded-0 col-5 btn-full-negro bg-diamond" style="color: #fff;">Lesão 3</button>
-        <button type="button" class="btn btn-dark btn-lg rounded-0 col-5 btn-full-negro bg-diamond" style="color: #fff;">lesão 4</button>
+        <a type="button" class="btn btn-dark btn-lg rounded-0 col-5 btn-full-negro bg-diamond " style="color: #fff;" href="{{route('eyestrain')}}">Fadiga Ocular</a>
+        <a type="button" class="btn btn-dark btn-lg rounded-0 col-5 btn-full-negro bg-diamond" style="color: #fff;" href="{{route('tendonitis')}}">Tendinite</a>
+        <a type="button" class="btn btn-dark btn-lg rounded-0 col-5 btn-full-negro bg-diamond" style="color: #fff;" href="{{route('headache')}}">Dor de Cabeça (Tensão)</a>
+        <a type="button" class="btn btn-dark btn-lg rounded-0 col-5 btn-full-negro bg-diamond" style="color: #fff;" href="{{route('mouseshoulder')}}">Ombro do Mouse</a>
       </div>
       <div class="col-lg-2"></div>
       <div class="col-lg-5">
-      <button type="button" class="btn btn-dark btn-lg rounded-0 col-5 bg-diamond" style="background-color: #0eb7b7;">Lesão 5</button>
-      <button type="button" class="btn btn-dark btn-lg rounded-0 col-5 bg-diamond" style="background-color: #0eb7b7;">Lesão 6</button>
-      <button type="button" class="btn btn-dark btn-lg rounded-0 col-5 bg-diamond" style="background-color: #0eb7b7;">Lesão 7</button>
-      <button type="button" class="btn btn-dark btn-lg rounded-0 col-5 bg-diamond" style="background-color: #0eb7b7;">Lesão 8</button>
+      <a type="button" class="btn btn-dark btn-lg rounded-0 col-5 bg-diamond" style="background-color: #0eb7b7;" href="{{route('mouseelbow')}}">Cotovelo do Mouse</a>
+      <a type="button" class="btn btn-dark btn-lg rounded-0 col-5 bg-diamond" style="background-color: #0eb7b7;" href="{{route('disfunction')}}">Disfunção da Articulação Sacroilíaca (SI)</a>
+      <a type="button" class="btn btn-dark btn-lg rounded-0 col-5 bg-diamond" style="background-color: #0eb7b7;" href="{{route('syndrome')}}">Síndrome Cruzada Superior</a>
+      <a type="button" class="btn btn-dark btn-lg rounded-0 col-5 bg-diamond" style="background-color: #0eb7b7;" href="{{route('tenosynovitis')}}">Tenossinovite Estenosante</a>
       </div>
     </div>
   </article>
