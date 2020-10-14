@@ -5,14 +5,12 @@ var s = 0;
 var i = 1;
 var run = false;
 var score = 0;
-var text = "";
-var textTemp = "";
 
 var clickCount = 0;
 
 $(document).ready(function () {
 
-  var x = 6;
+  var x = 5;
 
   document.getElementById('numberCount').innerHTML = x;
   $("#target").on("click", function () {
@@ -55,7 +53,7 @@ $(document).ready(function () {
     //cleanMs(text);
     document.getElementById('score').innerHTML = score += 10;
     clickCount++;
-    console.log(clickCount);
+    console.log("Click count: " + clickCount);
   });
 
 });

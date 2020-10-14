@@ -31,6 +31,7 @@
                     <p id="seconds"></p>
                     <p id="milliseconds"></p>
                     <p id="millisecondsTest"></p>
+                    <p id="avgResult"></p>
                     <!--<p>This test is intended to be taken on a desktop or laptop. (Or make your browser window larger)</p>-->
                 </div>
             </div>

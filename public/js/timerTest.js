@@ -9,27 +9,45 @@
  */
 var miliValue = 0000;
 var timeout;
+var text = "";
+var textTemp = "";
+
+var msValues = [];
+
 function AdjustingInterval(workFunc, interval, errorFunc) {
     var that = this;
     var expected;
     this.interval = interval;
 
-    this.start = function() {
+    this.start = function () {
         expected = Date.now() + this.interval;
         timeout = setTimeout(step, this.interval);
     }
 
-    this.stop = function() {
+    this.stop = function () {
         clearTimeout(timeout);
     }
 
-    this.reset = function(){
+    this.reset = function () {
         var tempValue = 0;
         clearTimeout(timeout);
         justSomeNumber = 0;
         ticker.start();
-        text = $('#millisecondsTest').text();
-        console.log(text);
+        if (clickCount != 0) {
+            text = $('#millisecondsTestValue').text();
+            textTemp = text;
+            console.log("Text Temp: " + textTemp);
+            //e.preventDefault();    
+            textTemp = parseInt(text);
+            msValues.push(textTemp);
+        }
+        if(msValues.length === 4){
+            $("#millisecondsTest").addClass(".display-none");
+            $("#avgResult").append(avgCalc(msValues));
+        }
+
+
+        //console.log(text);
     }
 
     function step() {
@@ -40,7 +58,7 @@ function AdjustingInterval(workFunc, interval, errorFunc) {
         }
         workFunc();
         expected += that.interval;
-        timeout = setTimeout(step, Math.max(10, that.interval-drift));
+        timeout = setTimeout(step, Math.max(10, that.interval - drift));
     }
 
 }
@@ -50,22 +68,22 @@ function AdjustingInterval(workFunc, interval, errorFunc) {
 var justSomeNumber = 0;
 
 // Define the work to be done
-var doWork = function() {
-    if(clickCount === 6){
+var doWork = function () {
+    if (clickCount === 5) {
         return;
-    }else{
+    } else {
         if (miliValue == 1) {
             justSomeNumber = 1000;
         }
         else {
             justSomeNumber += 10;
         }
-        millisecondsTest.html('<strong id="millisecondsTest">' + justSomeNumber + '</strong> Milisegundo' + (justSomeNumber > 1 ? 's' : ''));
+        millisecondsTest.html('<strong id="millisecondsTestValue">' + justSomeNumber + '</strong> Milisegundo' + (justSomeNumber > 1 ? 's' : ''));
     }
 };
 
 // Define what to do if something goes wrong
-var doError = function() {
+var doError = function () {
     console.warn('The drift exceeded the interval.');
 };
 
