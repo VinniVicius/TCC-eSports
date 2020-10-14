@@ -1,6 +1,11 @@
 @extends('templates.main')
 @section('content')
 <section class="container-fluid px-0 min-vh-100 bg-area-teste" style="padding-top: 100px;">
+    <ul class="nav justify-content-center">
+        <li id="statusBar" class="nav-item">
+            <span class="nav-link">Score: <span id="score"></span></span>
+        </li>
+    </ul>
     <article class="dobra-2">
         <div data-test="true" class="game e19owgy77">
             <div class="game-view e19owgy79">
@@ -25,11 +30,12 @@
                 <div class="desktop-only-warning">
                     <p id="seconds"></p>
                     <p id="milliseconds"></p>
+                    <p id="millisecondsTest"></p>
                     <!--<p>This test is intended to be taken on a desktop or laptop. (Or make your browser window larger)</p>-->
                 </div>
             </div>
         </div>
-        <!--<button id="jogar" class="btn btn-lg btn-warning">Jogar</button>-->
+        <button onclick="stopCount()" class="btn btn-lg btn-warning">Pausar</button>
     </article>
 </section>
 @endsection

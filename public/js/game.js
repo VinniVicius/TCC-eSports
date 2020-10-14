@@ -1,15 +1,21 @@
 var seconds = $('#seconds');
-var milliseconds = $('#milliseconds');
 
 var s = 0;
-var ms = 0000;
+
 var i = 1;
+var run = false;
+var score = 0;
+var text = "";
+var textTemp = "";
+
+var clickCount = 0;
 
 $(document).ready(function () {
-  var x = 5;
+
+  var x = 6;
 
   document.getElementById('numberCount').innerHTML = x;
-  $("#target").click(function () {
+  $("#target").on("click", function () {
     if (x != 1) {
       var retvalPosX = generatePosX();
       var retvalPosY = generatePosY();
@@ -20,34 +26,48 @@ $(document).ready(function () {
       $(".desktop-only").attr(`style`, `display: none;`);
     }
 
-    setDate();
-    function setDate() {
+    switch (run) {
+      case true:
+        clearTimeout(setDate);
+        break;
+      case false:
+        run = true;
+        setDate();
+        function setDate() {
 
-      is_int(i);
-      seconds.html('<strong>' + Math.floor(s) + '</strong> Segundo' + (s > 1 ? 's' : ''));
+          is_int(i);
+          seconds.html('<strong>' + Math.floor(s) + '</strong> Segundo' + (s > 1 ? 's' : ''));
 
-      isZero(ms);
-      milliseconds.html('<strong>' + ms + '</strong> Milisegundo' + (ms > 1 ? 's' : ''));
+          setDateMs();
+          setTimeout(setDate, 10);
+        };
+        // You can start or stop your timer at will
 
-      setTimeout(setDate, 10);
+        break;
+      default:
+        break;
     };
+    ticker.reset();
+    //ticker.stop();
+    // You can also change the interval while it's in progress
+    ticker.interval = 10;
+    //getValue();
+    //cleanMs(text);
+    document.getElementById('score').innerHTML = score += 10;
+    clickCount++;
+    console.log(clickCount);
   });
 
 });
-
-function generatePosX(posX) {
-  var retpos;
-  var posX = 1 + Math.floor(Math.random() * 900);
-  retpos = posX;
-  return retpos;
+function getValue() {
+  text = $('#millisecondsTest').text();
+  console.log(text);
+  ticker.reset();
 }
-
-function generatePosY(posY) {
-  var retpos;
-  var posY = 1 + Math.floor(Math.random() * 400);
-  retpos = posY;
-  return retpos;
-}
+/*function msMean(msValue){
+  var mean = 0;
+  ms = 
+};*/
 
 function is_int(value) {
   var count = value;
@@ -59,15 +79,15 @@ function is_int(value) {
   }
 };
 
-function isZero(value) {
-  if (value == 1) {
-    ms = 1000;
-  }
-  else {
-    ms += 10;
-  }
-};
-
+/*function cleanMs(msValue){
+  document.getElementById("target").addEventListener("click", function(){
+    text = msValue;
+    textTemp = text;
+    text = "";
+    console.log("Text temp: " + textTemp);
+  });
+};*/
+/*console.log("Temp text: " + textTemp);*/
 /*function generatePos (posX){
     var retpos;
     var posX = 1 + Math.floor(Math.random() * 6);
@@ -86,3 +106,6 @@ function isZero(value) {
         <div style="width: 100px; height: 2px;" class="css-17nnhwz e6yfngs4"></div>
     </div>
 </div>*/
+function stopCount() {
+  ticker.stop();
+}
