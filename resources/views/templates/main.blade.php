@@ -49,10 +49,10 @@
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuRecomenda">
           <a class="dropdown-item" href="#">Postura</a>
-          <a class="dropdown-item" href="#">Hábitos de sono</a>
+          <a class="dropdown-item" href="{{route('sleep')}}">Hábitos de sono</a>
           <a class="dropdown-item" href="#">Hidratação</a>
           <a class="dropdown-item" href="#">Meditação</a>
-          <a class="dropdown-item" href="#">Alimentação</a>
+          <a class="dropdown-item" href="{{route('lunch')}}">Alimentação</a>
         </div>
       </li>
       <li class="nav-item dropdown">

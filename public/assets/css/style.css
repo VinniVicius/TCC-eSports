@@ -495,6 +495,31 @@ html, body {
     border-bottom: 50px solid #272727;
 }
 
+/* ------------------------------------------------------------------------------------------- 
+    RECOMENDATIONS
+ -----------------------------------------------------------------------------------------*/
+
+.bg-sleep{
+    background-image: url('/assets/img/sono1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 60vh;
+    color: #fff;
+    border-bottom: 50px solid #272727;
+}
+
+
+/* ------------------------------------------------------------------------------------------- */
+
+.bg-lunch{
+    background-image: url('/assets/img/lanche1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 65vh;
+    color: #fff;
+    border-bottom: 50px solid #272727;
+}
+
 
 /* ------------------------------------------------------------------------------------------------------
     CARD HOVER EFFECT MAH BRUDAH

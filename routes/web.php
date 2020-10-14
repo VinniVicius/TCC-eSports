@@ -27,6 +27,9 @@ Route::get('/conteudo/disfunction', 'DisfunctionController@index')->name('disfun
 Route::get('/conteudo/syndrome', 'SyndromeController@index')->name('syndrome');
 Route::get('/conteudo/tenosynovitis','TenosynovitisController@index')->name('tenosynovitis');
 
+Route::get('/recomendacoes/sleep', 'SleepController@index')->name('sleep');
+Route::get('/recomendacoes/lunch', 'LunchController@index')->name('lunch');
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
