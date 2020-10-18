@@ -115,10 +115,20 @@ html, body {
 
 .dobra-2 {
     min-height: inherit;
+    clip-path: polygon(0 0, 50% 0, 80% 100%, 0 100%);
+    background-color: #1A1818;
+    display: flex;
+}
+
+.dobra-2 div:first-child {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-self: center;
 }
 
 .bg-dobra-2 {
-    min-height: 700px;
+    min-height: 500px;
     background-image: url('/assets/img/fundo2.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -132,7 +142,8 @@ html, body {
     align-items: center;
     min-height: inherit;
 }
-.bg-diamond{
+
+.bg-diamond {
     color: #fff;
     background: linear-gradient(180deg, rgba(23, 19, 211, 0) 20%, rgba(23, 19, 211, .1) 20%, rgba(23, 19, 211, .1) 40%, rgba(23, 19, 211, .2) 40%, rgba(23, 19, 211, .2) 60%, rgba(23, 19, 211, .4) 60%, rgba(23, 19, 211, .4) 80%, rgba(23, 19, 211, 0.5) 80%), linear-gradient(45deg, rgba(175, 15, 15, .3) 20%, rgba(175, 15, 15, .4) 20%, rgba(175, 15, 15, .4) 40%, rgba(175, 15, 15, .5) 40%, rgba(175, 15, 15, .5) 60%, rgba(175, 15, 15, .6) 60%, rgba(175, 15, 15, .6) 80%, rgba(175, 15, 15, 0.7) 80%), linear-gradient(-45deg, rgba(2, 26, 150, 0) 20%, rgba(2, 26, 150, .1) 20%, rgba(2, 26, 150, .1) 40%, rgba(2, 26, 150, .2) 40%, rgba(2, 26, 150, .2) 60%, rgba(2, 26, 150, .4) 60%, rgba(2, 26, 150, .4) 80%, rgba(2, 26, 150, 0.6) 80%), linear-gradient(90deg, rgba(14, 72, 172, 0) 20%, rgba(14, 72, 172, .3) 20%, rgba(14, 72, 172, .3) 40%, rgba(14, 72, 172, .5) 40%, rgba(14, 72, 172, .5) 60%, rgba(14, 72, 172, .7) 60%, rgba(14, 72, 172, .7) 80%, rgba(14, 72, 172, 0.8) 80%), linear-gradient(-90deg, rgba(5, 24, 116, 0) 20%, rgba(5, 24, 116, .4) 20%, rgba(5, 24, 116, .4) 40%, rgba(5, 24, 116, .5) 40%, rgba(5, 24, 116, .5) 60%, rgba(5, 24, 116, .6) 60%, rgba(5, 24, 116, .6) 80%, rgba(5, 24, 116, 0.8) 80%), linear-gradient(180deg, rgba(6, 14, 54, 0) 20%, rgba(6, 14, 54, .4) 20%, rgba(6, 14, 54, .4) 40%, rgba(6, 14, 54, .6) 40%, rgba(6, 14, 54, .6) 60%, rgba(6, 14, 54, .8) 60%, rgba(6, 14, 54, .8) 80%, rgba(6, 14, 54, .9) 80%);
     background-color: rgb(6, 14, 54);
@@ -143,9 +154,16 @@ html, body {
     transition: ease 0.3s;
     border: none!important;
 }
-.bg-diamond:hover, .bg-diamond:focus{
+
+.bg-diamond.btn-diamond-lg {
+    font-size: 2rem;
+    width: 50%;
+}
+
+.bg-diamond:hover, .bg-diamond:focus {
     background-color: #fff;
 }
+
 .bg-dobra-2 .container div:first-child button:first-child {
     color: #fff;
     /*background-color: #0eb7b7;*/
@@ -155,8 +173,8 @@ html, body {
     top: 110px;
     left: 50px;
     border: none;
-    
 }
+
 /*.bg-dobra-2 .container div:first-child button:first-child {
     position: absolute;
     z-index: 0;
@@ -204,13 +222,16 @@ html, body {
     min-height: inherit;
 }
 
+.bg-lesions .container div.col-lg-6 {
+    justify-content: center;
+}
+
 .bg-lesions .container div:nth-child(3) {
     position: relative;
     display: flex;
     flex-wrap: wrap-reverse;
     min-height: inherit;
 }
-
 
 .bg-lesions .container div:first-child button:first-child {
     position: absolute;
@@ -226,7 +247,8 @@ html, body {
 
 .bg-lesions-2 {
     color: #fff;
-    background-image: url('/assets/img/fundo5.png');
+    background-color: #1A1818;
+    /*background-image: url('/assets/img/fundo5.png');*/
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 40vh;
@@ -304,7 +326,6 @@ html, body {
     width: 100%;
     font-size: 3rem;
     border: none;
-    
 }
 
 .bg-teste2 {
@@ -317,7 +338,7 @@ html, body {
     CONTENT PAGE MAH BRUDAH
 --------------------------------------------------------------------------------------------------------- */
 
-.bg-esports{
+.bg-esports {
     background-image: url('/assets/img/esports_fundo.png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -325,9 +346,9 @@ html, body {
     color: #fff;
 }
 
-.bg-esports2{
-    min-height: 70vh; 
-    background-image:url('/assets/img/fundo5.png'); 
+.bg-esports2 {
+    min-height: 70vh;
+    background-image: url('/assets/img/fundo5.png');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -338,15 +359,14 @@ html, body {
     width: 40%;
     font-size: 3rem;
     border: none;
-    
 }
 
-.subject-box{
+.subject-box {
     background-color: black;
     color: #fff;
 }
 
-.bg-esports2-content{
+.bg-esports2-content {
     min-height: 35vh;
     background-image: url('/assets/img/fundo5.png');
     background-repeat: no-repeat;
@@ -356,8 +376,7 @@ html, body {
     border-bottom: 5px solid #0eb7b7;
 }
 
-
-.bg-esports3{
+.bg-esports3 {
     min-height: 35vh;
     background-image: url('/assets/img/esports_fundo2.png');
     background-repeat: no-repeat;
@@ -372,10 +391,9 @@ html, body {
     border: none;
 }
 
-
 /* -------------------------------------------------------------------------------------------------- */
 
-.bg-eyestrain{
+.bg-eyestrain {
     min-height: 35vh;
     background-image: url('/assets/img/fundo5.png');
     background-repeat: no-repeat;
@@ -390,10 +408,9 @@ html, body {
     width: 40%;
     font-size: 3rem;
     border: none;
-    
 }
 
-.bg-eyestrain2{
+.bg-eyestrain2 {
     background-image: url('/assets/img/fadiga_ocular.png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -402,7 +419,7 @@ html, body {
     border-bottom: 50px solid #272727;
 }
 
-.bg-eyestrain2-content{
+.bg-eyestrain2-content {
     min-height: 35vh;
     background-image: url('/assets/img/fundo5.png');
     background-repeat: no-repeat;
@@ -412,9 +429,9 @@ html, body {
     border-bottom: 20px solid #272727;
 }
 
-.bg-eyestrain3{
-    min-height: 35vh; 
-    background-image:url('/assets/img/fundo5.png'); 
+.bg-eyestrain3 {
+    min-height: 35vh;
+    background-image: url('/assets/img/fundo5.png');
     background-repeat: no-repeat;
     background-size: cover;
     border-bottom: 20px solid #272727;
@@ -422,7 +439,7 @@ html, body {
 
 /* ---------------------------------------------------------------------------------------- */
 
-.bg-tendonitis{
+.bg-tendonitis {
     background-image: url('/assets/img/tendinite.png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -433,7 +450,7 @@ html, body {
 
 /* ------------------------------------------------------------------------------------------ */
 
-.bg-headache{
+.bg-headache {
     background-image: url('/assets/img/dor_de_cabeca.png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -443,7 +460,8 @@ html, body {
 }
 
 /* ----------------------------------------------------------------------------------------- */
-.bg-mouseshoulder{
+
+.bg-mouseshoulder {
     background-image: url('/assets/img/ombro_do_mouse.png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -454,7 +472,7 @@ html, body {
 
 /* ------------------------------------------------------------------------------------------- */
 
-.bg-mouseelbow{
+.bg-mouseelbow {
     background-image: url('/assets/img/cotovelo_mouse.png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -465,7 +483,7 @@ html, body {
 
 /* -------------------------------------------------------------------------------------------- */
 
-.bg-disfunction{
+.bg-disfunction {
     background-image: url('/assets/img/disfunction.png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -476,7 +494,7 @@ html, body {
 
 /* --------------------------------------------------------------------------------------------- */
 
-.bg-syndrome{
+.bg-syndrome {
     background-image: url('/assets/img/syndrome.png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -487,7 +505,7 @@ html, body {
 
 /* -------------------------------------------------------------------------------------------- */
 
-.bg-tenosynovitis{
+.bg-tenosynovitis {
     background-image: url('/assets/img/tenossinovite.png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -500,7 +518,7 @@ html, body {
     RECOMENDATIONS
  -----------------------------------------------------------------------------------------*/
 
-.bg-sleep{
+.bg-sleep {
     background-image: url('/assets/img/sono1.png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -509,10 +527,9 @@ html, body {
     border-bottom: 50px solid #272727;
 }
 
-
 /* ------------------------------------------------------------------------------------------- */
 
-.bg-lunch{
+.bg-lunch {
     background-image: url('/assets/img/lanche1.png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -523,7 +540,7 @@ html, body {
 
 /* ----------------------------------------------------------------------------------------- */
 
-.bg-hydration{
+.bg-hydration {
     background-image: url('/assets/img/hidratacao.png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -534,7 +551,7 @@ html, body {
 
 /* ----------------------------------------------------------------------------------------- */
 
-.bg-fatigue{
+.bg-fatigue {
     background-image: url('/assets/img/fadiga1.png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -545,7 +562,7 @@ html, body {
 
 /* ----------------------------------------------------------------------------------------- */
 
-.bg-posture{
+.bg-posture {
     background-image: url('/assets/img/postura1.png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -553,7 +570,6 @@ html, body {
     color: #fff;
     border-bottom: 50px solid #272727;
 }
-
 
 /* ------------------------------------------------------------------------------------------------------
     CARD HOVER EFFECT MAH BRUDAH
@@ -601,8 +617,17 @@ html, body {
     font-size: .75rem;
 }
 
+/* ------------------------------------------------------------------------------------------------------
+   /CARD HOVER EFFECT MAH BRUDAH
+ -------------------------------------------------------------------------------------------------------- */
+
+.card__grid-anchors {
+    width: max-content;
+    flex-direction: row;
+}
 
 /* TESTING STUFFS */
+
 .game {
     background: rgb(43, 135, 209) none repeat scroll 0% 0%;
     position: relative;
@@ -612,16 +637,20 @@ html, body {
     color: white;
     text-align: center;
 }
-.game.waiting-state{
+
+.game.waiting-state {
     background: rgb(181, 40, 40) none repeat scroll 0% 0%;
 }
-.game.go-state{
+
+.game.go-state {
     background: rgb(56, 181, 40) none repeat scroll 0% 0%;
 }
+
 .game-view {
     padding: 20px;
     height: 540px;
 }
+
 .game-view {
     display: flex;
     flex-direction: column;
@@ -633,16 +662,19 @@ html, body {
     position: relative;
     padding: 10px;
 }
+
 .game-event-area {
     height: 100%;
     position: relative;
     perspective-origin: center center;
 }
+
 .css-jo9r9v {
     position: absolute;
     border-radius: 50%;
     animation: 0.2s ease-out 0s 1 normal none running appear;
 }
+
 .css-1qd6j0g {
     position: absolute;
     border-radius: 50%;
@@ -652,12 +684,14 @@ html, body {
     transform: translate(-50%, -50%);
     animation: 0.1s ease-out 0s 1 normal none running appear;
 }
+
 .css-z6vxiy {
     position: absolute;
     border-radius: 50%;
     transform: translate(-50%, -50%);
     border: 2px solid white;
 }
+
 .css-17nnhwz {
     transform: translate(-50%, -50%);
     background: white none repeat scroll 0% 0%;
@@ -665,9 +699,87 @@ html, body {
 }
 
 /* Reaction Time Test */
-.react-grid{
+
+.react-grid {
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
+/* ------------------------------------------------------------------------------------------------------
+    Media Query (min to max):
+ -------------------------------------------------------------------------------------------------------- */
+
+/* Large devices (desktops, 992px and up) */
+
+@media (min-width: 992px) {
+    .bg-lesions-2 .row .col.card__content-links {
+        padding: 70px 0;
+    }
+    .card__grid-anchors {
+        width: calc(85% - -80px);
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .card__grid-anchors a {
+        width: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 0;
+    }
+    .card__grid-anchors a:nth-of-type(1) {
+        margin-right: 3px;
+    }
+    .card__grid-anchors a:nth-of-type(1), .card__grid-anchors a:nth-of-type(2) {
+        margin-bottom: 3px;
+    }
+    .card__grid-anchors a:nth-of-type(3) {
+        margin-right: 3px;
+    }
+    .card-deck.test-cards .card{
+        height: 100%;
+    }
+}
+
+/* ------------------------------------------------------------------------------------------------------
+   /Media Query (min to max):
+ -------------------------------------------------------------------------------------------------------- */
+
+/* ------------------------------------------------------------------------------------------------------
+    Media Query (max to min):
+ -------------------------------------------------------------------------------------------------------- */
+
+/* Medium devices (tablets, less than 992px) */
+
+@media (max-width: 991.98px) {
+    .card__grid-anchors {
+        width: max-content;
+        flex-direction: column;
+    }
+    .bg-lesions-2 .row .col {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .card__grid-anchors a:nth-of-type(2n + 1){
+        margin-bottom: 1rem;
+    }
+    .card__grid-anchors a:nth-of-type(2n){
+        margin-bottom: 1rem;
+    }
+    .card__grid-anchors a:first-of-type{
+        margin-top: 0;
+    }
+    .card__grid-anchors a:last-of-type{
+        margin-bottom: 0;
+    }
+    .card-deck.test-cards{
+        padding: 2rem;
+    }
+}
+
+/* ------------------------------------------------------------------------------------------------------
+   /Media Query (max to min):
+ -------------------------------------------------------------------------------------------------------- */

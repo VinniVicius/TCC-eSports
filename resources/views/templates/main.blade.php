@@ -10,7 +10,7 @@
   <link rel="stylesheet" href="{{url('assets/bootstrap/css/bootstrap.min.css')}}">
   <link rel="stylesheet" href="{{url('assets/css/style.css')}}">
 </head>
-<nav class="navbar navbar-expand-lg fixed-top navbar-eSports bg-eSports" style="border-bottom: 3px solid #0EB7B7">
+<nav class="navbar navbar-expand-lg fixed-top navbar-eSports bg-eSports">
   <a class="navbar-brand" href="{{ url('/') }}">
     <img class="logo" src="/assets/img/logo-2.png" alt="Logo TCC eSports" loading="lazy">
   </a>
