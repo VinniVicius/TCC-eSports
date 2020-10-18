@@ -39,7 +39,6 @@ $(document).ready(function () {
           setDateMs();
           setTimeout(setDate, 10);
         };
-        // You can start or stop your timer at will
 
         break;
       default:

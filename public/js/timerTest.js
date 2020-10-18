@@ -11,6 +11,7 @@ var miliValue = 0000;
 var timeout;
 var text = "";
 var textTemp = "";
+var total = 0;
 
 var msValues = [];
 
@@ -29,6 +30,28 @@ function AdjustingInterval(workFunc, interval, errorFunc) {
     }
 
     this.reset = function () {
+        var tempValue = 0;
+        clearTimeout(timeout);
+        justSomeNumber = 0;
+        ticker.start();
+        if (clickCount != 0) {
+            text = $('#millisecondsTestValue').text();
+            textTemp = text;
+            console.log("Text Temp: " + textTemp);
+            //e.preventDefault();    
+            textTemp = parseInt(text);
+            msValues.push(textTemp);
+        }
+        if(msValues.length === 4){
+            $("#millisecondsTest").addClass(".display-none");
+            $("#avgResult").append(avgCalc(msValues));
+        }
+
+
+        //console.log(text);
+    }
+
+    this.resetReact = function () {
         var tempValue = 0;
         clearTimeout(timeout);
         justSomeNumber = 0;
@@ -86,6 +109,19 @@ var doWork = function () {
 var doError = function () {
     console.warn('The drift exceeded the interval.');
 };
+
+function avgCalc(arrayCalc) {
+    //msDividend = msValues.length; // < read the length of the amended array here
+    for (var i = 0; i < msValues.length; i++) {
+        total += msValues[i];
+    }
+    var avg = total / msValues.length;
+    console.log("Dividendo: " + msValues.length);
+    console.log("Resultado: " + avg);
+    $('#avgResult').append('Média de: ' + avg + 'ms');
+    console.log(msValues); // just so you can see the content
+
+}
 
 // (The third argument is optional)
 var ticker = new AdjustingInterval(doWork, 10, doError);

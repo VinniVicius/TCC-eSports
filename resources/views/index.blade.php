@@ -105,7 +105,7 @@
         <div class="card-body" style="text-align:center;">
           <h2 class="card-title">Teste de Reação</h2>
           <p class="card-text">Faça o teste de Reação e veja seu tempo de resposta</p>
-          <a href="#" class="btn btn-dark btn-lg rounded-0 btn-full-negro">Fazer o teste</a>
+          <a href="{{route('reactionview')}}" class="btn btn-dark btn-lg rounded-0 btn-full-negro">Fazer o teste</a>
         </div>
       </div>
     </div>

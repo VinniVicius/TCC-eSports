@@ -612,6 +612,12 @@ html, body {
     color: white;
     text-align: center;
 }
+.game.waiting-state{
+    background: rgb(181, 40, 40) none repeat scroll 0% 0%;
+}
+.game.go-state{
+    background: rgb(56, 181, 40) none repeat scroll 0% 0%;
+}
 .game-view {
     padding: 20px;
     height: 540px;
@@ -656,4 +662,12 @@ html, body {
     transform: translate(-50%, -50%);
     background: white none repeat scroll 0% 0%;
     position: absolute;
+}
+
+/* Reaction Time Test */
+.react-grid{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

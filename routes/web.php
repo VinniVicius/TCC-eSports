@@ -14,10 +14,15 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
-
+// Home Page
 Route::get('/', 'MainController@index');
+
+// Test Area
 Route::get('/area-de-testes', 'AreaTesteController@index')->name('areateste');
 Route::get('/area-de-testes/aim-trainer', 'aimTrainerView@index')->name('aimtrainerview');
+Route::get('/area-de-testes/reaction-time', 'reactionTimeController@index')->name('reactionview');
+
+// Content Page
 Route::get('/conteudo/esports', 'EsportsController@index')->name('esports');
 Route::get('/conteudo/eyestrain', 'EyestrainController@index')->name('eyestrain');
 Route::get('/conteudo/tendonitis', 'TendonitisController@index')->name('tendonitis');
@@ -28,6 +33,7 @@ Route::get('/conteudo/disfunction', 'DisfunctionController@index')->name('disfun
 Route::get('/conteudo/syndrome', 'SyndromeController@index')->name('syndrome');
 Route::get('/conteudo/tenosynovitis','TenosynovitisController@index')->name('tenosynovitis');
 
+// Recommendation Page
 Route::get('/recomendacoes/sleep', 'SleepController@index')->name('sleep');
 Route::get('/recomendacoes/lunch', 'LunchController@index')->name('lunch');
 Route::get('/recomendacoes/hydration', 'HydrationController@index')->name('hydration');
