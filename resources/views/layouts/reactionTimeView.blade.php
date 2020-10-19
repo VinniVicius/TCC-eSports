@@ -6,7 +6,7 @@
             <span class="nav-link">Score: <span id="score"></span></span>
         </li>
     </ul>
-    <article class="dobra-2">
+    <article class="">
         <div id="game-id" class="game e19owgy77" data-running="false">
             <div class="game-view e19owgy79">
                 <div class="desktop-only" style="height: 100%;">
