@@ -3,6 +3,7 @@
 <section class="container-fluid bg-eyestrain">
     <div class="row justify-content-center align-items-center">
         <button type="button" class="btn btn-dark btn-lg rounded-0 btn-full-negro bg-diamond mb-3">Dor de cabeça (Tensão)</button>
+        <div class="w-100"></div>
         <img class="img-fluid" src="/assets/img/dor_de_cabeca.png" alt="" srcset="">
     </div>
 </section>

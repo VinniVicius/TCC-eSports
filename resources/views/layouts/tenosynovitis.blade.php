@@ -3,6 +3,7 @@
 <section class="container-fluid bg-eyestrain">
     <div class="row justify-content-center align-items-center">
         <button type="button" class="btn btn-dark btn-lg rounded-0 btn-full-negro bg-diamond mb-3">Tenossinovite Estenosante</button>
+        <div class="w-100"></div>
         <img class="img-fluid" src="/assets/img/tenossinovite.png" alt="" srcset="">
     </div>
 </section>

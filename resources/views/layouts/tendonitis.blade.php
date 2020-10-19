@@ -4,6 +4,7 @@
 <section class="container-fluid bg-eyestrain">
     <div class="row justify-content-center align-items-center">
         <button type="button" class="btn btn-dark btn-lg rounded-0 btn-full-negro bg-diamond mb-3">Tendinite</button>
+        <div class="w-100"></div>
         <img class="img-fluid" src="/assets/img/tendinite.png" alt="" srcset="">
     </div>
 </section>

@@ -22,7 +22,7 @@
   </article>
 </section>
 
-<section class="row bg-lesions">
+<section class="container-fluid bg-lesions">
   <article class="container-fluid lesions">
     <div style="min-height: inherit;" class="col-lg-6 d-flex flex-wrap justify-content-center align-items-center">
       <h1 class="display-4 text-center w-100">Falar sobre<br> Lesões</h1>
@@ -110,24 +110,22 @@
 </section>
 
 <section class="container-fluid bg-teste2">
-  <article>
-    <div class="row justify-content-around">
-      <div class="card-deck test-cards">
-        <div class="card card-hover bg-dark bg-diamond">
-          <img src="/assets/img/alvo.png" class="card-img-top" alt="..." style="width: 200px; align-self: center; margin-top: 10px;">
-          <div class="card-body">
-            <h5 class="card-title">Teste de Mira</h5>
-            <p class="card-text">Teste sua Mira e veja quantos pontos voce consegue fazer</p>
-            <a href="{{route('aimtrainerview')}}" class="btn btn-dark btn-lg rounded-0 btn-full-negro stretched-link">Fazer o teste</a>
-          </div>
+  <article class="row justify-content-around">
+    <div class="card-deck test-cards">
+      <div class="card card-hover bg-dark bg-diamond">
+        <img src="/assets/img/alvo.png" class="card-img-top" alt="..." style="width: 200px; align-self: center; margin-top: 10px;">
+        <div class="card-body">
+          <h5 class="card-title">Teste de Mira</h5>
+          <p class="card-text">Teste sua Mira e veja quantos pontos voce consegue fazer</p>
+          <a href="{{route('aimtrainerview')}}" class="btn btn-dark btn-lg rounded-0 btn-full-negro stretched-link">Fazer o teste</a>
         </div>
-        <div class="card card-hover bg-dark bg-diamond">
-          <img src="/assets/img/raio.png" class="card-img-top" alt="..." style="width: 80px; align-self: center; margin-top: 10px;">
-          <div class="card-body">
-            <h5 class="card-title">Teste de Reação</h5>
-            <p class="card-text">Faça o teste de Reação e veja seu tempo de resposta</p>
-            <a href="{{route('reactionview')}}" class="btn btn-dark btn-lg rounded-0 btn-full-negro stretched-link">Fazer o teste</a>
-          </div>
+      </div>
+      <div class="card card-hover bg-dark bg-diamond">
+        <img src="/assets/img/raio.png" class="card-img-top" alt="..." style="width: 80px; align-self: center; margin-top: 10px;">
+        <div class="card-body">
+          <h5 class="card-title">Teste de Reação</h5>
+          <p class="card-text">Faça o teste de Reação e veja seu tempo de resposta</p>
+          <a href="{{route('reactionview')}}" class="btn btn-dark btn-lg rounded-0 btn-full-negro stretched-link">Fazer o teste</a>
         </div>
       </div>
     </div>

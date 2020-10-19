@@ -337,11 +337,14 @@ html, body {
 }
 
 .bg-teste2 {
-    min-height: 90vh;
+    /*min-height: 90vh;*/
     background-color: #0E0D0D;
-    align-items: center;
+    /*align-items: center;*/
 }
 
+.bg-teste2 article:first-child{
+    padding: 1rem 0;
+}
 /* ------------------------------------------------------------------------------------------------------
     CONTENT PAGE MAH BRUDAH
 --------------------------------------------------------------------------------------------------------- */
@@ -797,6 +800,12 @@ html, body {
 /* Medium devices (tablets, less than 992px) */
 
 @media (max-width: 991.98px) {
+    html, body{
+        font-size: 12px;
+    }
+    .lesions {
+        min-height: 450px;
+    }
     .jumbo-esports h1{
         text-align: center;
     }
@@ -839,8 +848,11 @@ html, body {
         -webkit-text-stroke-width: .5px;
         -webkit-text-stroke-color: blue;
     }
+    .card__content-links{
+        padding-bottom: 3rem;
+    }
     .card__grid-anchors {
-        width: max-content;
+        width: 100%;
         flex-direction: column;
     }
     .card__grid-anchors a:nth-of-type(2n+1) {
@@ -881,6 +893,13 @@ html, body {
     }
     .navbar-nav.mr-auto, .navbar-nav{
         align-items: center;
+    }
+    .navbar-nav li a{
+        text-align: center;
+    }
+    .bg-confort .container div:first-child button:first-child{
+        height: 45px;
+        top: 40px;
     }
 }
 
