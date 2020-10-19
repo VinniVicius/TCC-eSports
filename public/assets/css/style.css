@@ -115,7 +115,6 @@ html, body {
 
 .dobra-2 {
     min-height: inherit;
-    clip-path: polygon(0 0, 50% 0, 80% 100%, 0 100%);
     background-color: #1A1818;
     display: flex;
 }
@@ -288,7 +287,9 @@ html, body {
     background-color: #0eb7b7;
     width: 50%;
     font-size: 2rem;
-    position: relative;
+    position: absolute;
+    left: 0;
+    top: 80px;
     border: none;
 }
 
@@ -297,12 +298,19 @@ html, body {
     z-index: 0;
     width: 47.3%;
     height: 60px;
-    top: 80px;
+    top: 33px;
     left: 50px;
     background-color: #0E0D0D;
     border: none;
 }
 
+.confort h1:first-of-type{
+    margin-top: 180px;
+}
+
+.confort .col-lg-6 button:last-of-type{
+    width: 50%;
+}
 /**************************************/
 
 .bg-teste {
@@ -364,6 +372,8 @@ html, body {
 .subject-box {
     background-color: black;
     color: #fff;
+    min-width: 20rem;
+    border: 1px solid blue;
 }
 
 .bg-esports2-content {
@@ -400,6 +410,7 @@ html, body {
     background-size: cover;
     color: #fff;
     font-size: 20px;
+    padding-top: 5.5rem;
 }
 
 .bg-eyestrain div:first-child button:first-child {
@@ -714,8 +725,40 @@ html, body {
 /* Large devices (desktops, 992px and up) */
 
 @media (min-width: 992px) {
+    .img__container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .img__container img:first-of-type{
+        margin-right: 1rem;
+    }
+    .img__container img:last-of-type{
+        margin-left: 1rem;
+    }
+    .dobra-2 {
+        min-height: inherit;
+        clip-path: polygon(0 0, 50% 0, 80% 100%, 0 100%);
+        background-color: #1A1818;
+        display: flex;
+    }
     .bg-lesions-2 .row .col.card__content-links {
         padding: 70px 0;
+    }
+    .bg-eyestrain2-content article span {
+        font-size: 30px;
+        color: black;
+        -webkit-text-fill-color: #147fcb;
+        -webkit-text-stroke-width: .5px;
+        -webkit-text-stroke-color: blue;
+    }
+    article.container li {
+        font-size: 30px;
+        color: #147fcb;
+        -webkit-text-fill-color: #147fcb;
+        -webkit-text-stroke-width: .5px;
+        -webkit-text-stroke-color: blue;
     }
     .card__grid-anchors {
         width: calc(85% - -80px);
@@ -738,7 +781,7 @@ html, body {
     .card__grid-anchors a:nth-of-type(3) {
         margin-right: 3px;
     }
-    .card-deck.test-cards .card{
+    .card-deck.test-cards .card {
         height: 100%;
     }
 }
@@ -754,29 +797,90 @@ html, body {
 /* Medium devices (tablets, less than 992px) */
 
 @media (max-width: 991.98px) {
-    .card__grid-anchors {
-        width: max-content;
-        flex-direction: column;
+    .jumbo-esports h1{
+        text-align: center;
+    }
+    .jumbo-esports .container a{
+        width: 80%;
+    }
+    .img__container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    .img__container img{
+        max-width: 45%;
+    }
+    .img__container img:first-of-type{
+        margin-right: .5rem;
+    }
+    .img__container img:last-of-type{
+        margin-left: .5rem;
     }
     .bg-lesions-2 .row .col {
         display: flex;
         justify-content: center;
         align-items: center;
     }
-    .card__grid-anchors a:nth-of-type(2n + 1){
+    .bg-eyestrain2-content article span {
+        font-size: 38px;
+        color: black;
+        -webkit-text-fill-color: #147fcb;
+        -webkit-text-stroke-width: .5px;
+        -webkit-text-stroke-color: blue;
+    }
+    article.container li {
+        font-size: 30px;
+        color: #147fcb;
+        -webkit-text-fill-color: #147fcb;
+        -webkit-text-stroke-width: .5px;
+        -webkit-text-stroke-color: blue;
+    }
+    .card__grid-anchors {
+        width: max-content;
+        flex-direction: column;
+    }
+    .card__grid-anchors a:nth-of-type(2n+1) {
         margin-bottom: 1rem;
     }
-    .card__grid-anchors a:nth-of-type(2n){
+    .card__grid-anchors a:nth-of-type(2n) {
         margin-bottom: 1rem;
     }
-    .card__grid-anchors a:first-of-type{
+    .card__grid-anchors a:first-of-type {
         margin-top: 0;
     }
-    .card__grid-anchors a:last-of-type{
+    .card__grid-anchors a:last-of-type {
         margin-bottom: 0;
     }
-    .card-deck.test-cards{
+    .card-deck.test-cards {
         padding: 2rem;
+    }
+    .bg-eyestrain .row {
+        padding-left: 1rem !important;
+        padding-right: 1rem !important;
+    }
+    .bg-eyestrain {
+        min-height: 25vh;
+    }
+    .bg-eyestrain .row:first-child {
+        min-height: 15vh;
+    }
+    .bg-eyestrain div:first-child button:first-child {
+        width: 100%;
+        font-size: 1.75rem;
+    }
+    .subject-box {
+        width: auto;
+        margin: 0 1rem;
+    }
+    span.navbar-text{
+        width: 100%;
+    }
+    .navbar-nav.mr-auto, .navbar-nav{
+        align-items: center;
     }
 }
 

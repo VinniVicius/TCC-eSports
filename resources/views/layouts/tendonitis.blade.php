@@ -1,22 +1,18 @@
 @extends('templates.main')
 @section('content')
-<section class="container-fluid" style="background-image: url('/assets/img/fundo5.png');
-    background-repeat: no-repeat; background-size: cover; min-height: 20vh;">
-</section>
 
 <section class="container-fluid bg-eyestrain">
-    <div class="row justify-content-center align-items-center" style="min-height: 35vh;">
-      <button type="button" class="btn btn-dark btn-lg rounded-0 btn-full-negro bg-diamond">Tendinite</button>
-     </div>
+    <div class="row justify-content-center align-items-center">
+        <button type="button" class="btn btn-dark btn-lg rounded-0 btn-full-negro bg-diamond mb-3">Tendinite</button>
+        <img class="img-fluid" src="/assets/img/tendinite.png" alt="" srcset="">
+    </div>
 </section>
-
-<section class="container-fluid bg-tendonitis" id="Content1"></section>
 
 <section class="container-fluid bg-eyestrain2-content">
     <article class="container" style="padding-bottom: 20px; padding-top: 20px;">
         <p class="text-center">
-        
-            <span style="color: #0eb7b7; font-size:30px;">Sintomas</span>
+
+            <span>Sintomas</span>
 
             <li>Dor local, que pode irradiar para toda musculatura ao redor;</li>
             <li>Fadiga;</li>
@@ -27,7 +23,7 @@
             <li>Vermelhidão;</li>
             <li>Formigamento;</li>
             <li>Perda da mobilidade;</li>
-            <li>Atrofia muscular.</li>   
+            <li>Atrofia muscular.</li>
 
         </p>
     </article>
@@ -35,15 +31,15 @@
 
 <section class="container-fluid bg-eyestrain3">
     <article class="row justify-content-center align-items-center" style="min-height: 35vh;">
-        <div class="card subject-box" style="width: 18rem; border: 2px solid #0eb7b7;">
+        <div class="card subject-box">
             <div class="card-body">
                 <h4 class="card-title">Índice</h4>
-                    <ul>
-                        <li><a href="#Content1" class="card-link">Sintomas</a></li>
-                        <li><a href="#Content2" id="Content2" class="card-link">Introdução</a></li>
-                        <li><a href="#Content3" class="card-link">Causa</a></li>
-                        <li><a href="#Content4" class="card-link">Prevenção</a></li>
-                    </ul>
+                <ul>
+                    <li><a href="#Content1" class="card-link">Sintomas</a></li>
+                    <li><a href="#Content2" id="Content2" class="card-link">Introdução</a></li>
+                    <li><a href="#Content3" class="card-link">Causa</a></li>
+                    <li><a href="#Content4" class="card-link">Prevenção</a></li>
+                </ul>
             </div>
         </div>
     </article>
@@ -52,7 +48,7 @@
 <section class="container-fluid bg-eyestrain2-content">
     <article class="container" style="padding-bottom: 20px; padding-top: 20px;">
         <p class="text-center">
-        
+
             <span style="color: #0eb7b7; font-size:30px;">Introdução</span>
             <br>
             <br>
@@ -62,7 +58,7 @@
             O tendão não é tão forte quanto o osso e nem tão elástico quanto o músculo, portanto, no caso de sobrecarga, é a estrutura que, geralmente, mais sofre.
             <br id="Content3"><br>
             Assim, as causas da tendinite costumam estar relacionadas, principalmente, a alguns fatores de risco que resultam na sobrecarga dos tendões.
-            
+
 
         </p>
     </article>
@@ -71,20 +67,20 @@
 <section class="container-fluid bg-eyestrain2-content">
     <article class="container" style="padding-bottom: 20px; padding-top: 20px;">
         <p class="text-center">
-        
+
             <span style="color: #0eb7b7; font-size:30px;">Mecanismo comum de lesão</span>
             <br>
             <br>
-            O cansaço visual em jogadores ocorre quando os músculos dos olhos ficam sobrecarregados devido a jogos de vídeo. 
+            O cansaço visual em jogadores ocorre quando os músculos dos olhos ficam sobrecarregados devido a jogos de vídeo.
             Esta é uma combinação da área de espaço limitada onde você focaliza seu olhar e a profundidade estática do foco.
             <br>
             <br>
             Durante o jogo, a maioria das pessoas usa um monitor na faixa de 20-24 polegadas. Durante o jogo, seus olhos quase sempre ficarão dentro da moldura do monitor.
-            As exceções incluem streaming ou outras atividades em que você tem um monitor duplo e sua atenção sai da tela, mas a maior parte do seu olhar estará dentro do 
+            As exceções incluem streaming ou outras atividades em que você tem um monitor duplo e sua atenção sai da tela, mas a maior parte do seu olhar estará dentro do
             monitor de jogos.
             <br>
             <br id="Content4">
-            Além da pequena área, muitos jogos exigem que seus olhos se movam rapidamente pela tela. Quer esteja procurando pelo inimigo ou rastreando os 
+            Além da pequena área, muitos jogos exigem que seus olhos se movam rapidamente pela tela. Quer esteja procurando pelo inimigo ou rastreando os
             movimentos de seu personagem, seus olhos freqüentemente se moverão rapidamente neste pequeno espaço.
             Esses movimentos rápidos, pequenos e repetitivos podem causar tensão nos músculos extraoculares .
 
@@ -95,7 +91,7 @@
 <section class="container-fluid bg-eyestrain2-content">
     <article class="container" style="padding-bottom: 20px; padding-top: 20px;">
         <p class="text-center">
-        
+
             <span style="color: #0eb7b7; font-size:30px;">Prevenção e reabilitação</span>
             <br>
             <br>
@@ -120,7 +116,7 @@
             <br>
             <br>
             <span style="color: #0eb7b7;">Por último</span><br>
-            não se esqueça do poder de uma boa noite de sono . Se você está constantemente se esforçando para se tornar o melhor, com certeza vai sentir cansaço visual, 
+            não se esqueça do poder de uma boa noite de sono . Se você está constantemente se esforçando para se tornar o melhor, com certeza vai sentir cansaço visual,
             e dormir é sua melhor ferramenta de recuperação para continuar jogando amanhã.
 
         </p>
@@ -130,14 +126,14 @@
 <section class="container-fluid bg-eyestrain2-content">
     <article class="container" style="padding-bottom: 20px; padding-top: 20px;">
         <p class="text-center" style="font-size: 15px;">
-        
+
             <span style="color: red; font-size:30px;">Aviso Legal</span>
             <br>
             <br>
             Esta informação é apenas para fins educacionais e não se destina a substituir o conselho do seu médico. <br><br>
             O Site e os desenvolvedores se isenta de qualquer responsabilidade pelas decisões que você toma com base nessas informações.
-            As informações contidas neste site não estabelecem, nem implicam, relação médico-paciente. <br><br>O Site e os desenvolvedores não oferece 
-            essas informações para fins de diagnóstico. Um diagnóstico não deve ser presumido com base nas informações 
+            As informações contidas neste site não estabelecem, nem implicam, relação médico-paciente. <br><br>O Site e os desenvolvedores não oferece
+            essas informações para fins de diagnóstico. Um diagnóstico não deve ser presumido com base nas informações
             fornecidas.
 
         </p>

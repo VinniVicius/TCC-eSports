@@ -22,16 +22,15 @@
   </article>
 </section>
 
-<section class="container-fluid bg-lesions">
-  <article class="container lesions">
-    <div class="row">
-      <div class="col-lg-6">
-        <h1 class="display-4 text-center w-100">Falar sobre<br> Lesões</h1>
-        <button type="button" class="btn btn-dark btn-lg btn-diamond-lg rounded-0 bg-diamond">Lesões</button>
-      </div>
+<section class="row bg-lesions">
+  <article class="container-fluid lesions">
+    <div style="min-height: inherit;" class="col-lg-6 d-flex flex-wrap justify-content-center align-items-center">
+      <h1 class="display-4 text-center w-100">Falar sobre<br> Lesões</h1>
+      <button type="button" class="btn btn-dark btn-lg btn-diamond-lg rounded-0 bg-diamond">Lesões</button>
+    </div>
   </article>
 </section>
-<section class="container-fluid bg-lesions-2">
+<section class="container-fluid d-flex align-items-center bg-lesions-2">
   <div class="container">
     <!-- row row-cols -->
     <article class="row row-cols-1 row-cols-md-3 justify-content-around" style="min-height:inherit;">
@@ -84,8 +83,10 @@
   <article class="container confort">
     <div class="row">
       <div class="col-lg-6">
-        <button type="button" class="btn btn-dark btn-lg rounded-0 btn-full-negro bg-diamond" style="color: #fff;">+ Conforto</button>
-        <button type="button" class="btn btn-dark btn-lg rounded-0 bg-diamond" style="margin-top: 55px;">- Desgasto</button>
+        <button class="btn btn-dark btn-lg rounded-0 bg-diamond">- Desconforto</button>
+        <button class="btn btn-dark btn-lg rounded-0 bg-diamond">+ Conforto</button>
+        <!--<button type="button" class="btn btn-dark btn-lg rounded-0 btn-full-negro bg-diamond" style="color: #fff;">+ Conforto</button>
+        <button type="button" class="btn btn-dark btn-lg rounded-0 bg-diamond" style="margin-top: 55px;">- Desgasto</button>-->
         <h1 class="display-4 text-center">Explicando como a postura influencia na performace</h1>
         <button type="button" class="btn btn-dark btn-lg rounded-0 btn-full-negro bg-diamond">Saiba mais</button>
       </div>
