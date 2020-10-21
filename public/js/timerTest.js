@@ -65,6 +65,7 @@ function AdjustingInterval(workFunc, interval, errorFunc) {
             msValues.push(textTemp);
         }
         if(msValues.length === 4){
+            timeToFinish = 6;
             $("#millisecondsTest").addClass(".display-none");
             $("#avgResult").append(avgCalc(msValues));
         }
@@ -118,9 +119,13 @@ function avgCalc(arrayCalc) {
     var avg = total / msValues.length;
     console.log("Dividendo: " + msValues.length);
     console.log("Resultado: " + avg);
+    $('.react-grid h2').remove('h2');
+    $('.react-grid h1.esperar').remove('h1');
+    $('.game').removeClass('go-state').removeClass('waiting-state').addClass('finished');
+    $('.react-grid').append(`<h1 class="finished-text">Finished!!!</h1>`);
     $('#avgResult').append('Média de: ' + avg + 'ms');
     console.log(msValues); // just so you can see the content
-
+    ticker.stop();
 }
 
 // (The third argument is optional)
