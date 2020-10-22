@@ -13,8 +13,12 @@ class CreateModelRegistrosTable extends Migration
      */
     public function up()
     {
-        Schema::create('model_registros', function (Blueprint $table) {
+        Schema::create('test_result', function (Blueprint $table) {
             $table->id();
+            $table->string('result_crosshair');
+            $table->string('result_react');
+            $table->unsignedBigInteger('user_id');
+            $table->foreign('user_id')->references('id')->on('users');
             $table->timestamps();
         });
     }
