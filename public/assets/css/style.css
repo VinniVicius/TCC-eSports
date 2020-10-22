@@ -659,7 +659,9 @@ html, body {
 .game.go-state {
     background: rgb(56, 181, 40) none repeat scroll 0% 0%;
 }
-
+.game.finished{
+    background-color: rgb(160, 201, 235) none repeat scroll 0% 0%;
+}
 .game-view {
     padding: 20px;
     height: 540px;

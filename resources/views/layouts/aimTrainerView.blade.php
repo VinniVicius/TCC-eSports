@@ -3,7 +3,7 @@
 <section class="container-fluid px-0 min-vh-100 bg-area-teste" style="padding-top: 100px;">
     <ul class="nav justify-content-center">
         <li id="statusBar" class="nav-item">
-            <span class="nav-link">Score: <span id="score"></span></span>
+            <span class="nav-link">Pontuação: <span id="score"></span></span>
         </li>
     </ul>
     <article class="">
@@ -11,7 +11,7 @@
             <div class="game-view e19owgy79">
                 <div class="desktop-only" style="height: 100%;">
                     <div style="display: flex; flex-direction: column; justify-content: center; position: absolute; left: 0px; right: 0px; top: 20px;">
-                        <h2 style="opacity: 0.5;">Remaining</h2>
+                        <h2 style="opacity: 0.5;">Restam</h2>
                         <h2 id="numberCount" style="font-size: 200%;"></h2>
                     </div>
                     <div class="game-event-area e6yfngs0" style="display: flex;justify-content: center;align-items: center;">

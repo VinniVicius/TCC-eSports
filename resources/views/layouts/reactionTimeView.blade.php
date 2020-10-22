@@ -7,7 +7,7 @@
         </li>
     </ul>
     <article class="">
-        <div id="game-id" class="game e19owgy77" data-running="false">
+        <div id="game-id" onclick="waitingTime()" class="game game-start e19owgy77" data-running="false">
             <div class="game-view e19owgy79">
                 <div class="desktop-only" style="height: 100%;">
                     <div class="react-grid">
