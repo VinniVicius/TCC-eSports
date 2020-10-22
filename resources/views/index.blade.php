@@ -1,17 +1,19 @@
 @extends('templates.main')
 @section('content')
-<section class="jumbotron jumbotron-fluid jumbo-esports">
+<section class="jumbotron jumbotron-fluid jumbo-esports" style="border-bottom: 10px solid #272727;">
   <article class="container">
     <h1 class="display-4">eSports e Saúde</h1>
-    <a type="button" class="btn btn-dark btn-lg rounded-0 btn-full-negro bg-diamond" href="{{route('esports')}}">Saiba mais</a>
+    <a type="button" class="btn btn-dark btn-lg rounded-0 btn-full-negro bg-diamond" href="#Conhecer">Conhecer</a>
   </article>
 </section>
-<section class="container-fluid p-0 bg-dobra-2">
+<section class="container-fluid p-0 bg-dobra-2" id="Conhecer">
   <article class="container-fluid dobra-2">
     <div class="col-lg-6">
       <!--<button type="button" class="btn btn-dark btn-lg rounded-0 btn-full-negro " style="color: #343a40;"></button>-->
-      <h1 class="display-4 text-center w-100">Introdução ao<br> eSports</h1>
       <button type="button" class="btn btn-dark btn-lg btn-diamond-lg rounded-0 bg-diamond">eSports</button>
+      <h2 class="display-5 text-left w-100"><br><br>eSports são jogos competitivos de nível profissional ou semi-profissional<br> 
+        em um formato organizado, com um prêmio ou objetivo específico.<br><br></h2>
+      <a type="button" class="btn btn-dark btn-lg btn-diamond-lg rounded-0 bg-diamond" href="{{route('esports')}}">Saiba Mais</a> 
     </div>
   </article>
 </section>
@@ -25,8 +27,8 @@
 <section class="container-fluid bg-lesions">
   <article class="container-fluid lesions">
     <div style="min-height: inherit;" class="col-lg-6 d-flex flex-wrap justify-content-center align-items-center">
-      <h1 class="display-4 text-center w-100">Falar sobre<br> Lesões</h1>
       <button type="button" class="btn btn-dark btn-lg btn-diamond-lg rounded-0 bg-diamond">Lesões</button>
+      <h1 class="display-5 text-left w-100">Os Gamers tambêm estão sujeitos a Lesões.<br>Conheça algumas das mais comuns e como preveni-las:</h1>
     </div>
   </article>
 </section>
@@ -87,8 +89,8 @@
         <button class="btn btn-dark btn-lg rounded-0 bg-diamond">+ Conforto</button>
         <!--<button type="button" class="btn btn-dark btn-lg rounded-0 btn-full-negro bg-diamond" style="color: #fff;">+ Conforto</button>
         <button type="button" class="btn btn-dark btn-lg rounded-0 bg-diamond" style="margin-top: 55px;">- Desgasto</button>-->
-        <h1 class="display-4 text-center">Explicando como a postura influencia na performace</h1>
-        <button type="button" class="btn btn-dark btn-lg rounded-0 btn-full-negro bg-diamond">Saiba mais</button>
+        <h1 class="display-4 text-left">Sua postura influencia<br> na performance?</h1>
+        <a type="button" class="btn btn-dark btn-lg rounded-0 btn-full-negro bg-diamond" style="width:50%;" href="{{route('posture')}}">Saiba mais</a>
       </div>
     </div>
   </article>
