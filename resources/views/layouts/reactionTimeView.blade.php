@@ -23,6 +23,12 @@
         <p id="seconds"></p>
         <p id="milliseconds"></p>
         <p id="millisecondsTest"></p>
+        <form action="" method="post">
+            @csrf
+            @method('post')
+            <input id="hiddenInputAvg" type="hidden" name="mediaReact">
+            <button type="submit" class="btn btn-lg btn-warning">Ok!</button>
+        </form>
     </article>
 </section>
 @endsection
