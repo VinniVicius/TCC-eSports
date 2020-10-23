@@ -15,8 +15,8 @@ class CreateModelRegistrosTable extends Migration
     {
         Schema::create('test_result', function (Blueprint $table) {
             $table->id();
-            $table->string('result_crosshair');
-            $table->string('result_react');
+            $table->string('result_crosshair')->nullable();
+            $table->string('result_react')->nullable();
             $table->unsignedBigInteger('user_id');
             $table->foreign('user_id')->references('id')->on('users');
             $table->timestamps();

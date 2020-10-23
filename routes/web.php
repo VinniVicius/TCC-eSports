@@ -20,6 +20,7 @@ Route::get('/', 'MainController@index');
 // Test Area
 Route::get('/area-de-testes', 'AreaTesteController@index')->name('areateste');
 Route::get('/area-de-testes/aim-trainer', 'aimTrainerView@index')->name('aimtrainerview');
+Route::post('/area-de-testes/aim-trainer', 'aimTrainerView@store');
 Route::get('/area-de-testes/reaction-time', 'reactionTimeController@index')->name('reactionview');
 
 // Content Page

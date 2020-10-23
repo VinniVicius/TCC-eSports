@@ -59,7 +59,6 @@ function AdjustingInterval(workFunc, interval, errorFunc) {
         if (clickCount != 0) {
             text = $('#millisecondsTestValue').text();
             textTemp = text;
-            console.log("Text Temp: " + textTemp);
             //e.preventDefault();    
             textTemp = parseInt(text);
             msValues.push(textTemp);
@@ -124,6 +123,7 @@ function avgCalc(arrayCalc) {
     $('.game').removeClass('go-state').removeClass('waiting-state').addClass('finished');
     $('.react-grid').append(`<h1 class="finished-text">Finished!!!</h1>`);
     $('#avgResult').append('Média de: ' + avg + 'ms');
+    $('#hiddenInputAvg').val(avg);
     console.log(msValues); // just so you can see the content
     ticker.stop();
 }
