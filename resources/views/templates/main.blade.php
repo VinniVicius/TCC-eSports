@@ -73,12 +73,9 @@
         <li class="nav-item">
           <a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a>
         </li>
-        <li class="nav-item">
-          <div class="nav-link text-white"> | </div>
-        </li>
         @if (Route::has('register'))
-        <li class="nav-item">
-          <a class="nav-link" href="{{ route('register') }}">{{ __('Registrar-se') }}</a>
+        <li class="nav-item bg-diamond">
+          <a class="nav-link btn btn-diamond-lg" href="{{ route('register') }}">{{ __('Criar conta') }}</a>
         </li>
         @endif
         @else
