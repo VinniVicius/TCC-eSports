@@ -1,6 +1,64 @@
 @extends('templates.main')
 @section('content')
 <section class="container-fluid px-0 min-vh-100 bg-area-teste" style="padding-top: 100px;">
+    @if(Auth::user())
+    <!-- Button trigger modal -->
+    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+        Launch demo modal
+    </button>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content bg-dark">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Histórico de resultados</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <table class="table table-striped table-dark">
+                        <thead>
+                            <tr>
+                                <th scope="col">#</th>
+                                <th scope="col">First</th>
+                                <th scope="col">Last</th>
+                                <th scope="col">Handle</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">1</th>
+                                <td>Mark</td>
+                                <td>Otto</td>
+                                <td>@mdo</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">2</th>
+                                <td>Jacob</td>
+                                <td>Thornton</td>
+                                <td>@fat</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">3</th>
+                                <td>Larry</td>
+                                <td>the Bird</td>
+                                <td>@twitter</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    @else
+    <!-- TESTE -->
+    @endif
     <ul class="nav justify-content-center">
         <li id="statusBar" class="nav-item">
             <span class="nav-link">Pontuação: <span id="score"></span></span>
@@ -13,13 +71,11 @@
             <div data-test="true" class="game e19owgy77">
                 <div class="game-view e19owgy79">
                     <div class="desktop-only" style="height: 100%;">
-                        <div
-                            style="display: flex; flex-direction: column; justify-content: center; position: absolute; left: 0px; right: 0px; top: 20px;">
+                        <div style="display: flex; flex-direction: column; justify-content: center; position: absolute; left: 0px; right: 0px; top: 20px;">
                             <h2 style="opacity: 0.5;">Restam</h2>
                             <h2 id="numberCount" style="font-size: 200%;"></h2>
                         </div>
-                        <div class="game-event-area e6yfngs0"
-                            style="display: flex;justify-content: center;align-items: center;">
+                        <div class="game-event-area e6yfngs0" style="display: flex;justify-content: center;align-items: center;">
                             <div id="target">
                                 <div data-aim-target="true" class="css-jo9r9v e6yfngs1">
                                     <div class="css-1qd6j0g e6yfngs2"></div>
@@ -43,9 +99,9 @@
             </div>
             <input id="hiddenInputAvg" type="hidden" name="mediaTest">
             @if(Auth::user())
-                <button type="submit" onclick="stopCount()" class="btn btn-lg btn-warning">Ok!</button>
+            <button type="submit" onclick="stopCount()" class="btn btn-lg btn-warning">Ok!</button>
             @else
-                <button onclick="stopCount()" class="btn btn-lg btn-light">Ok!</button>
+            <button onclick="stopCount()" class="btn btn-lg btn-light">Ok!</button>
             @endif
         </form>
     </article>
