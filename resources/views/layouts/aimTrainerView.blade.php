@@ -4,7 +4,7 @@
     @if(Auth::user())
     <!-- Button trigger modal -->
     <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
-        Launch demo modal
+        Histórico
     </button>
 
     <!-- Modal -->
@@ -22,36 +22,23 @@
                         <thead>
                             <tr>
                                 <th scope="col">#</th>
-                                <th scope="col">First</th>
-                                <th scope="col">Last</th>
-                                <th scope="col">Handle</th>
+                                <th scope="col">Tempo Médio</th>
+                                <th scope="col">Data do Resultado</th>
                             </tr>
                         </thead>
                         <tbody>
+                            @foreach ($resultCorsshairs as $result)
                             <tr>
-                                <th scope="row">1</th>
-                                <td>Mark</td>
-                                <td>Otto</td>
-                                <td>@mdo</td>
+                                <th scope="row">{{$count++}}</th>
+                                <td>{{number_format($result->result_crosshair, 2, '.', ' ')}}</td>
+                                <td>{{date_format($result->created_at,"d/m/Y")}}</td>
                             </tr>
-                            <tr>
-                                <th scope="row">2</th>
-                                <td>Jacob</td>
-                                <td>Thornton</td>
-                                <td>@fat</td>
-                            </tr>
-                            <tr>
-                                <th scope="row">3</th>
-                                <td>Larry</td>
-                                <td>the Bird</td>
-                                <td>@twitter</td>
-                            </tr>
+                            @endforeach
                         </tbody>
                     </table>
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Save changes</button>
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
                 </div>
             </div>
         </div>
@@ -71,11 +58,13 @@
             <div data-test="true" class="game e19owgy77">
                 <div class="game-view e19owgy79">
                     <div class="desktop-only" style="height: 100%;">
-                        <div style="display: flex; flex-direction: column; justify-content: center; position: absolute; left: 0px; right: 0px; top: 20px;">
+                        <div
+                            style="display: flex; flex-direction: column; justify-content: center; position: absolute; left: 0px; right: 0px; top: 20px;">
                             <h2 style="opacity: 0.5;">Restam</h2>
                             <h2 id="numberCount" style="font-size: 200%;"></h2>
                         </div>
-                        <div class="game-event-area e6yfngs0" style="display: flex;justify-content: center;align-items: center;">
+                        <div class="game-event-area e6yfngs0"
+                            style="display: flex;justify-content: center;align-items: center;">
                             <div id="target">
                                 <div data-aim-target="true" class="css-jo9r9v e6yfngs1">
                                     <div class="css-1qd6j0g e6yfngs2"></div>
@@ -101,7 +90,7 @@
             @if(Auth::user())
             <button type="submit" onclick="stopCount()" class="btn btn-lg btn-warning">Ok!</button>
             @else
-            <button onclick="stopCount()" class="btn btn-lg btn-light">Ok!</button>
+            <button type="button" onclick="stopCount()" class="btn btn-lg btn-light">Ok!</button>
             @endif
         </form>
     </article>

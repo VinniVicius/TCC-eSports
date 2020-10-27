@@ -3,8 +3,8 @@
 namespace App\Http\Controllers;
 
 use App\Test_Result;
-use Illuminate\Http\Request;
 use Auth;
+use Illuminate\Http\Request;
 
 class aimTrainerView extends Controller
 {
@@ -15,12 +15,24 @@ class aimTrainerView extends Controller
      */
     public function index()
     {
-        return view("layouts/aimTrainerView");
+
+        if (Auth::user()->id) {
+            $resultCorsshairs = Test_Result::select('result_crosshair', 'created_at')
+            ->where('user_id', Auth::user()->id)
+            ->get();
+
+            $count = 1;
+
+            return view("layouts/aimTrainerView", compact('resultCorsshairs', 'count'));
+        } else {
+            return view("layouts/aimTrainerView");
+        }
+
     }
 
     public function store(Request $request)
     {
-        
+
         Test_Result::create([
             'result_crosshair' => $request->mediaTest,
             'user_id' => Auth::user()->id,
