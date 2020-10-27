@@ -88,9 +88,9 @@
             </div>
             <input id="hiddenInputAvg" type="hidden" name="mediaTest">
             @if(Auth::user())
-            <button type="submit" onclick="stopCount()" class="btn btn-lg btn-warning">Ok!</button>
+            <button type="submit" onclick="stopCount()" class="btn btn-lg btn-warning">Salvar Teste!</button>
             @else
-            <button type="button" onclick="stopCount()" class="btn btn-lg btn-light">Ok!</button>
+            <button type="button" onclick="stopCount()" class="btn btn-lg btn-light">Terminei!</button>
             @endif
         </form>
     </article>

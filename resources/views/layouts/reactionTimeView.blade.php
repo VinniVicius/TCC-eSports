@@ -73,7 +73,7 @@
             @method('post')
             <input id="hiddenInputAvg" type="hidden" name="mediaReact">
             @if(Auth::user())
-            <button type="submit" class="btn btn-lg btn-warning">Terminei!</button>
+            <button type="submit" class="btn btn-lg btn-warning">Salvar Teste!</button>
             @else 
             <button type="button" class="btn btn-lg btn-warning">Terminei!</button>
             @endif
