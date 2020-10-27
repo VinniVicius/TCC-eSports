@@ -15,7 +15,17 @@ class reactionTimeController extends Controller
      */
     public function index()
     {
-        return view("layouts/reactionTimeView");
+        if (Auth::user()->id) {
+            $resultReacts = Test_Result::select('result_react', 'created_at')
+            ->where('user_id', Auth::user()->id)
+            ->get();
+
+            $count = 1;
+
+            return view("layouts/reactionTimeView", compact('resultReacts', 'count'));
+        }else {
+            return view("layouts/reactionTimeView");
+        }        
     }
 
     public function store(Request $request)
