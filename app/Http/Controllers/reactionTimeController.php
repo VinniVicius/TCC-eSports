@@ -15,7 +15,7 @@ class reactionTimeController extends Controller
      */
     public function index()
     {
-        if (Auth::user()->id) {
+        if (isset((Auth::user()->id))) {
             $resultReacts = Test_Result::select('result_react', 'created_at')
             ->where('user_id', Auth::user()->id)
             ->get();

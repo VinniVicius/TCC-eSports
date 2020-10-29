@@ -68,6 +68,7 @@ function AdjustingInterval(workFunc, interval, errorFunc) {
             timeToFinish = 6;
             $("#millisecondsTest").addClass(".display-none");
             $("#avgResult").append(avgCalc(msValues));
+            /*$(".game-view").append('<span>Teste finalizado!</span>');*/
         }
 
 
@@ -122,7 +123,7 @@ function avgCalc(arrayCalc) {
     $('.react-grid h2').remove('h2');
     $('.react-grid h1.esperar').remove('h1');
     $('.game').removeClass('go-state').removeClass('waiting-state').addClass('finished');
-    $('.react-grid').append(`<h1 class="finished-text">Finished!!!</h1>`);
+    $('.react-grid').append(`<h1 class="finished-text">Teste finalizado!!!</h1>`);
     $('#avgResult').append('Média de: ' + avg + 'ms');
     $('#hiddenInputAvg').val(avg);
     console.log(msValues); // just so you can see the content

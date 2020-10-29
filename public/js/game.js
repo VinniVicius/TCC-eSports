@@ -18,6 +18,7 @@ $(document).ready(function () {
       var retvalPosX = generatePosX();
       var retvalPosY = generatePosY();
       $(".game-event-area").removeAttr("style");
+      $(".remaining-count").addClass("counting");
       document.getElementById('numberCount').innerHTML = --x;
       $("#target").attr(`style`, `width: 0px; height: 0px; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, ` + retvalPosX + `, ` + retvalPosY + `, 0, 1);`);
     } else {

@@ -687,7 +687,14 @@ html, body {
     position: relative;
     perspective-origin: center center;
 }
-
+.remaining-count{
+    display: flex; flex-direction: column; justify-content: center; position: absolute; left: 0px; right: 0px; top: 20px;
+    transition: 1s;
+    transition-timing-function: ease-out;
+}
+.remaining-count.counting{
+    top: -40px;
+}
 .css-jo9r9v {
     position: absolute;
     border-radius: 50%;
@@ -703,7 +710,20 @@ html, body {
     transform: translate(-50%, -50%);
     animation: 0.1s ease-out 0s 1 normal none running appear;
 }
-
+@keyframes appear {
+    0% {
+        transform: translate(-50%, -50%) scale(0.5);
+    }
+    50% {
+        transform: translate(-50%, -50%) scale(1.2);
+    }
+    100% {
+        transform: translate(-50%, -50%) scale(1);
+    }
+  }
+/*.e6yfngs1{
+    display: none;
+}*/
 .css-z6vxiy {
     position: absolute;
     border-radius: 50%;
@@ -732,6 +752,9 @@ html, body {
     display: flex;
     align-items: center;
 }
+.desktop-only-warning{
+    display: none;
+}
 /* ------------------------------------------------------------------------------------------------------
     Media Query (min to max):
  -------------------------------------------------------------------------------------------------------- */
@@ -739,6 +762,9 @@ html, body {
 /* Large devices (desktops, 992px and up) */
 
 @media (min-width: 992px) {
+    .desktop-only{
+        display: block;
+    }
     .img__container{
         display: flex;
         justify-content: center;
@@ -813,6 +839,14 @@ html, body {
 @media (max-width: 991.98px) {
     html, body{
         font-size: 12px;
+    }
+    .desktop-only{
+        display: none;
+    }
+    .desktop-only-warning{
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     .lesions {
         min-height: 450px;
