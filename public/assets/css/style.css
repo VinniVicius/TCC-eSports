@@ -645,7 +645,8 @@ html, body {
 /* TESTING STUFFS */
 
 .game {
-    background: rgb(43, 135, 209) none repeat scroll 0% 0%;
+    background: rgba(55, 65, 72, 0.3) none repeat scroll 0% 0%;
+    /*background: rgb(43, 135, 209) none repeat scroll 0% 0%;*/
     position: relative;
     user-select: none;
     overflow: hidden;
@@ -725,6 +726,12 @@ html, body {
     align-items: center;
 }
 
+.list-group-count{
+    color: #fff;
+    background-color: #f0f0f00a;
+    display: flex;
+    align-items: center;
+}
 /* ------------------------------------------------------------------------------------------------------
     Media Query (min to max):
  -------------------------------------------------------------------------------------------------------- */

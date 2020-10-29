@@ -16,7 +16,7 @@ class aimTrainerView extends Controller
     public function index()
     {
 
-        if (Auth::user()->id) {
+        if (isset((Auth::user()->id))) {
             $resultCorsshairs = Test_Result::select('result_crosshair', 'created_at')
             ->where('user_id', Auth::user()->id)
             ->get();

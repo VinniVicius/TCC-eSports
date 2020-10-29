@@ -5,7 +5,7 @@ var millisecondsTest = $('#millisecondsTest');
 
 function setDateMs() {
     isZero(ms);
-    milliseconds.html(`<strong id="millisecond" data-ms-value="` + ms + `">` + ms + '</strong> Milisegundo' + (ms > 1 ? 's' : ''));
+    /*milliseconds.html(`<strong id="millisecond" data-ms-value="` + ms + `">` + ms + '</strong> Milisegundo' + (ms > 1 ? 's' : ''));*/
 
     /*setTimeout(setDateMs, 10);*/
 }

@@ -24,7 +24,7 @@ $(document).ready(function () {
       $(".desktop-only").attr(`style`, `display: none;`);
     }
 
-    switch (run) {
+    /*switch (run) {
       case true:
         clearTimeout(setDate);
         break;
@@ -43,14 +43,14 @@ $(document).ready(function () {
         break;
       default:
         break;
-    };
+    };*/
     ticker.reset();
     //ticker.stop();
     // You can also change the interval while it's in progress
     ticker.interval = 10;
     //getValue();
     //cleanMs(text);
-    document.getElementById('score').innerHTML = score += 10;
+    //document.getElementById('score').innerHTML = score += 10;
     clickCount++;
     console.log("Click count: " + clickCount);
   });

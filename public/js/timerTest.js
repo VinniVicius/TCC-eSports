@@ -45,6 +45,7 @@ function AdjustingInterval(workFunc, interval, errorFunc) {
         if(msValues.length === 4){
             $("#millisecondsTest").addClass(".display-none");
             $("#avgResult").append(avgCalc(msValues));
+            $(".game-view").append('<span>Teste finalizado!</span>');
         }
 
 
@@ -101,7 +102,7 @@ var doWork = function () {
         else {
             justSomeNumber += 10;
         }
-        millisecondsTest.html('<strong id="millisecondsTestValue">' + justSomeNumber + '</strong> Milisegundo' + (justSomeNumber > 1 ? 's' : ''));
+        millisecondsTest.html('<strong id="millisecondsTestValue" style="padding-right: 5px;">' + justSomeNumber + '</strong> Milisegundo' + (justSomeNumber > 1 ? 's' : ''));
     }
 };
 
