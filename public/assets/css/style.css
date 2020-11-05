@@ -683,12 +683,12 @@ html, body {
 }
 
 .game-event-area {
-    height: 100%;
+    height: calc(-250px + 100vh);
     position: relative;
     perspective-origin: center center;
 }
 .remaining-count{
-    display: flex; flex-direction: column; justify-content: center; position: absolute; left: 0px; right: 0px; top: 20px;
+    display: flex; flex-direction: column; justify-content: center; /*position: absolute; left: 0px; right: 0px; top: 20px;*/
     transition: 1s;
     transition-timing-function: ease-out;
 }

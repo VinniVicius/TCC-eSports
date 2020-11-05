@@ -59,11 +59,11 @@
                     <div class="desktop-only" style="height: 100%;">
                         <div class="remaining-count" style="">
                             <h2 style="opacity: 0.5;">Restam</h2>
-                            <h2 id="numberCount" style="font-size: 200%;"></h2>
+                            <h2 id="numberCount" class="d-none" style="font-size: 200%;"></h2>
                         </div>
                         <div class="game-event-area e6yfngs0" style="display: flex;justify-content: center;align-items: center;">
                             <div id="target">
-                                <div data-aim-target="true" class="css-jo9r9v e6yfngs1">
+                                <div id="anim-target" data-aim-target="true" class="css-jo9r9v e6yfngs1">
                                     <div class="css-1qd6j0g e6yfngs2"></div>
                                     <div style="width: 33.333px; height: 33.333px;" class="css-z6vxiy"></div>
                                     <div style="width: 66.667px; height: 66.667px;" class="css-z6vxiy"></div>

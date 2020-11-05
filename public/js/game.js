@@ -10,15 +10,17 @@ var clickCount = 0;
 
 $(document).ready(function () {
 
-  var x = 5;
+  var x = 10;
 
   document.getElementById('numberCount').innerHTML = x;
   $("#target").on("click", function () {
     if (x != 1) {
+      restartAnim();
       var retvalPosX = generatePosX();
       var retvalPosY = generatePosY();
       $(".game-event-area").removeAttr("style");
       $(".remaining-count").addClass("counting");
+      $("#numberCount").removeClass("d-none");
       document.getElementById('numberCount').innerHTML = --x;
       $("#target").attr(`style`, `width: 0px; height: 0px; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, ` + retvalPosX + `, ` + retvalPosY + `, 0, 1);`);
     } else {
@@ -57,6 +59,17 @@ $(document).ready(function () {
   });
 
 });
+
+function restartAnim(){
+  // restart animation
+  var me;
+  me = document.getElementById("anim-target");
+  me.style.webkitAnimation = 'none';
+  setTimeout(function() {
+      me.style.webkitAnimation = '';
+  }, 1);
+};
+
 function getValue() {
   text = $('#millisecondsTest').text();
   console.log(text);

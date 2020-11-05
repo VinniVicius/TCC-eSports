@@ -9,6 +9,7 @@ var timeToFinish = 5;
 if (timeToFinish === 6) {
     ticker.stop();
     $(".desktop-only").attr(`style`, `display: none;`);
+    $(".desktop-only").removeAttr('id');
     alert('DONE!');
     // $("#avgResult").append(avgCalc(msValues));
 } else {
@@ -63,8 +64,8 @@ function goTime() {
         getAwaitTime = 0;
         $('.react-grid h1').remove('h1'); console.log('adding Go-state');
         $('.game').removeClass('waiting-state').addClass('go-state');
-        $('.react-grid').append('<h2>Go!</h2>');
-        $('.game').on('click', function () {
+        $('.react-grid').append('<h2>Clique!</h2>');
+        $('#game-id').on('click', function () {
             $('#game-id').data('running', 0); //setter
             waitingTime();
         });

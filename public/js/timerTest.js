@@ -42,7 +42,7 @@ function AdjustingInterval(workFunc, interval, errorFunc) {
             textTemp = parseInt(text);
             msValues.push(textTemp);
         }
-        if(msValues.length === 4){
+        if(msValues.length === 9){
             $("#millisecondsTest").addClass(".display-none");
             $("#avgResult").append(avgCalc(msValues));
             $(".game-view").append('<span>Teste finalizado!</span>');
@@ -94,7 +94,7 @@ var justSomeNumber = 0;
 
 // Define the work to be done
 var doWork = function () {
-    if (clickCount === 5) {
+    if (clickCount === 10) {
         return;
     } else {
         if (miliValue == 1) {
@@ -127,6 +127,7 @@ function avgCalc(arrayCalc) {
     $('#avgResult').append('Média de: ' + avg + 'ms');
     $('#hiddenInputAvg').val(avg);
     console.log(msValues); // just so you can see the content
+    $("#game-id").prop("onclick", null).off("click");
     ticker.stop();
 }
 
