@@ -19,28 +19,28 @@ Route::get('/', 'MainController@index');
 
 // Test Area
 Route::get('/area-de-testes', 'AreaTesteController@index')->name('areateste');
-Route::get('/area-de-testes/aim-trainer', 'aimTrainerView@index')->name('aimtrainerview');
-Route::post('/area-de-testes/aim-trainer', 'aimTrainerView@store');
-Route::get('/area-de-testes/reaction-time', 'reactionTimeController@index')->name('reactionview');
-Route::post('/area-de-testes/reaction-time', 'reactionTimeController@store');
+Route::get('/area-de-testes/treino-de-mira', 'aimTrainerView@index')->name('aimtrainerview');
+Route::post('/area-de-testes/treino-de-mira', 'aimTrainerView@store');
+Route::get('/area-de-testes/tempo-de-reação', 'reactionTimeController@index')->name('reactionview');
+Route::post('/area-de-testes/tempo-de-reação', 'reactionTimeController@store');
 
 // Content Page
 Route::get('/conteudo/esports', 'EsportsController@index')->name('esports');
-Route::get('/conteudo/eyestrain', 'EyestrainController@index')->name('eyestrain');
-Route::get('/conteudo/tendonitis', 'TendonitisController@index')->name('tendonitis');
-Route::get('/conteudo/headache', 'HeadacheController@index')->name('headache');
-Route::get('/conteudo/mouseshoulder', 'MouseShoulderController@index')->name('mouseshoulder');
-Route::get('/conteudo/mouseelbow','MouseElbowController@index')->name('mouseelbow');
-Route::get('/conteudo/disfunction', 'DisfunctionController@index')->name('disfunction');
-Route::get('/conteudo/syndrome', 'SyndromeController@index')->name('syndrome');
-Route::get('/conteudo/tenosynovitis','TenosynovitisController@index')->name('tenosynovitis');
+Route::get('/conteudo/fadiga-ocular', 'EyestrainController@index')->name('eyestrain');
+Route::get('/conteudo/tendinite', 'TendonitisController@index')->name('tendonitis');
+Route::get('/conteudo/dor-de-cabeca', 'HeadacheController@index')->name('headache');
+Route::get('/conteudo/ombro-do-mouse', 'MouseShoulderController@index')->name('mouseshoulder');
+Route::get('/conteudo/cotovelo-do-mouse','MouseElbowController@index')->name('mouseelbow');
+Route::get('/conteudo/disfuncao-da-articulacao-sacroiliaca', 'DisfunctionController@index')->name('disfunction');
+Route::get('/conteudo/sindrome-cruzada-superior', 'SyndromeController@index')->name('syndrome');
+Route::get('/conteudo/tenossinovite-estenosante','TenosynovitisController@index')->name('tenosynovitis');
 
 // Recommendation Page
-Route::get('/recomendacoes/sleep', 'SleepController@index')->name('sleep');
-Route::get('/recomendacoes/lunch', 'LunchController@index')->name('lunch');
-Route::get('/recomendacoes/hydration', 'HydrationController@index')->name('hydration');
-Route::get('/recomendacoes/fatigue', 'FatigueController@index')->name('fatigue');
-Route::get('/recomendacoes/posture', 'PostureController@index')->name('posture');
+Route::get('/recomendacoes/habitos-de-sono', 'SleepController@index')->name('sleep');
+Route::get('/recomendacoes/alimetacao', 'LunchController@index')->name('lunch');
+Route::get('/recomendacoes/hidratacao', 'HydrationController@index')->name('hydration');
+Route::get('/recomendacoes/fatiga-do-sono', 'FatigueController@index')->name('fatigue');
+Route::get('/recomendacoes/postura', 'PostureController@index')->name('posture');
 
 Auth::routes();
 

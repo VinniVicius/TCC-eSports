@@ -41,11 +41,6 @@
     @else
     <!-- TESTE -->
     @endif
-    <!--<ul class="nav justify-content-center">
-        <li id="statusBar" class="nav-item">
-            <span class="nav-link">Score: <span id="score"></span></span>
-        </li>
-    </ul>-->
     <article class="">
         <div class="game game-start e19owgy77" >
             <div class="game-view e19owgy79">
@@ -60,7 +55,6 @@
                 </div>
                 <div class="desktop-only-warning">
                     <p>A área de testes foi projetada para desktops ou notebooks</p>
-                    <!--<p id="avgResult"></p>-->
                 </div>
             </div>
         </div>
@@ -81,5 +75,24 @@
             </div>
         </form>
     </article>
+</section>
+<section class="container-fluid bg-area-teste pb-3">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg pb-3">
+            <span>Breve sugestão de jogos em que sua reação é crucial.</span>
+            </div>
+            <div class="w-100"></div>
+            <div class="col-lg-4 pb-3">
+                <ul id="list_games" class="list-group list-group-flush">
+
+                </ul>
+            </div>
+            <div class="w-100"></div>
+            <div class="col-lg d-flex align-items-center">
+                <a class="text-white" href="https://store.steampowered.com/search/?term=Counter+Strike" target="_blank">Ver jogos.</a>
+            </div>
+        </div>
+    </div>
 </section>
 @endsection

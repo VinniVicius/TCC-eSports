@@ -41,11 +41,6 @@
     @else
     <!-- TESTE -->
     @endif
-    <!--<ul class="nav justify-content-center">
-        <li id="statusBar" class="nav-item">
-            <span class="nav-link">Pontuação: <span id="score"></span></span>
-        </li>
-    </ul>-->
     <article class="">
         <form method="post">
             @csrf
@@ -76,16 +71,9 @@
                     </div>
                     <div class="desktop-only-warning">
                         <p>A área de testes foi projetada para desktops ou notebooks</p>
-                        <!--<p>This test is intended to be taken on a desktop or laptop. (Or make your browser window larger)</p>-->
                     </div>
                 </div>
             </div>
-            <!--<ul class="list-group list-group-horizontal justify-content-center bg-transparent" style="min-height: 64px;">
-                <li id="seconds" class="list-group-item list-group-item-dark list-group-count"></li>
-                <li id="milliseconds" class="list-group-item list-group-item-dark list-group-count"></li>
-                <li id="millisecondsTest" class="list-group-item list-group-item-dark list-group-count"></li>
-                <li id="avgResult" class="list-group-item list-group-item-dark list-group-count"></li>
-            </ul>-->
             <input id="hiddenInputAvg" type="hidden" name="mediaTest">
             <div class="p-3">
                 @if(Auth::user())
@@ -104,12 +92,18 @@
 <section class="container-fluid bg-area-teste pb-3">
     <div class="container">
         <div class="row">
-            <div class="col-lg">
-                <div id="card__deck" class="card-deck">
-                    
-                </div>
-                <div id="demo" class="text-dark">
-                </div>
+            <div class="col-lg pb-3">
+            <span>Breve sugestão de jogos em que sua mira é crucial.</span>
+            </div>
+            <div class="w-100"></div>
+            <div class="col-lg-4 pb-3">
+                <ul id="list_games" class="list-group list-group-flush">
+
+                </ul>
+            </div>
+            <div class="w-100"></div>
+            <div class="col-lg d-flex align-items-center">
+                <a class="text-white" href="https://store.steampowered.com/search/?term=Counter+Strike" target="_blank">Ver jogos.</a>
             </div>
         </div>
     </div>
