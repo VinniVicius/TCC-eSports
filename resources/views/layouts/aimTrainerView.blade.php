@@ -54,7 +54,7 @@
                 <div class="game-view e19owgy79">
                     <div style="position: absolute; top: 1rem; left: 1rem;">
                         <span class="list-group-count" id="millisecondsTest"></span>
-                        <span  class="list-group-count" id="avgResult"></span>
+                        <span class="list-group-count" id="avgResult"></span>
                     </div>
                     <div class="desktop-only" style="height: 100%;">
                         <div class="remaining-count" style="">
@@ -88,17 +88,33 @@
             </ul>-->
             <input id="hiddenInputAvg" type="hidden" name="mediaTest">
             <div class="p-3">
-            @if(Auth::user())
-            <button type="submit" onclick="stopCount()" class="btn btn-dark bg-diamond">Salvar Teste!</button>
-            <!-- Button trigger modal -->
-            <button type="button" class="btn btn-primary bg-diamond" data-toggle="modal" data-target="#exampleModal">
-                Histórico
-            </button>
-            @else
-            <button type="button" onclick="stopCount()" class="btn btn-lg btn-light">Terminei!</button>
-            @endif
+                @if(Auth::user())
+                <button type="submit" onclick="stopCount()" class="btn btn-dark bg-diamond">Salvar Teste!</button>
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary bg-diamond" data-toggle="modal" data-target="#exampleModal">
+                    Histórico
+                </button>
+                @else
+                <button type="button" onclick="stopCount()" class="btn btn-lg btn-light">Terminei!</button>
+                @endif
             </div>
         </form>
     </article>
 </section>
+<section class="container-fluid bg-area-teste pb-3">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg">
+                <div id="card__deck" class="card-deck">
+                    
+                </div>
+                <div id="demo" class="text-dark">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<script>
+
+</script>
 @endsection
