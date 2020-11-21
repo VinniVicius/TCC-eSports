@@ -82,15 +82,12 @@
             <span>Sentado por muito tempo</span><br> 
             A posição estática prolongada, mesmo em uma postura sentada "mais apropriada", pode eventualmente levar à disfunção da articulação sacroilíaca.<br id="Content4">
             Certifique-se de fazer pausas !
-
         </p>
     </article>
 </section>
-
 <section class="container-fluid bg-eyestrain2-content">
     <article class="container" style="padding-bottom: 20px; padding-top: 20px;">
         <p class="text-center">
-        
             <span>Prevenção</span>
             <br>
             <br>
@@ -100,15 +97,12 @@
             Às vezes, um simples lembrete pode ajudar a manter seu corpo em uma posição melhor.<br><br> 
             No entanto, ficar sentado por muito tempo - especialmente em uma posição inadequada - criará os desequilíbrios musculares descritos anteriormente.
             Quando isso acontece, simplesmente pensar em sentar-se de maneira mais adequada ainda pode ser ineficaz.
-
         </p>
     </article>
 </section>
-
 <section class="container-fluid bg-eyestrain2-content">
     <article class="container" style="padding-bottom: 20px; padding-top: 20px;">
-        <p class="text-center" style="font-size: 15px;">
-        
+        <p class="text-center" style="font-size: 15px;">        
             <span style="color: red; font-size:30px;">Aviso Legal</span>
             <br>
             <br>
@@ -117,9 +111,7 @@
             As informações contidas neste site não estabelecem, nem implicam, relação médico-paciente. <br><br>O Site e os desenvolvedores não oferece 
             essas informações para fins de diagnóstico. Um diagnóstico não deve ser presumido com base nas informações 
             fornecidas.
-
         </p>
     </article>
 </section>
-
 @endsection

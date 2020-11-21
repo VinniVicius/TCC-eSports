@@ -57,21 +57,6 @@
     </article>
     <!--/row row-cols -->
   </div>
-
-
-  <!--<div class="col-lg-5">
-        <a type="button" class="btn btn-dark btn-lg rounded-0 col-5 btn-full-negro bg-diamond " style="color: #fff;" href="{{route('eyestrain')}}">Fadiga Ocular</a>
-        <a type="button" class="btn btn-dark btn-lg rounded-0 col-5 btn-full-negro bg-diamond" style="color: #fff;" href="{{route('tendonitis')}}">Tendinite</a>
-        <a type="button" class="btn btn-dark btn-lg rounded-0 col-5 btn-full-negro bg-diamond" style="color: #fff;" href="{{route('headache')}}">Dor de Cabeça (Tensão)</a>
-        <a type="button" class="btn btn-dark btn-lg rounded-0 col-5 btn-full-negro bg-diamond" style="color: #fff;" href="{{route('mouseshoulder')}}">Ombro do Mouse</a>
-      </div>
-      <div class="col-lg-2"></div>
-      <div class="col-lg-5">
-      <a type="button" class="btn btn-dark btn-lg rounded-0 col-5 bg-diamond" style="background-color: #0eb7b7;" href="{{route('mouseelbow')}}">Cotovelo do Mouse</a>
-      <a type="button" class="btn btn-dark btn-lg rounded-0 col-5 bg-diamond" style="background-color: #0eb7b7;" href="{{route('disfunction')}}">Disfunção da Articulação Sacroilíaca (SI)</a>
-      <a type="button" class="btn btn-dark btn-lg rounded-0 col-5 bg-diamond" style="background-color: #0eb7b7;" href="{{route('syndrome')}}">Síndrome Cruzada Superior</a>
-      <a type="button" class="btn btn-dark btn-lg rounded-0 col-5 bg-diamond" style="background-color: #0eb7b7;" href="{{route('tenosynovitis')}}">Tenossinovite Estenosante</a>
-      </div>-->
 </section>
 
 
@@ -87,22 +72,16 @@
       <div class="col-lg-6">
         <button class="btn btn-dark btn-lg rounded-0 bg-diamond">- Desconforto</button>
         <button class="btn btn-dark btn-lg rounded-0 bg-diamond">+ Conforto</button>
-        <!--<button type="button" class="btn btn-dark btn-lg rounded-0 btn-full-negro bg-diamond" style="color: #fff;">+ Conforto</button>
-        <button type="button" class="btn btn-dark btn-lg rounded-0 bg-diamond" style="margin-top: 55px;">- Desgasto</button>-->
         <h1 class="display-4 text-left">Sua postura influencia<br> na performance?</h1>
         <a type="button" class="btn btn-dark btn-lg rounded-0 btn-full-negro bg-diamond" style="width:50%;" href="{{route('posture')}}">Saiba mais</a>
       </div>
     </div>
   </article>
 </section>
-
-
 <section class="container-fluid altura bg-diamond" style="border-bottom: 5px solid #0eb7b7; background-color: #1A1818;">
   <article class="container">
   </article>
 </section>
-
-
 <section class="container-fluid bg-teste">
   <article class="container">
     <div class="row justify-content-center align-items-center" style="min-height: 35vh;">
@@ -133,8 +112,6 @@
     </div>
   </article>
 </section>
-
-
 <div class="w-100"></div>
 <div class="col"></div>
 @endsection
