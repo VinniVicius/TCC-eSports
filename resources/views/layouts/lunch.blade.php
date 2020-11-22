@@ -37,8 +37,8 @@
             <br>
             Um lanche pode ser qualquer alimento ingerido em pequenas quantidades entre as refeições completas. De um modo geral, comer lanches
             não é a técnica recomendada para consumir os nutrientes diários. <br><br>No entanto, nem sempre é fácil se comprometer com três refeições completas
-            sem o lanche ocasional - especialmente durante o jogo e / ou streaming.<br>
-            Apesar de ser um hábito aquém do ideal, reconhecemos a inevitabilidade de petiscar.<br>
+            sem o lanche ocasional - especialmente durante o jogo e/ou streaming.<br>
+            Apesar de ser um hábito além do ideal, reconhecemos a inevitabilidade de petiscar.<br>
             E assim, compilamos uma lista de sete lanches saudáveis ​​para jogadores para você desfrutar enquanto joga, o que reduzirá os potenciais efeitos nocivos de comer.
             <br id="Content2">
         </p>
@@ -78,7 +78,7 @@
             Amêndoas ou manteiga de amêndoa são lanches perfeitos e saudáveis ​​para jogadores - desde que, é claro, você não tenha alergia a elas.<br>
             Se você escolher manteiga de amêndoa, sugerimos comê-la com aipo em vez de pão, biscoitos ou bolos de arroz para ajudar a manter a insulina sob controle.
             <br><br>
-            De acordo com o USDA , esses são os fatos resumidos de macronutrientes para amêndoas, tamanho da porção: 1 concha (28,35 g)<br><br>
+            De acordo com o USDA , esses são os fatos resumidos de macronutrientes para amêndoas, tamanho da porção: 28,35 g<br><br>
 
             Calorias: 164<br>
             Proteína: 6 g<br>
@@ -103,7 +103,7 @@
             Novamente, se você decidir usar a alternativa à manteiga de nozes, recomendamos que use aipo em vez de pão, biscoitos ou bolos de arroz para ajudar a manter a
             insulina sob controle.<br><br>
 
-            De acordo com o USDA , estes são os fatos resumidos de macronutrientes para nozes de macadâmia, tamanho da porção: 1 concha (28,35 g)<br><br>
+            De acordo com o USDA , estes são os fatos resumidos de macronutrientes para nozes de macadâmia, tamanho da porção: 28,35 g<br><br>
 
             Calorias: 203<br>
             Proteína: 2,21 g<br>
@@ -129,7 +129,7 @@
             E, novamente, se você decidir usar a alternativa da manteiga de amendoim, continuamos a recomendar o uso de aipo em vez de pão, biscoitos
             ou bolos de arroz para ajudar a manter sua insulina sob controle.<br><br>
 
-            De acordo com o USDA , estes são os fatos resumidos de macronutrientes para nozes de macadâmia, tamanho da porção: 1 concha (28,35 g)<br><br>
+            De acordo com o USDA , estes são os fatos resumidos de macronutrientes para nozes de macadâmia, tamanho da porção: 28,35 g<br><br>
 
             Calorias: 163<br>
             Proteína: 4,43 g<br>
@@ -154,7 +154,7 @@
             Seguindo a tendência das nozes como lanches saudáveis ​​para jogadores, os pistaches são outra.<br>
             Da mesma forma, certifique-se de não ser alérgico a pistache antes de comê-los ou tocá-los.<br><br>
 
-            De acordo com o USDA , esses são os fatos resumidos de macronutrientes para pistache, tamanho da porção: 1 concha (28,35 g)<br><br>
+            De acordo com o USDA , esses são os fatos resumidos de macronutrientes para pistache, tamanho da porção: 28,35 g<br><br>
 
             Calorias: 162<br>
             Proteína: 5,97 g<br>
@@ -180,7 +180,7 @@
             E, novamente, se você decidir usar a alternativa da manteiga de amendoim, continuamos a recomendar o uso de aipo em vez de pão, biscoitos ou bolos de
             arroz para ajudar a manter sua insulina sob controle.<br><br>
 
-            De acordo com o USDA , estes são os dados resumidos de macronutrientes para amendoins, tamanho da porção: 1 concha (28,35 g)<br><br>
+            De acordo com o USDA , estes são os dados resumidos de macronutrientes para amendoins, tamanho da porção: 28,35 g<br><br>
 
             Calorias: 166<br>
             Proteína: 6,9 g<br>
@@ -204,7 +204,7 @@
         <p class="text-left">
             <br>
             Se amendoim ou nozes não são seus favoritos, abacate ou guacamole são outros petiscos deliciosos e saudáveis ​​para os jogadores. <br>
-            Se você decidir amassar seu (s) abacate (s) em guacamole, recomendamos comê-lo com ovos cozidos, rolos de carne de peru, chips de tortilla sem grãos,
+            Se você decidir amassar seu(s) abacate(s) em guacamole, recomendamos comê-lo com ovos cozidos, rolos de carne de peru, chips de tortilla sem grãos,
             palitos de cenoura ou biscoitos de farinha de amêndoa em vez de biscoitos de pão, trigo ou grãos ou Bolinhos de arroz para ajudar a manter a insulina sob controle.<br>
             <br>
 
@@ -212,7 +212,7 @@
             Os abacates são uma boa fonte de muitas vitaminas (vitamina B6 e C, por exemplo) e minerais (potássio), fibra alimentar (~ 10 g) e um grande volume
             de ácidos graxos monoinsaturados saudáveis ​​para o coração (14,3 g).<br><br>
 
-            De acordo com o USDA , estes são os dados resumidos de macronutrientes para abacates, tamanho da porção: 1 concha (146 g)<br><br>
+            De acordo com o USDA , estes são os dados resumidos de macronutrientes para abacates, tamanho da porção: 146 g<br><br>
 
             Calorias: 234<br>
             Proteína: 2,92 g<br>

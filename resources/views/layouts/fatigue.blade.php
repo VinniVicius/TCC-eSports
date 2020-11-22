@@ -2,7 +2,7 @@
 @section('content')
 <section class="container-fluid bg-eyestrain">
     <div class="row justify-content-center align-items-center">
-        <button type="button" class="btn btn-dark btn-lg rounded-0 btn-full-negro bg-diamond mb-3">Fadiga do Sono</button>
+        <button type="button" class="btn btn-dark btn-lg rounded-0 btn-full-negro bg-diamond mb-3">Cansaço do Jogo</button>
         <div class="w-100"></div>
         <img class="img-fluid" src="/assets/img/fadiga1.png" alt="" srcset="">
     </div>
@@ -15,9 +15,9 @@
                 <ul>
                     <li><a href="#Content1" class="card-link">Introdução</a></li>
                     <li><a href="#Content2" class="card-link">Como isso acontece?</a></li>
-                    <li><a href="#Content3" id="Content1" class="card-link">Sintomas de fadiga do jogo</a></li>
-                    <li><a href="#Content4" class="card-link">Como prevenir a fadiga do jogo</a></li>
-                    <li><a href="#Content5" class="card-link">Dicas pra previnir a Fadiga</a></li>
+                    <li><a href="#Content3" id="Content1" class="card-link">Sintomas de cansaço do jogo</a></li>
+                    <li><a href="#Content4" class="card-link">Como prevenir o cansaço do jogo</a></li>
+                    <li><a href="#Content5" class="card-link">Dicas pra previnir o cansaço</a></li>
                 </ul>
             </div>
         </div>
@@ -57,7 +57,7 @@
             Na comunidade de jogos, parece que muito desse estresse é alimentado pela pressão para fazer mais -
             transmitir mais horas por dia e mais dias por semana, grindar seu jogo até ter sua chance no nível profissional e assim por diante.<br><br>
 
-            Essa pressão não é necessariamente auto-induzida. Organizações de esportes, organizadores de torneios ou outros empregadores /
+            Essa pressão não é necessariamente auto-induzida. Organizações de esportes, organizadores de torneios ou outros empregadores/
             gerentes podem ser a fonte de estresse para a expectativa de desempenho.<br><br>
 
             Esse comprometimento extremo com a rotina pode levar à negligência ou desinteresse por outros aspectos de sua vida.
@@ -72,7 +72,7 @@
 <section class="container-fluid bg-eyestrain2-content">
     <article class="container" style="padding-bottom: 20px; padding-top: 20px;">
         <p class="text-center">
-            <span>Sintomas de fadiga do jogo / esgotamento do jogo</span>
+            <span>Sintomas de cansaço do jogo/esgotamento do jogo</span>
             <br><br>
             <li>Esgotamento mental e físico</li>
             Se você sofre de fadiga de jogo ou esgotamento, provavelmente terá sintomas de exaustão, que incluem cansaço, letargia, irritação e esgotamento emocional.<br>
@@ -100,9 +100,9 @@
 <section class="container-fluid bg-eyestrain2-content">
     <article class="container" style="padding-bottom: 20px; padding-top: 20px;">
         <p class="text-center">
-            <span>Como prevenir a fadiga do jogo / esgotamento do jogo</span>
+            <span>Como prevenir o cansaço do jogo/esgotamento do jogo</span>
             <br><br>
-            Para evitar o cansaço do jogo, você precisa DESCANSE! Realmente se resume a um descanso suficiente. No entanto, essa noção simples tem muitas partes móveis.<br>
+            Para evitar o cansaço do jogo, você precisa DESCANSAR! Realmente se resume a um descanso suficiente. No entanto, essa noção simples tem muitas partes móveis.<br>
             <li>Mais importante ainda, durma!</li>
             A importância do sono suficiente não pode ser subestimada. A realidade é: sem sono suficiente, todos os aspectos da sua saúde e bem-estar são afetados.<br><br>
 
@@ -110,7 +110,7 @@
             (ou seja, tempo de reação, condução nervosa, velocidade e força contrátil muscular), diminui seu foco, suprime sua memória,
             inibe a capacidade de aprender e muito mais.<br><br>
 
-            Especificamente em relação à fadiga do jogo, seu corpo não limpará apropriadamente os subprodutos tóxicos dos processos fisiológicos
+            Especificamente em relação à cansaço do jogo, seu corpo não limpará apropriadamente os subprodutos tóxicos dos processos fisiológicos
             durante a vigília, tanto no sangue quanto nos sistemas orgânicos - um dos quais é o cérebro.
         </p>
         <div class="row justify-content-center">
@@ -129,7 +129,7 @@
 <section class="container-fluid bg-eyestrain2-content">
     <article class="container" style="padding-bottom: 20px; padding-top: 20px;">
         <p class="text-center">
-            <span>Dicas pra previnir a Fadiga</span>
+            <span>Dicas pra previnir o cansaço</span>
         </p>
         <p class="text-left">
             <br>
@@ -153,7 +153,7 @@
             joga videogame principalmente em casa? Agende um tempo fora de casa a cada semana para fazer algo diferente. <br>
             Afastar-se fisicamente de tudo ajudará sua mente e seu corpo a lidar com o estresse do trabalho excessivo.<br><br>
 
-            Fazer pausas inclui separação regular (isto é, tempo de inatividade programado semanalmente) e separação em estilo de férias de sua embarcação.<br>
+            Fazer pausas inclui separação regular (isto é, tempo de inatividade programado semanalmente) e separação em estilo de férias de sua vida.<br>
             jogos são seu trabalho ou você gostaria que fosse. Portanto, você precisa tratá-lo como tal e tirar férias para descontrair e relaxar.<br><br>
 
             <li>Saúde Mental</li>

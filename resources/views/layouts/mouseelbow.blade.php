@@ -6,7 +6,7 @@
 
 <section class="container-fluid bg-eyestrain">
     <div class="row justify-content-center align-items-center" style="min-height: 35vh;">
-      <button type="button" class="btn btn-dark btn-lg rounded-0 btn-full-negro bg-diamond">Cotovelo do Mouse</button>
+      <button type="button" class="btn btn-dark btn-lg rounded-0 btn-full-negro bg-diamond">Epicondilose Lateral</button>
      </div>
 </section>
 
@@ -14,23 +14,23 @@
 
 <section class="container-fluid bg-eyestrain2-content">
     <article class="container" style="padding-bottom: 20px; padding-top: 20px;">
-        <p class="text-center">
+        <p class="text-left">
         
             <span style="color: #0eb7b7; font-size:30px;">Sintomas</span>
 
-            <li>Dor;</li>
+            <li>Dor</li>
             <br>
             Na maioria das vezes, você sentirá dor na parte externa do cotovelo com movimentos de punho e aperto 
-            Dobrar o pulso e os dedos para trás causará dor ao contrair os músculos extensores Flexionar o pulso e os dedos para frente 
+            Dobrar o pulso e os dedos para trás causará dor ao contrair os músculos extensores. Flexionar o pulso e os dedos para frente 
             causará dor ao alongar os músculos extensores
             <br><br>
-            <li>Fraqueza;</li>
+            <li>Fraqueza</li>
             <br>
             A pegada pode parecer fraca; no entanto, sua fraqueza percebida é mais provável devido à dor do que à fraqueza muscular verdadeira.
             <br><br>
             <li>Outros sintomas podem incluir</li>
             <br>
-            Sintomas mais pronunciados com extensão de seu (s) pulso (s) (ou seja, usando um mouse ou teclado):<br>
+            Sintomas mais pronunciados com extensão de seu(s) pulso(s) (ou seja, usando um mouse ou teclado):<br>
             Piorando os sintomas após períodos de descanso;<br>
             Alívio ou melhora dos sintomas após o aquecimento dos músculos extensores.
             <br>
@@ -58,7 +58,7 @@
 
 <section class="container-fluid bg-eyestrain2-content">
     <article class="container" style="padding-bottom: 20px; padding-top: 20px;">
-        <p class="text-center">
+        <p class="text-left">
         
             <span style="color: #0eb7b7; font-size:30px;">Introdução</span>
             <br>
@@ -79,12 +79,12 @@
 
 <section class="container-fluid bg-eyestrain2-content">
     <article class="container" style="padding-bottom: 20px; padding-top: 20px;">
-        <p class="text-center">
+        <p class="text-left">
         
             <span style="color: #0eb7b7; font-size:30px;">Mecanismo comum de lesão</span>
             <br>
             <br>
-            Para jogadores, o cotovelo do mouse é mais comum para usuários de PC devido à posição e ação das mãos usando um teclado e mouse.<br> 
+            Para jogadores, a Epicondilose Lateral é mais comum para usuários de PC devido à posição e ação das mãos usando um teclado e mouse.<br> 
             Os riscos comuns para usuários de PC incluem:
             <br>
             <br>
@@ -94,13 +94,13 @@
             <br>
             <br>
             <span style="color: #0eb7b7;">Falta de contração excêntrica</span><br>
-            Conforme descrito na Fisiopatologia acima, as ações realizadas em jogos para PC não incluem contração excêntrica ou alongamento dos músculos extensores.<br>
+            As ações realizadas em jogos para PC não incluem contração excêntrica ou alongamento dos músculos extensores.<br>
             O desequilíbrio do encurtamento muscular sem alongamento sob tensão leva à ruptura das fibras do tendão.
             <br>
             <br>
             <span style="color: #0eb7b7;">Falta de contração do músculo antagonista</span><br>
-            Também descrito em Fisiopatologia acima, levantar os dedos do teclado e do mouse é uma atividade mais agressiva; 
-            pressionar as teclas e os botões do mouse não é uma atividade muscular forte.<br id="Content4">
+            Levantar os dedos do teclado e do mouse é uma atividade mais agressiva; 
+            Pressionar as teclas e os botões do mouse não é uma atividade muscular forte.<br id="Content4">
             A falta de contração muscular vigorosa dos músculos flexores permite o excesso de atividade dos músculos extensores, 
             perpetuando o encurtamento e a ruptura das fibras dos tendões do cotovelo.
                                                            
@@ -111,14 +111,14 @@
 
 <section class="container-fluid bg-eyestrain2-content" >
     <article class="container" style="padding-bottom: 20px; padding-top: 20px;">
-        <p class="text-center">
+        <p class="text-left">
         
             <span style="color: #0eb7b7; font-size:30px;">Prevenção e Tratamento</span>
             <br>
             <br>
-            Os mecanismos mais comuns de lesão do cotovelo do mouse são os desequilíbrios.<br> 
+            Os mecanismos mais comuns de lesão da Epicondilose Lateral são os desequilíbrios.<br> 
             Portanto, equilibrar a contração e ativação muscular é uma medida preventiva simples, mas extremamente eficaz.<br>
-            Para todas as lesões comuns de jogadores, incluindo cotovelo de rato, criamos um programa abrangente de prevenção de lesões.<br>
+            Para todas as lesões comuns de jogadores, incluindo a Epicondilose Lateral, criamos um programa abrangente de prevenção de lesões.<br>
             A realização desta rotina de exercícios pode ajudar a reduzir o risco.
 
         </p>

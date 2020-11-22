@@ -30,7 +30,7 @@
 </section>
 <section class="container-fluid bg-esports2-content">
     <article>
-        <p class="text-center">
+        <p class="text-left">
         Existem várias interpretações sobre o que a indústria de eSports realmente abrange. Além de opiniões diferentes em relação aos limites do mercado, 
         há divergências sobre o próprio termo eSports (também conhecido como esporte eletrônico ou ciberesporte).<br><br>
         Seguindo a definição da Newzoo, eSports são jogos competitivos de nível profissional ou semi-profissional 
@@ -49,7 +49,7 @@
 
 <section class="container-fluid bg-esports2-content">
     <article>
-        <p class="text-center" style="padding-top: 20px;">
+        <p class="text-left" style="padding-top: 20px;">
         O número de jogadores eletrônicos vem aumentando e, com isso, o interesse nas competições também. <br>Muitos praticam, outros são apenas fãs ou espectadores.<br><br>
         Quanto à audiência, existem classificações de perfil: entusiastas são aqueles que assistem aos conteúdos de eSports mais de uma vez por mês, enquanto 
         aqueles que não assistem mais de uma vez por mês são considerados espectadores ocasionais, de acordo com a Newzoo. <br><br>Conforme os dados divulgados pela empresa,

@@ -76,12 +76,15 @@
         </p>
         <p class="text-left">
             <br>
-            Uma inflamação aguda ou crônica dos tendões, que se manifesta nos músculos dos dedos, e que geralmente é provocada por dois fatores: <br>
-            A movimentação repetitiva e o período de repouso muito curto. É encontrada principalmente na região em que a dor é agravada por movimentos voluntários.<br><br>
-
-            O tendão não é tão forte quanto o osso e nem tão elástico quanto o músculo, portanto, no caso de sobrecarga, é a estrutura que, geralmente, mais sofre.<br>
-
-            Assim, as causas da tendinite costumam estar relacionadas, principalmente, a alguns fatores de risco que resultam na sobrecarga dos tendões.
+            Em vez de relatar estritamente a quantidade de água que deve beber, é mais apropriado ver a hidratação diária com base na ingestão geral de líquidos. <br><br>
+            Por exemplo, nem todos os fluidos que entram em seu corpo são água. Se você bebe 8 onças de café, a maior parte dessas 8 onças é água, então isso conta!<br><br>
+            A recomendação para a ingestão de líquidos é metade do seu peso corporal (medido em libras) em onças líquidas por dia. <br>
+            Portanto, se você pesa 120 libras, deve beber 60 fl. onças Se você pesa 160 libras, deve beber 80 fl. onças e assim por diante.<br><br>
+            Observação: a ingestão de líquidos conta para bebidas normais 
+            (ou seja, água, café, chá, suco e até refrigerantes; embora seja altamente recomendável que você não beba refrigerantes). <br>
+            Este valor NÃO inclui bebidas alcoólicas! O álcool inibe um hormônio chamado hormônio antidiurético (ADH) e pode levar à desidratação.<br>
+            Essa recomendação de ingestão de líquidos deve ser suficiente para a maioria das pessoas, porque você também obterá água de muitos dos alimentos que comer. 
+            Frutas, vegetais, carne e peixe têm muita água que também é absorvida.
 
             <br><br id="Content4">
 
@@ -104,7 +107,7 @@
 
             Há também outros meios para matar a sede que aumentam as possibilidades, por mais que não sejam opções completas...<br>
 
-            <li>Água de coco natural:</li> Rica em potássio, cálcio e magnésio;<br>
+            <li>Água de coco natural:</li> Rica em potássio, cálcio e magnésio.<br>
 
             <li>Frutas e vegetais:</li> É uma escolha rica em água, fibras e nutrientes (os eletrólitos estão contidos em muitos ingredientes).<br>
 
@@ -134,7 +137,7 @@
             <li>Retenção de líquidos;</li>
             <li>Déficit de atenção e memória;</li>
             <li>Mau hálito;</li>
-            <li>Baixo desempenho atlético;</li>
+            <li>Baixo desempenho atlético.</li>
             <br><br>
 
         </p>

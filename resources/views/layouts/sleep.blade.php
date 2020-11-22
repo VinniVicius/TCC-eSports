@@ -9,7 +9,7 @@
 </section>
 <section class="row bg-eyestrain2-content">
     <article class="container d-flex align-items-center" style="padding-bottom: 20px; padding-top: 20px;">
-        <p class="text-center m-0">
+        <p class="text-left m-0">
 
             O sono está entre as funções fisiológicas mais importantes na maioria das criaturas vivas.<br>
             Não há nenhuma outra função ou processo corporal que tenha um efeito tão profundo em todos os aspectos da saúde e do bem-estar.<br>
@@ -29,7 +29,7 @@
                     <li><a href="#Content2" class="card-link">Pilares do Sono</a></li>
                     <li><a href="#Content3" id="Content1" class="card-link">Estágios do Sono</a></li>
                     <li><a href="#Content4" class="card-link">Higiene do Sono</a></li>
-                    <li><a href="#Content5" class="card-link">Cochiçar: é útil ou prejudicial?</a></li>
+                    <li><a href="#Content5" class="card-link">Cochilar: é útil ou prejudicial?</a></li>
                 </ul>
             </div>
         </div>
@@ -89,16 +89,16 @@
             Certo, há alguma margem de manobra, mas muita variabilidade em seu horário de sono certamente será um prejuízo.
             <br><br>
             Por exemplo, se sua intenção é dormir às 22h e acordar às 6h, você não estaria doente se adormecesse às 22h15 ou acordasse às 6h15.<br>
-            No entanto, você estaria prestando um péssimo serviço a si mesmo se adormecesse à 1h e / ou acordasse
+            No entanto, você estaria prestando um péssimo serviço a si mesmo se adormecesse à 1h e/ou acordasse
             depois das 9h porque estaria significativamente fora de sua rotina normal.
             <br><br>
             Ao viajar, chamamos a interrupção das horas regulares de sono de jet lag.<br>
             Você normalmente notaria esse fenômeno ao viajar em vários fusos horários e seria menos provável que sentisse um jet lag
             significativo se viajasse apenas por um fuso horário.
             <br><br>
-            Sem viagens, uma interrupção significativa na programação regular do sono é às vezes chamada de “ jet lag social ” ,
+            Sem viagens, uma interrupção significativa na programação regular do sono é às vezes chamada de “jet lag social”,
             indicando que você está experimentando sintomas de cansaço ou fadiga devido à falta de regularidade - ausência de mudanças de fuso horário.
-            A perna a jato social é tão prejudicial quanto a perna a jato clássica, e você deve fazer um esforço para evitá-la.
+            A jet lag social é tão prejudicial quanto a jet lag clássica, e você deve fazer um esforço para evitá-la.
             <br>
             <br>
             <span>Continuidade: </span><br>
@@ -107,7 +107,7 @@
             <br>
             <br>
             <span>Duração (quantidade):</span><br>
-            A duração, ou quantidade , do seu sono é dupla. Primeiro, quantas horas de sono você está dormindo, no total?<br>
+            A duração, ou quantidade, do seu sono é dupla. Primeiro, quantas horas de sono você está dormindo, no total?<br>
             Em segundo lugar, quanto tempo você passa em cada estágio do sono? Tanto a duração total quanto a duração em cada estágio do sono são de vital
             importância para sua saúde geral.
             <br><br>
@@ -117,11 +117,11 @@
             <br>
             <br>
             <span>Qualidade: </span><br>
-            O último pilar do sono é a qualidade - como você está realmente dormindo ? <br>
+            O último pilar do sono é a qualidade - como você está realmente dormindo? <br>
             Este fator é mais específico para a assinatura das ondas cerebrais do seu sono.<br>
             Enquanto a duração é quanto tempo você gasta em cada estágio do sono, a qualidade é se você alcança e permanece suficientemente em cada estágio.<br><br>
             A qualidade do sono é mais frequentemente afetada por fatores externos, como cafeína, álcool, ruído ou luz. <br id="Content3">
-            A qualidade do sono geralmente segue uma boa higiene do sono , que será discutida com mais detalhes posteriormente.
+            A qualidade do sono geralmente segue uma boa higiene do sono, que será discutida com mais detalhes posteriormente.
 
         </p>
     </article>
@@ -129,33 +129,33 @@
 
 <section class="container-fluid bg-eyestrain2-content">
     <article class="container" style="padding-bottom: 20px; padding-top: 20px;">
-        <p class="text-center">
+        <p class="text-left">
 
             <span>Estágios do sono</span>
             <br><br>
             Conforme mencionado acima na duração e na qualidade do sono, existem diferentes estágios do sono.<br>
-            Existem dois estágios distintos do sono; um é denominado movimento rápido dos olhos (REM) devido à maneira como seus olhos se movem
-            para a frente e para trás durante esse estágio do sono. O outro, que está ausente desse movimento ocular, é simplesmente chamado de sono não REM.
+            Existem dois estágios distintos do sono; um é denominado <span>Movimento Rápido dos Olhos (REM)</span> devido à maneira como seus olhos se movem
+            para a frente e para trás durante esse estágio do sono. O outro, que está ausente desse movimento ocular, é simplesmente chamado de sono <span>não-REM</span>.
             <br>
-            <li>Sono não REM</li>
-            A porção não REM do sono ocorre em quatro de seus próprios estágios, numerados de 1 a 4.<br>
-            Novamente, cada um desses estágios do sono não REM é importante. Os primeiros dois - estágios 1 e 2 - são sono leve , enquanto os estágios 3 e 4
-            são considerados sono profundo .
+            <li>Sono não-REM</li>
+            A porção não-REM do sono ocorre em quatro de seus próprios estágios, numerados de 1 a 4.<br>
+            Novamente, cada um desses estágios do sono não-REM é importante. Os primeiros dois - estágios 1 e 2 - são sono leve, enquanto os estágios 3 e 4
+            são considerados sono profundo.
         </p>
         <div class="row justify-content-center">
             <img class="col-lg-8 align-self-center" src="/assets/img/sono4.png">
         </div>
-        <p class="text-center">
-            <li>Estágio 2 não REM</li>
-            Embora seja identificado como sono leve , o estágio 2 não REM é importante para preparar o cérebro para o dia seguinte.<br>
-            Especificamente, o estágio 2 não REM atualiza seu cérebro em preparação para o aprendizado e a memória futuros.<br><br>
-            Em referência à qualidade do sono, o estágio 2 não REM insuficiente diminui sua capacidade de aprender e criar novas memórias.<br>
-            Este estágio ocorre com mais frequência na segunda metade do sono . Portanto, se você sentir fragmentação ou perturbação do sono pela manhã,
-            é provável que seu sono não REM estágio 2 seja afetado.
+        <p class="text-left">
+            <li>Estágio 2 não-REM</li>
+            Embora seja identificado como sono leve, o estágio 2 não-REM é importante para preparar o cérebro para o dia seguinte.<br>
+            Especificamente, o estágio 2 não-REM atualiza seu cérebro em preparação para o aprendizado e a memória futuros.<br><br>
+            Em referência à qualidade do sono, o estágio 2 não-REM insuficiente diminui sua capacidade de aprender e criar novas memórias.<br>
+            Este estágio ocorre com mais frequência na segunda metade do sono. Portanto, se você sentir fragmentação ou perturbação do sono pela manhã,
+            é provável que seu sono não-REM estágio 2 seja afetado.
             <br><br>
-            <li>Sono profundo não REM, estágios 3 e 4</li>
-            Os estágios do sono profundo não REM são valiosos para a recuperação e manutenção das informações aprendidas e das memórias criadas durante o dia anterior.<br><br id="Content4">
-            Portanto, o estágio 2 não REM configura seu cérebro para aprender e lembrar; então, os estágios 3 e 4 não REM permitem que você essencialmente “salve” o que aprendeu.
+            <li>Sono profundo não-REM, estágios 3 e 4</li>
+            Os estágios do sono profundo não-REM são valiosos para a recuperação e manutenção das informações aprendidas e das memórias criadas durante o dia anterior.<br><br id="Content4">
+            Portanto, o estágio 2 não-REM configura seu cérebro para aprender e lembrar; então, os estágios 3 e 4 não-REM permitem que você essencialmente “salve” o que aprendeu.
         </p>
     </article>
 </section>

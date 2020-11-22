@@ -10,15 +10,15 @@
 
 <section class="container-fluid bg-eyestrain2-content">
     <article class="container" style="padding-bottom: 20px; padding-top: 20px;">
-        <p class="text-center">
+        <p class="text-left">
         
             <span>Sintomas</span>
 
-            <li>Desequilíbrio muscular;</li>
+            <li>Desequilíbrio muscular</li>
             <span>Tenso ou hipertônico:</span> peitoral maior, esternocleidomastóideo, trapézio superior, elevador da escápula.<br>
             <span>Fraco ou inibido:</span> trapézio inferior, flexores profundos do pescoço, serrátil anterior.<br><br>
 
-            <li>Desequilíbrio postural;</li>
+            <li>Desequilíbrio postural</li>
             <span>Ombros arredondados para a frente:</span> as articulações dos ombros serão puxadas para frente e para dentro.<br>
             <span>Ombros encolhidos:</span> as omoplatas serão elevadas.<br>
             <span>Transporte anterior da cabeça:</span> o meio das costas, cabeça e pescoço serão flexionados para a frente, e a cabeça não ficará 
@@ -50,7 +50,7 @@
 
 <section class="container-fluid bg-eyestrain2-content">
     <article class="container" style="padding-bottom: 20px; padding-top: 20px;">
-        <p class="text-center">
+        <p class="text-left">
         
             <span>Introdução</span>
             <br>
@@ -66,12 +66,12 @@
 
 <section class="container-fluid bg-eyestrain2-content">
     <article class="container" style="padding-bottom: 20px; padding-top: 20px;">
-        <p class="text-center">
+        <p class="text-left">
         
             <span>Mecanismo comum de lesão</span>
             <br><br>
             O mecanismo para o aparecimento da síndrome cruzada superior é simples e direto.<br> 
-            A má postura prolongada , na maioria das vezes ao sentar-se, pode levar ao desequilíbrio muscular.<br>
+            A má postura prolongada, na maioria das vezes ao sentar-se, pode levar ao desequilíbrio muscular.<br>
             <div class="row justify-content-center">
                 <img class="col-lg-8 align-self-center" src="/assets/img/dor_de_cabeca2.png">
             </div>
@@ -87,7 +87,7 @@
 </section>
 <section class="container-fluid bg-eyestrain2-content">
     <article class="container" style="padding-bottom: 20px; padding-top: 20px;">
-        <p class="text-center">
+        <p class="text-left">
             <span>Prevenção</span>
             <br>
             <br>

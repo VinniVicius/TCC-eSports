@@ -18,7 +18,7 @@
             <li>Ternura do couro cabeludo;</li>
             <li>Ternura nos músculos da cabeça e pescoço;</li>
             <li>A dor envolve a cabeça ou a testa;</li>
-            <li>Alívio com terapia de calor.</li>
+            <li>Luz e som aumentam a dor.</li>
             <br>
             As dores de cabeça do tipo tensional costumam ser mais intensas com o movimento da cabeça e pescoço devido ao alongamento
             e contração dos músculos e seus pontos de gatilho.
@@ -45,7 +45,7 @@
 
 <section class="container-fluid bg-eyestrain2-content">
     <article class="container" style="padding-bottom: 20px; padding-top: 20px;">
-        <p class="text-center">
+        <p class="text-left">
 
             <span style="color: #0eb7b7; font-size:30px;">Introdução</span>
             <br>
@@ -64,7 +64,7 @@
 
 <section class="container-fluid bg-eyestrain2-content">
     <article class="container" style="padding-bottom: 20px; padding-top: 20px;">
-        <p class="text-center">
+        <p class="text-left">
 
             <span style="color: #0eb7b7; font-size:30px;">Mecanismo comum de lesão</span>
             <br>
@@ -76,13 +76,13 @@
             A compreensão clínica das dores de cabeça do tipo tensional, combinada com as abordagens de tratamento atuais (a serem discutidas abaixo) sugerem que o aumento
             do tônus ​​muscular em repouso (músculos hipertônicos ou "tensos") é a causa mais provável.<br>
             Anteriormente, discutimos o envolvimento muscular em dores de cabeça do tipo tensional, incluindo hipertonia e pontos-gatilho. Mas o que exatamente aquilo significa?
-            Quando sob estresse, tensão, uso impróprio ou excessivo, nossos músculos podem desenvolver nós ou pontos de gatilho . Esses pontos-gatilho têm o potencial de
+            Quando sob estresse, tensão, uso impróprio ou excessivo, nossos músculos podem desenvolver nós ou pontos de gatilho. Esses pontos-gatilho têm o potencial de
             referir dor.
             <br>
             <br>
             <span style="color: #0eb7b7;">Então, o que isso significa?</span><br>
             Isso significa que quando estimulado - esticado ou contraído - a dor será sentida em outra área do corpo. O exemplo mais conhecido é o músculo trapézio superior.
-            Os pontos-gatilho no músculo trapézio superior referem dor na cabeça; especificamente, uma dor surda e difusa será sentida na lateral do pescoço e ao redor da orelha.
+            Os pontos-gatilho no músculo trapézio superior referem dor na cabeça; especificamente, uma dor difusa será sentida na lateral do pescoço e ao redor da orelha.
 
         </p>
     </article>
@@ -90,7 +90,7 @@
 
 <section class="container-fluid bg-eyestrain2-content">
     <article class="container" style="padding-bottom: 20px; padding-top: 20px;">
-        <p class="text-center">
+        <p class="text-left">
 
             <span style="color: #0eb7b7; font-size:30px;">Desequilíbrio postural e posicional</span>
             <br><br>
@@ -108,23 +108,23 @@
 
 <section class="container-fluid bg-eyestrain2-content">
     <article class="container" style="padding-bottom: 20px; padding-top: 20px;">
-        <p class="text-center">
+        <p class="text-left">
 
             <span style="color: #0eb7b7; font-size:30px;">Prevenção e Tratamento</span>
             <br>
             <br>
-            Uma das principais causas das dores de cabeça do tipo tensional é o estresse . Geralmente, as pessoas que sofrem de dores de cabeça estão passando por
-            estresse em suas vidas diárias. Embora seja fácil dizer “relaxe” ou “relaxe”, não é tão simples.<br>
+            Uma das principais causas das dores de cabeça do tipo tensional é o estresse. Geralmente, as pessoas que sofrem de dores de cabeça estão passando por
+            estresse em suas vidas diárias. Embora seja fácil dizer “relaxe”, não é tão simples.<br>
             Abaixo estão algumas maneiras de ajudar a controlar o estresse, bem como abordar outros problemas que contribuem para dores de cabeça do tipo tensional,
             como desequilíbrios posturais ou musculares e para tratar ou gerenciar os pontos-gatilho da hipertonia.
             <br>
             <br>
             <span style="color: #0eb7b7;">Meditação</span><br>
-            A meditação guiada pode ser útil na redução do estresse, clareza e consciência corporal
+            A meditação guiada pode ser útil na redução do estresse, clareza e consciência corporal.
             Os guias de meditação podem ser tão simples como um aplicativo de telefone, vídeos do YouTube ou livros sobre meditação.
             <br>
             <br>
-            <span style="color: #0eb7b7;">Asanas de ioga</span><br>
+            <span style="color: #0eb7b7;">Faça ioga</span><br>
             Embora muitas vezes se acredite que a ioga é principalmente alongamento, ela está mais alinhada com o ensino da consciência corporal,
             ativação muscular, alinhamento, clareza mental e equilíbrio.
             <br>
@@ -134,14 +134,14 @@
             <br>
             <br>
             <span style="color: #0eb7b7;">Terapia manual e massagem</span><br>
-            A liberação muscular e o relaxamento ajudarão a reduzir a tensão nos músculos, o que pode diminuir a dor associada ao TTH.
+            A liberação muscular e o relaxamento ajudarão a reduzir a tensão nos músculos, o que pode diminuir a dor associada.
             <br>
             <br>
             <span style="color: #0eb7b7;">Fisioterapia</span><br>
             Tem como objetivo utilizar a liberação muscular, alongamento e exercícios para ajudar a reduzir o estresse e a tensão nos músculos envolvidos.
             <br>
             <br>
-            <span style="color: #0eb7b7;">Exercício</span><br>
+            <span style="color: #0eb7b7;">Exercícios</span><br>
             Especificamente movimentos projetados para melhorar a postura, equilíbrio muscular, um movimento funcional eficiente.
 
 

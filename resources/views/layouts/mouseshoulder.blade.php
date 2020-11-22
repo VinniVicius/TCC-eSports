@@ -2,21 +2,21 @@
 @section('content')
 <section class="container-fluid bg-eyestrain">
     <div class="row justify-content-center align-items-center">
-        <button type="button" class="btn btn-dark btn-lg rounded-0 btn-full-negro bg-diamond mb-3">Ombro do Mouse</button>
+        <button type="button" class="btn btn-dark btn-lg rounded-0 btn-full-negro bg-diamond mb-3">Tendinite Bicipital</button>
         <div class="w-100"></div>
         <img class="img-fluid" src="/assets/img/ombro_do_mouse.png" alt="" srcset="">
     </div>
 </section>
 <section class="container-fluid bg-eyestrain2-content">
     <article class="container" style="padding-bottom: 20px; padding-top: 20px;">
-        <p class="text-center">
+        <p class="text-left">
 
             <span>Sintomas</span>
 
             <li>Dor;</li>
             <br>
-            Na maioria das vezes, você sentirá dor na parte frontal do ombro e no braço
-            Movimentos para frente e para cima podem aumentar a dor; por exemplo, empurrando para frente ou levantando acima da cabeça
+            Na maioria das vezes, você sentirá dor na parte frontal do ombro e no braço.
+            Movimentos para frente e para cima podem aumentar a dor; por exemplo, empurrando para frente ou levantando acima da cabeça.
             Alcançar o braço para trás pode ser desconfortável devido ao alongamento do tendão do bíceps.
             <br><br>
             <li>Fraqueza;</li>
@@ -46,12 +46,12 @@
 
 <section class="container-fluid bg-eyestrain2-content">
     <article class="container" style="padding-bottom: 20px; padding-top: 20px;">
-        <p class="text-center">
+        <p class="text-left">
 
             <span style="color: #0eb7b7; font-size:30px;">Introdução</span>
             <br>
             <br>
-            O ombro do Mouse é uma tensão por uso excessivo que ocorre na inserção proximal (mais perto do centro do corpo) da cabeça longa do músculo bíceps.
+            A Tendinite Bicipital é uma tensão por uso excessivo que ocorre na inserção proxima (mais perto do centro do corpo) da cabeça longa do músculo bíceps.
             <br><br>
             O músculo bíceps está envolvido na flexão do cotovelo e do ombro.
             <br id="Content3"><br>
@@ -66,23 +66,23 @@
 
 <section class="container-fluid bg-eyestrain2-content">
     <article class="container" style="padding-bottom: 20px; padding-top: 20px;">
-        <p class="text-center">
+        <p class="text-left">
 
             <span style="color: #0eb7b7; font-size:30px;">Mecanismo comum de lesão</span>
             <br>
             <br>
-            <span style="color: #0eb7b7;">Configuração deficiente da cadeira ou mesa</span><br>
-            Se sua mesa for muito alta, você precisará elevar mais o braço para alcançar o mouse Da mesma forma, se sua cadeira for muito baixa, o mesmo problema ocorre.
+            <span style="color: #0eb7b7;">Má Configuração da cadeira ou mesa</span><br>
+            Se sua mesa for muito alta, você precisará elevar mais o braço para alcançar o mouse. Da mesma forma, se sua cadeira for muito baixa, o mesmo problema ocorre.
             <br>
             <br>
             <span style="color: #0eb7b7;">Falta de contração excêntrica</span><br>
-            Conforme descrito na Fisiopatologia acima, as ações realizadas em jogos para PC não incluem contração excêntrica ou alongamento dos músculos extensores.
+            As ações realizadas em jogos para PC não incluem contração excêntrica ou alongamento dos músculos extensores.
             O desequilíbrio do encurtamento muscular sem alongamento sob tensão leva à ruptura das fibras do tendão.
             <br>
             <br>
             <span style="color: #0eb7b7;">Falta de contração do músculo antagonista</span><br>
 
-            Também descrito na Fisiopatologia acima, é improvável que você execute ações de puxar ou remar durante o jogo.<br>
+            É improvável que você execute ações de puxar ou remar durante o jogo.<br>
             A falta de extensão de ombro forte permite a atividade excessiva dos músculos flexores do ombro (incluindo o bíceps),
             perpetuando o encurtamento e a ruptura das fibras do tendão.
 
@@ -93,12 +93,12 @@
 
 <section class="container-fluid bg-eyestrain2-content" id="Content4">
     <article class="container" style="padding-bottom: 20px; padding-top: 20px;">
-        <p class="text-center">
+        <p class="text-left">
 
             <span style="color: #0eb7b7; font-size:30px;">Prevenção e Tratamento</span>
             <br>
             <br>
-            Os mecanismos mais comuns de lesão no ombro do mouse são os desequilíbrios.
+            Os mecanismos mais comuns de lesão na Tendinite Bicipital são os desequilíbrios.
             Portanto, equilibrar a contração e ativação muscular é uma medida preventiva simples, mas extremamente eficaz.
 
         </p>

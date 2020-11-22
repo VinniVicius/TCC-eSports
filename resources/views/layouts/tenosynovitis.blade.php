@@ -9,13 +9,13 @@
 </section>
 <section class="container-fluid bg-eyestrain2-content">
     <article class="container" style="padding-bottom: 20px; padding-top: 20px;">
-        <p class="text-center">
+        <p class="text-left">
 
             <span>Sintomas</span>
 
             <li>Dor na região;</li>
             <li>Inchaço nos dedos, palma da mão ou na frente do pulso;</li>
-            <li>os dedos podem estar completamente presos e incapazes de abrir.</li>
+            <li>Os dedos podem estar completamente presos e incapazes de abrir.</li>
             <br>
 
         </p>
@@ -40,7 +40,7 @@
 
 <section class="container-fluid bg-eyestrain2-content">
     <article class="container" style="padding-bottom: 20px; padding-top: 20px;">
-        <p class="text-center">
+        <p class="text-left">
 
             <span>Introdução</span>
             <br>
@@ -60,7 +60,7 @@
 
 <section class="container-fluid bg-eyestrain2-content">
     <article class="container" style="padding-bottom: 20px; padding-top: 20px;">
-        <p class="text-center">
+        <p class="text-left">
 
             <span>Mecanismo comum de lesão</span>
             <br>
@@ -73,7 +73,7 @@
             <br>
             <br>
             <li>Pulando seu aquecimento</li>
-            O objetivo de se aquecer é aumentar o fluxo sanguíneo para os músculos e lubrificar as articulações e outras estruturas (por exemplo, bainha do tendão)
+            O objetivo de se aquecer é aumentar o fluxo sanguíneo para os músculos e lubrificar as articulações e outras estruturas (por exemplo, bainha do tendão).
             Jogar sem primeiro realizar um aquecimento adequado pode permitir o aumento da fricção dos tendões extensor curto do polegar e
             abdutor longo do polegar sob a bainha do tendão.<br>
             <br>
@@ -88,7 +88,7 @@
 
 <section class="container-fluid bg-eyestrain2-content">
     <article class="container" style="padding-bottom: 20px; padding-top: 20px;">
-        <p class="text-center">
+        <p class="text-left">
 
             <span>Prevenção e Tratamento</span>
             <br>

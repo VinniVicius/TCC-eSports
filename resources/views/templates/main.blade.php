@@ -36,8 +36,8 @@
           <a class="dropdown-item" href="{{route('eyestrain')}}">Fadiga Ocular</a>
           <a class="dropdown-item" href="{{route('tendonitis')}}">Tendinite</a>
           <a class="dropdown-item" href="{{route('headache')}}">Dor de Cabeça (Tensão)</a>
-          <a class="dropdown-item" href="{{route('mouseshoulder')}}">Ombro do Mouse</a>
-          <a class="dropdown-item" href="{{route('mouseelbow')}}">Cotovelo do Mouse</a>
+          <a class="dropdown-item" href="{{route('mouseshoulder')}}">Tendinite Bicipital (Dores nos Bíceps)</a>
+          <a class="dropdown-item" href="{{route('mouseelbow')}}">Epicondilose Lateral (Dores no Cotovelo)</a>
           <a class="dropdown-item" href="{{route('disfunction')}}">Disfunção da articulação sacroilíaca (SI)</a>
           <a class="dropdown-item" href="{{route('syndrome')}}">Síndrome Cruzada Superior</a>
           <a class="dropdown-item" href="{{route('tenosynovitis')}}">Tenossinovite Estenosante</a>
@@ -51,7 +51,7 @@
           <a class="dropdown-item" href="{{route('posture')}}">Postura</a>
           <a class="dropdown-item" href="{{route('sleep')}}">Hábitos de sono</a>
           <a class="dropdown-item" href="{{route('hydration')}}">Hidratação</a>
-          <a class="dropdown-item" href="{{route('fatigue')}}">Fadiga do Sono</a>
+          <a class="dropdown-item" href="{{route('fatigue')}}">Cansaço do Jogo</a>
           <a class="dropdown-item" href="{{route('lunch')}}">Alimentação</a>
         </div>
       </li>

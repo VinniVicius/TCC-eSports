@@ -14,9 +14,9 @@
                 <h4 class="card-title">Índice</h4>
                 <ul>
                     <li><a href="#Content1" class="card-link">Introdução</a></li>
-                    <li><a href="#Content2" class="card-link">O problema com a postura de jogo sentado</a></li>
-                    <li><a href="#Content3" id="Content1" class="card-link">Riscos de má postura de jogo</a></li>
-                    <li><a href="#Content4" class="card-link">Má postura de jogo e degeneração articular</a></li>
+                    <li><a href="#Content2" class="card-link">O problema com a postura para jogar sentado</a></li>
+                    <li><a href="#Content3" id="Content1" class="card-link">Riscos de má postura</a></li>
+                    <li><a href="#Content4" class="card-link">Má postura e degeneração articular</a></li>
                     <li><a href="#Content5" class="card-link">Como você pode corrigir sua postura?</a></li>
                 </ul>
             </div>
@@ -52,7 +52,7 @@
 <section class="container-fluid bg-eyestrain2-content">
     <article class="container" style="padding-bottom: 20px; padding-top: 20px;">
         <p class="text-center">
-            <span>O problema com a postura de jogo sentado</span>
+            <span>O problema com a postura para jogar sentado</span>
             <br><br>
             Em primeiro lugar, sentar em uma cadeira não é uma posição anatomicamente normal, independentemente do tipo de cadeira em que você se senta.
         </p>
@@ -63,7 +63,7 @@
 
             Para aqueles de nós que passaram a maior parte da vida sentados em cadeiras, nossos corpos se acostumaram a essa posição de repouso anormal. <br>
             Na verdade, a maioria das pessoas em partes mais desenvolvidas do mundo são incapazes de manter o equilíbrio ou sentir dor ou desconforto na
-            posição de agachamento - nossas articulações não têm mobilidade e / ou nossos músculos estão muito tensos.<br><br>
+            posição de agachamento - nossas articulações não têm mobilidade e/ou nossos músculos estão muito tensos.<br><br>
 
             Como as cadeiras não são anatomicamente naturais, “postura de jogo adequada” ou “postura sentada adequada” são frases difíceis de promover. <br>
             Com base na posição de repouso anatomicamente apropriada, sentar em uma cadeira não é uma postura adequada.<br><br>
@@ -79,7 +79,7 @@
 <section class="container-fluid bg-eyestrain2-content">
     <article class="container" style="padding-bottom: 20px; padding-top: 20px;">
         <p class="text-center">
-            <span>Riscos de má postura de jogo</span>
+            <span>Riscos de má postura</span>
         </p>
         <p class="text-left">
             <br>
@@ -112,7 +112,7 @@
 <section class="container-fluid bg-eyestrain2-content">
     <article class="container" style="padding-bottom: 20px; padding-top: 20px;">
         <p class="text-center">
-            <span>Má postura de jogo e degeneração articular</span>
+            <span>Má postura e degeneração articular</span>
         </p>
         <div class="row justify-content-center">
             <img class="col-lg-8 align-self-center" src="/assets/img/postura2.png">
@@ -149,7 +149,7 @@
         <p class="text-center">
             <span>Como você pode corrigir sua postura?</span>
             <br><br>
-            Conforme mencionado anteriormente, não existe uma “postura de jogo adequada”. <br>
+            Conforme mencionado anteriormente, não existe uma “postura adequada”. <br>
             Mas, aqui estão algumas dicas para minimizar os riscos associados à sessão prolongada.
         </p>
         <div class="row justify-content-center">
@@ -159,7 +159,7 @@
             <br>
             <li>1) Parte superior do corpo</li><br>
             <span>Cabeça:</span> se sua cadeira de jogador tiver uma, descanse sua cabeça contra o encosto de cabeça.<br><br>
-            <span>Pescoço:</span> para ajudar a limitar a dor postural no pescoço e as dores de cabeça do tipo tensional ,
+            <span>Pescoço:</span> para ajudar a limitar a dor postural no pescoço e as dores de cabeça do tipo tensional,
             mantenha a cabeça para trás e o queixo dobrado para que as orelhas fiquem na mesma linha dos ombros.<br><br>
             <span>Ombros:</span> evite encolher os ombros e arredondar os ombros. <br>Puxe as omoplatas para baixo e em direção uma à outra,
             e descanse a parte superior das costas no encosto da cadeira.<br><br>
@@ -178,7 +178,7 @@
             Muita pressão do braço repousa em seus antebraços pode levar à síndrome do túnel cubital.<br><br>
 
             Se seus braços não estiverem descansando adequadamente, você também pode estar usando os músculos do ombro para mantê-los erguidos. <br>
-            Isso pode levar a uma condição conhecida como ombro do mouse.<br><br>
+            Isso pode levar a uma condição conhecida como Tendinite Bicipital.<br><br>
 
             <li>4) Posição da mesa</li>
         </p>
@@ -188,10 +188,10 @@
         <p class="text-left">
             A altura da escrivaninha deve ser alta o suficiente para cobrir o topo das coxas.<br>
             A altura da escrivaninha também deve ser baixa o suficiente para que os antebraços fiquem paralelos ao chão e à mesa. <br>
-            Se sua mesa for muito alta, seus cotovelos e / ou pulsos ficarão tensos para ultrapassar a altura da mesa.<br><br>
+            Se sua mesa for muito alta, seus cotovelos e/ou pulsos ficarão tensos para ultrapassar a altura da mesa.<br><br>
 
             Puxe sua cadeira em direção à mesa para ficar perto o suficiente do monitor para não precisar se inclinar para frente, seguindo as orientações
-            <br><span>1) parte superior do corpo</span> e <span>2) monitor de jogos.</span>
+            <br><span>1) parte superior do corpo</span> e <span>2) monitor de jogos.</span><br><br>
         </p>
         <p class="text-center">
             <span style="color:#0eb7b7;">Jogadores de console</span>

@@ -41,13 +41,13 @@
           <a type="button" class="btn btn-lg bg-diamond" style="color: #fff;" href="{{route('eyestrain')}}">Fadiga Ocular</a>
           <a type="button" class="btn btn-lg bg-diamond" style="color: #fff;" href="{{route('tendonitis')}}">Tendinite</a>
           <a type="button" class="btn btn-lg bg-diamond" style="color: #fff;" href="{{route('headache')}}">Dor de Cabeça (Tensão)</a>
-          <a type="button" class="btn btn-lg bg-diamond" style="color: #fff;" href="{{route('mouseshoulder')}}">Ombro do Mouse</a>
+          <a type="button" class="btn btn-lg bg-diamond" style="color: #fff;" href="{{route('mouseshoulder')}}">Tendinite Bicipital (Dores nos Bíceps)</a>
         </div>
       </div>
 
       <div class="col card__content-links">
         <div class="card h-100 card-hover bg-dark bg-diamond card__grid-anchors">
-          <a type="button" class="btn btn-lg bg-diamond" style="color: #fff;" href="{{route('mouseelbow')}}">Cotovelo do Mouse</a>
+          <a type="button" class="btn btn-lg bg-diamond" style="color: #fff;" href="{{route('mouseelbow')}}">Epicondilose Lateral (Dores no Cotovelo)</a>
           <a type="button" class="btn btn-lg bg-diamond" style="color: #fff;" href="{{route('disfunction')}}">Disfunção da Articulação Sacroilíaca (SI)</a>
           <a type="button" class="btn btn-lg bg-diamond" style="color: #fff;" href="{{route('syndrome')}}">Síndrome Cruzada Superior</a>
           <a type="button" class="btn btn-lg bg-diamond" style="color: #fff;" href="{{route('tenosynovitis')}}">Tenossinovite Estenosante</a>
@@ -97,7 +97,7 @@
         <img src="/assets/img/alvo.png" class="card-img-top" alt="..." style="width: 200px; align-self: center; margin-top: 10px;">
         <div class="card-body">
           <h5 class="card-title">Teste de Mira</h5>
-          <p class="card-text">Teste sua Mira e veja quantos pontos voce consegue fazer</p>
+          <p class="card-text">Teste sua Mira e veja quantos pontos você consegue fazer</p>
           <a href="{{route('aimtrainerview')}}" class="btn btn-dark btn-lg rounded-0 btn-full-negro stretched-link">Fazer o teste</a>
         </div>
       </div>
