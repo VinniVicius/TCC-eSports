@@ -38,7 +38,7 @@ class aimTrainerView extends Controller
             'user_id' => Auth::user()->id,
         ]);
 
-        return redirect("/area-de-testes/aim-trainer");
+        return redirect("/area-de-testes/treino-de-mira");
 
     }
 }

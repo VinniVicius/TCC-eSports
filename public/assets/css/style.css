@@ -441,7 +441,7 @@ html, body {
     background-repeat: no-repeat;
     background-size: cover;
     color: #fff;
-    font-size: 20px;
+    font-size: 16px;
     border-bottom: 20px solid #272727;
 }
 
@@ -884,14 +884,14 @@ html, body {
         align-items: center;
     }
     .bg-eyestrain2-content article span {
-        font-size: 38px;
+        font-size: 28px!important;
         color: black;
         -webkit-text-fill-color: #147fcb;
         -webkit-text-stroke-width: .5px;
         -webkit-text-stroke-color: blue;
     }
     article.container li {
-        font-size: 30px;
+        font-size: 22px;
         color: #147fcb;
         -webkit-text-fill-color: #147fcb;
         -webkit-text-stroke-width: .5px;
@@ -955,3 +955,11 @@ html, body {
 /* ------------------------------------------------------------------------------------------------------
    /Media Query (max to min):
  -------------------------------------------------------------------------------------------------------- */
+ @media (max-width: 767.98px) { 
+    .display-4{
+        font-size: 2.5rem;
+    }
+    .bg-esports2 div:nth-child(2) button:first-child, .bg-esports3 button:first-child{
+        width: 100%;
+    }
+  }

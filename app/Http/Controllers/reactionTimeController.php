@@ -36,7 +36,7 @@ class reactionTimeController extends Controller
             'user_id' => Auth::user()->id,
         ]);
 
-        return redirect("/area-de-testes/reaction-time");
+        return redirect("/area-de-testes/tempo-de-reacao");
 
     }
 

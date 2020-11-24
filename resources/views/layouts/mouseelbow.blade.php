@@ -1,17 +1,12 @@
 @extends('templates.main')
 @section('content')
-<section class="container-fluid" style="background-image: url('/assets/img/fundo5.png');
-    background-repeat: no-repeat; background-size: cover; min-height: 20vh;">
-</section>
-
 <section class="container-fluid bg-eyestrain">
-    <div class="row justify-content-center align-items-center" style="min-height: 35vh;">
-      <button type="button" class="btn btn-dark btn-lg rounded-0 btn-full-negro bg-diamond">Epicondilose Lateral</button>
-     </div>
+    <div class="row justify-content-center align-items-center">
+        <button type="button" class="btn btn-dark btn-lg rounded-0 btn-full-negro bg-diamond mb-3">Epicondilose Lateral</button>
+        <div class="w-100"></div>
+        <img class="img-fluid" src="/assets/img/cotovelo_mouse.png" alt="" srcset="">
+    </div>
 </section>
-
-<section class="container-fluid bg-mouseelbow" id="Content1"></section>
-
 <section class="container-fluid bg-eyestrain2-content">
     <article class="container" style="padding-bottom: 20px; padding-top: 20px;">
         <p class="text-left">
@@ -42,7 +37,7 @@
 
 <section class="container-fluid bg-eyestrain3">
     <article class="row justify-content-center align-items-center" style="min-height: 35vh;">
-        <div class="card subject-box" style="width: 18rem; border: 2px solid #0eb7b7;">
+        <div class="card subject-box">
             <div class="card-body">
                 <h4 class="card-title">Índice</h4>
                     <ul>

@@ -1,6 +1,6 @@
 @extends('templates.main')
 @section('content')
-<section class="row bg-eyestrain">
+<section class="row bg-eyestrain mx-0">
     <div class="container py-3 img__container">
         <button type="button" class="btn btn-dark btn-lg rounded-0 btn-full-negro bg-diamond mb-3">Alimentação</button>
         <div class="w-100"></div>
